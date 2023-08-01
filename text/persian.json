@@ -196,8 +196,7 @@
 	"VehicleHelp": [
 		"Your personal vehicles will save wherever you or somebody else leaves them!",
 		"Visit dealerships to buy new vehicles (Use {1} for more information)",
-		"Some commands: {1}",
-		"Visit a mechanic garage to repair, colour, and tune up your car! {1} for info"
+		"Some commands: {1}"
 	],
 	"VehicleDealershipHelp": [
 		"Visit a vehicle dealer to buy new vehicles. Use {1} to find one.",
@@ -222,19 +221,12 @@
 		"Unrealistic actions (powergaming) are not allowed. You aren't superman.",
 		"No terrorist or terrorism roleplay is allowed.",
 		"Always follow instructions given by moderators and admins.",
-		"Do not mix the chats (metagaming). You can't use info in IC that was received OOC",
-		"Keep English in main chats. If you aren't good at English, use {1}"
+		"Do not mix the chats (metagaming). You can't use info in IC that was received OOC"
 	],
 	"AnimationHelp": [
 		"Animations allow you to enhance roleplay with visual actions",
 		"Use {1} or {2} with a name to use an animation.",
 		"To see a list of animations, use {1}"
-	],
-	"WeaponHelp": [
-		"Visit an gun store to buy weapons. Use {1} to find one.",
-		"Buying a weapon requires a weapon license.",
-		"Weapon licenses are managed by the police department. Apply there to get one.",
-		"Weapons can also be purchased illegally from some businesses, weapon dealers, and clans."
 	],
 	"SkinHelp": [
 		"At a clothing store, use {1} to purchase clothes",
@@ -251,8 +243,7 @@
 	"BusinessHelp": [
 		"Use {1} to purchase items or {2} to see a list of what's for sale at any business",
 		"Businesses are shown with blue names above the icon at their entrance.",
-		"Business owner commands: {1}",
-		"A new car for sale will appear when you drive away from the dealer."
+		"Business owner commands: {1}"
 	],
 	"ClanHelp": [
 		"Ask an administrator to create a clan (Similar to factions/groups/families)",
@@ -922,5 +913,10 @@
 	"PlayerNotSpawned": "That player is not spawned!",
 	"BusinessCannotOrderAnything": "This business can't order anything!",
 	"ExitLabel": "EXIT",
-	"MoneyFarmingNotAllowed": "Transferring money or assets to your own characters is not allowed"
+	"MoneyFarmingNotAllowed": "Transferring money or assets to your own characters is not allowed",
+	"ClanMustHaveAtLeastOneRank": "The clan must have at least one rank! You can't delete the last rank.",
+	"ClanRankChanged": "You changed {1}'s clan rank to {2} (level {3})",
+	"YourClanRankChanged": "{1} changed your clan rank to {2} (level {3})",
+	"JobRankChanged": "You changed {1}'s job rank to {2} (level {3})",
+	"YourJobRankChanged": "{1} changed your job rank to {2} (level {3})"
 }
