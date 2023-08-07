@@ -1,167 +1,167 @@
 [
 	{
 		"Command": "accent",
-		"Description": "Sets your character's accent",
+		"Description": "Устанавливает акцент вашего персонажа",
 		"SyntaxString": "<accent name/id>"
 	},
 	{
 		"Command": "accents",
-		"Description": "Shows a list of all available accents",
+		"Description": "Показывает список всех доступных акцентов",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "accentlist",
-		"Description": "Shows a list of all available accents",
+		"Description": "Показывает список всех доступных акцентов",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "login",
-		"Description": "Login to an account",
+		"Description": "Войти в учетную запись",
 		"SyntaxString": "<password>"
 	},
 	{
 		"Command": "register",
-		"Description": "Creates an account",
+		"Description": "Создает учетную запись",
 		"SyntaxString": "<password>"
 	},
 	{
 		"Command": "changepass",
-		"Description": "Change an account password",
+		"Description": "Изменяет пароль учетной записи",
 		"SyntaxString": "<old password> <new password>"
 	},
 	{
 		"Command": "iplogin",
-		"Description": "Toggle whether to automatically login if you join with the same IP as your last join",
+		"Description": "Выбрать, следует ли автоматически входить в систему, если вы присоединяетесь с тем же IP-адресом, что и при последнем присоединении",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "gui",
-		"Description": "Toggle whether to use GUI. If GUI is disabled on the server, it won't show even if you have GUI enabled.",
+		"Description": "Выбрать, следует ли использовать графический интерфейс. Если графический интерфейс отключен на сервере, он не будет отображаться, даже если у вас включен графический интерфейс.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "2fa",
-		"Description": "Set up and use two-factor authentication.",
+		"Description": "Настроить и использовать двухфакторную аутентификацию.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "setemail",
-		"Description": "Sets your email. To reset your password, you must have a valid email set and verified.",
+		"Description": "Устанавливает ваш адрес электронной почты. Чтобы сбросить свой пароль, у вас должен быть установлен и подтвержден действительный адрес электронной почты",
 		"SyntaxString": "<email address>"
 	},
 	{
 		"Command": "verifyemail",
-		"Description": "Confirms/verifies your email.",
+		"Description": "Подтверждает/верифицирует вашу электронную почту.",
 		"SyntaxString": "<verification code>"
 	},
 	{
 		"Command": "notips",
-		"Description": "Turn on and off random tips",
+		"Description": "Включает и выключает случайные подсказки",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "loginalert",
-		"Description": "Turn on and off email notifications for attempts to login to your account",
+		"Description": "Включает и выключает уведомления по электронной почте о попытках входа в вашу учетную запись",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "scrolllines",
-		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"Description": "Устанавливает, сколько строк в окне чата прокручивать одновременно при использовании pageup/pagedown",
 		"SyntaxString": "<number of lines>"
 	},
 	{
 		"Command": "chatscrolllines",
-		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"Description": "Устанавливает, сколько строк в окне чата прокручивать одновременно при использовании pageup/pagedown",
 		"SyntaxString": "<number of lines>"
 	},
 	{
 		"Command": "chatscroll",
-		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"Description": "Устанавливает, сколько строк в окне чата прокручивать одновременно при использовании pageup/pagedown",
 		"SyntaxString": "<number of lines>"
 	},
 	{
 		"Command": "chatautohide",
-		"Description": "Sets how long to wait to hide the chatbox after last use (in seconds)",
+		"Description": "Устанавливает, как долго нужно ждать, чтобы скрыть окно чата после последнего использования (в секундах)",
 		"SyntaxString": "<time in seconds>"
 	},
 	{
 		"Command": "chattimestamp",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Включает/выключает временные метки в окне чата",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "chattimestamps",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Включает/выключает временные метки в окне чата",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "chattime",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Включает/выключает временные метки в окне чата",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "chattimes",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Включает/выключает временные метки в окне чата",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "chattimestamps",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Включает/выключает временные метки в окне чата",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "chatfilter",
-		"Description": "Turns on/off profanity filter",
+		"Description": "Включает/выключает фильтр ненормативной лексики",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "chatemoji",
-		"Description": "Turns on/off automatic emoji",
+		"Description": "Включает/выключает автоматические эмодзи",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "emoji",
-		"Description": "Turns on/off automatic emoji",
+		"Description": "Включает/выключает автоматические эмодзи",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "resetactiontips",
-		"Description": "Resets all your action tips (messages that show when needed",
+		"Description": "Сбрасывает все ваши подсказки по действиям (сообщения, которые отображаются при необходимости)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "hud",
-		"Description": "Toggles whether to use custom HUD or not",
+		"Description": "Переключает, использовать ли пользовательский HUD или нет",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "anim",
-		"Description": "Makes your player ped use an animation",
+		"Description": "Заставляет вашего игрока использовать анимацию",
 		"SyntaxString": "<animation name>"
 	},
 	{
 		"Command": "an",
-		"Description": "Makes your player ped use an animation",
+		"Description": "Заставляет вашего игрока использовать анимацию",
 		"SyntaxString": "<animation name>"
 	},
 	{
 		"Command": "e",
-		"Description": "Makes your player ped use an animation",
+		"Description": "Заставляет вашего игрока использовать анимацию",
 		"SyntaxString": "<animation name>"
 	},
 	{
 		"Command": "anims",
-		"Description": "Shows a list of animations",
+		"Description": "Показывает список анимаций",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "animlist",
-		"Description": "Shows a list of animations",
+		"Description": "Показывает список анимаций",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "stopanim",
-		"Description": "Stops your current animation",
+		"Description": "Останавливает вашу текущую анимацию",
 		"SyntaxString": ""
 	},
 	{
@@ -171,32 +171,32 @@
 	},
 	{
 		"Command": "acctban",
-		"Description": "Bans a player's account.",
+		"Description": "Банит учетную запись игрока.",
 		"SyntaxString": "<player name/id> <reason>"
 	},
 	{
 		"Command": "cban",
-		"Description": "Bans a player's character.",
+		"Description": "Банит персонажа игрока.",
 		"SyntaxString": "<player name/id> <reason>"
 	},
 	{
 		"Command": "charban",
-		"Description": "Bans a player's character.",
+		"Description": "Банит персонажа игрока.",
 		"SyntaxString": "<player name/id> <reason>"
 	},
 	{
 		"Command": "saban",
-		"Description": "Bans a player's character (subaccount).",
+		"Description": "Банит персонажа игрока (субаккаунта).",
 		"SyntaxString": "<player name/id> <reason>"
 	},
 	{
 		"Command": "ipban",
-		"Description": "Bans a player's IP.",
+		"Description": "Банит игрока по IP",
 		"SyntaxString": "<player name/id> <reason>"
 	},
 	{
 		"Command": "subnetban",
-		"Description": "Bans a player's subnet.",
+		"Description": "Запрещает подсеть игрока.",
 		"SyntaxString": "<player name/id> <range> <reason>"
 	},
 	{
