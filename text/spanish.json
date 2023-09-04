@@ -934,5 +934,10 @@
 	"YourClanRankChanged": "{1} changed your clan rank to {2} (level {3})",
 	"JobRankChanged": "You changed {1}'s job rank to {2} (level {3})",
 	"YourJobRankChanged": "{1} changed your job rank to {2} (level {3})",
-	"ForSaleItemPriceChanged": "The price of the {1} in slot {2} has been changed to {3}"
+	"ForSaleItemPriceChanged": "The price of the {1} in slot {2} has been changed to {3}",
+	"HeaderAccountSettingsList": "Account Settings ({1})",
+	"AccountSettingToggle": "You changed the setting {1} to {2}",
+	"InvalidTask": "Task not found!",
+	"InvalidTaskStep": "Task step not found!",
+	"NeedToBeOnTask": "You need to be doing a task!"
 }
