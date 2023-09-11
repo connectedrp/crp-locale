@@ -934,5 +934,6 @@
 	"AccountSettingToggle": "You changed the setting {1} to {2}",
 	"InvalidTask": "Task not found!",
 	"InvalidTaskStep": "Task step not found!",
-	"NeedToBeOnTask": "You need to be doing a task!"
+	"NeedToBeOnTask": "You need to be doing a task!",
+	"JobRankPromotion": "You have been promoted to {1} (level {2}), which pays {3} every payday."
 }
