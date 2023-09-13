@@ -946,5 +946,7 @@
 	"InvalidTask": "Task not found!",
 	"InvalidTaskStep": "Task step not found!",
 	"NeedToBeOnTask": "You need to be doing a task!",
-	"JobRankPromotion": "You have been promoted to {1} (level {2}), which pays {3} every payday."
+	"JobRankPromotion": "You have been promoted to {1} (level {2}), which pays {3} every payday.",
+	"InvalidLocation": "Location not found!",
+	"InvalidLocationType": "Location type not found!"
 }
