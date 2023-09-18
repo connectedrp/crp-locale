@@ -508,7 +508,6 @@
     "HeaderJobList": "工作",
     "HeaderBusinessInfo": "企业信息",
     "HeaderHouseInfo": "住宅信息",
-    "HeaderClanInfo": "帮派信息",
 	"Locales": {
 		"English": "英文",
 		"Russian": "俄文",
@@ -938,5 +937,7 @@
 	"NeedToBeOnTask": "You need to be doing a task!",
 	"JobRankPromotion": "You have been promoted to {1} (level {2}), which pays {3} every payday.",
 	"InvalidLocation": "Location not found!",
-	"InvalidLocationType": "Location type not found!"
+	"InvalidLocationType": "Location type not found!",
+	"InvalidBusinessType": "Business type not found!",
+	"HeaderClanInfo": "Clan Info ({1})"
 }

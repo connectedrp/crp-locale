@@ -514,7 +514,6 @@
 	"HeaderJobList": "Jobs",
 	"HeaderBusinessInfo": "Business Info",
 	"HeaderHouseInfo": "House Info",
-	"HeaderClanInfo": "Clan Info",
 	"Locales": {
 		"English": "Inglés",
 		"Russian": "Ruso",
@@ -942,5 +941,7 @@
 	"NeedToBeOnTask": "You need to be doing a task!",
 	"JobRankPromotion": "You have been promoted to {1} (level {2}), which pays {3} every payday.",
 	"InvalidLocation": "Location not found!",
-	"InvalidLocationType": "Location type not found!"
+	"InvalidLocationType": "Location type not found!",
+	"InvalidBusinessType": "Business type not found!",
+	"HeaderClanInfo": "Clan Info ({1})"
 }
