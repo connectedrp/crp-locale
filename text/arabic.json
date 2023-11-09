@@ -943,6 +943,10 @@
 	"InvalidLocation": "Location not found!",
 	"InvalidLocationType": "Location type not found!",
 	"InvalidBusinessType": "Business type not found!",
-	"HeaderClanInfo": "Clan Info ({1})"
+	"HeaderClanInfo": "Clan Info ({1})",
+	"HeaderClanDiscordWebhookFlagsList": "Clan Discord Webhook Messages ({1})",
+	"FuelPumpHasNoBusiness": "This fuel pump is not owned by a business, and can't be used!",
+	"BusinessHasNoFuel": "This business does not have any fuel!",
+	"BusinessIsClosed": "This business is closed!"
 
 }
