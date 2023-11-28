@@ -950,5 +950,17 @@
 	"HeaderClanDiscordWebhookFlagsList": "Clan Discord Webhook Messages ({1})",
 	"FuelPumpHasNoBusiness": "This fuel pump is not owned by a business, and can't be used!",
 	"BusinessHasNoFuel": "This business does not have any fuel!",
-	"BusinessIsClosed": "This business is closed!"
+	"BusinessIsClosed": "This business is closed!",
+	"MustBeHoldingAWeapon": "You must be holding a weapon!",
+	"BusinessRobberyCooldown": "Another robbery occured recently. You must wait before starting a robbery.",
+	"RobbingBusiness": "You are now robbing this business! Police have been alerted.",
+	"RobbingBusiness2": "You must wait for {1} minutes for the robbery to finish. Leaving early will reduce the chance of getting money.",
+	"BusinessRobberyAlreadyInProgress": "Somebody is already robbing a business! Only 1 robbery is allowed at a time.",
+	"BusinessRobberyFailed": "You left the business early, and failed to rob anything!",
+	"BusinessRobberySuccess": "You successfully robbed the business and got {1}!",
+	"BusinessRobberyFailedDeath": "You died, and failed to rob anything!",
+	"BusinessRobberyNotEnoughPolice": "There are not enough police online to rob a business!",
+	"PayPhoneCallerAlreadyHungUp": "The caller already ended the call",
+	"BusinessRobberyTimer": "Stay at the business for {1} seconds to finish the robbery!",
+	"ItemBanned": "You can't use or buy any items!"
 }
