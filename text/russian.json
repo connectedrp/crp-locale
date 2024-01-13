@@ -966,7 +966,7 @@
 		"ChatEmoji": "Показывать эмоджи в чате",
 		"NoCustomHUD": "Нет пользовательского HUD",
 		"NoChatAnimations": "Отсутствие анимации при разговоре"
-	}
+	},
 	"SkinChooserSkin": "Choose a skin using {1} and {2}. Use {3} to finish or {4} to cancel.",
 	"SkinChooserBodyPart": "Use {1} and {2} to select a body part to change.",
 	"NoFireCloseEnoughToExtinguish": "You are not close enough to a fire to extinguish it!",
