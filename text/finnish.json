@@ -970,5 +970,6 @@
 	"FishingLineAlreadyCast": "Your fishing line is already cast!",
 	"ReleasedFromPrison": "You have served your sentence and are released from prison!",
 	"MedicalBillsPaid": "You paid {1} for your medical bills ({2} of your cash)",
-	"LegalFeesPaid": "You paid {1} for your legal fees ({2} of your cash)"
+	"LegalFeesPaid": "You paid {1} for your legal fees ({2} of your cash)",
+	"PlayerChoseRandomNumber": "{1} chose a random number between {2} and {3}. Result: {4}"
 }
