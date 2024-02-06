@@ -971,5 +971,7 @@
 	"ReleasedFromPrison": "You have served your sentence and are released from prison!",
 	"MedicalBillsPaid": "You paid {1} for your medical bills ({2} of your cash)",
 	"LegalFeesPaid": "You paid {1} for your legal fees ({2} of your cash)",
-	"PlayerChoseRandomNumber": "{1} chose a random number between {2} and {3}. Result: {4}"
+	"PlayerChoseRandomNumber": "{1} chose a random number between {2} and {3}. Result: {4}",
+	"InvalidCharactersInText": "Invalid characters in text! You can only use letters, numbers, spaces, hyphens and underscores",
+	"PlayerHasPrivateMessagesDisabled": "That player is not accepting private messages!"
 }

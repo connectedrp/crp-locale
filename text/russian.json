@@ -989,5 +989,7 @@
 	"ReleasedFromPrison": "Вы отбыли наказание и освобождены из тюрьмы!",
 	"MedicalBillsPaid": "Вы оплатили {1} за свои медицинские счета ({2} ваших денег)",
 	"LegalFeesPaid": "Вы заплатили {1} за судебные издержки ({2} ваших денег)",
-	"PlayerChoseRandomNumber": "{1} выбрал случайное число между {2} и {3}. Результат: {4}"
+	"PlayerChoseRandomNumber": "{1} выбрал случайное число между {2} и {3}. Результат: {4}",
+	"InvalidCharactersInText": "Invalid characters in text! You can only use letters, numbers, spaces, hyphens and underscores",
+	"PlayerHasPrivateMessagesDisabled": "That player is not accepting private messages!"
 }
