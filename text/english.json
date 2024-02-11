@@ -825,6 +825,7 @@
 	"PayDayTaxes": "Tax: {1}",
 	"PayDayFines": "Fines: {1}",
 	"PayDayReceive": "You Receive: {1}",
+	"ClanTax": "Your clan's current tax is: {1}",
 	"ClanBankBalance": "Clan Bank Balance: {1}",
 	"ClanBankMoneyDeposited": "You put {1} into the clan bank account",
 	"ClanBankMoneyWithdrawn": "You took {1} from the clan bank account",
