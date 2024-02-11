@@ -834,6 +834,7 @@
 	"PayDayTaxes": "Налоги: {1}",
 	"PayDayFines": "Штрафы: {1}",
 	"PayDayReceive": "Вы получаете: {1}",
+	"ClanTax": "Текущий налог вашего клана составляет: {1}",
 	"ClanBankBalance": "Банковский баланс клана: {1}",
 	"ClanBankMoneyDeposited": "Вы положили {1} на банковский счёт клана",
 	"ClanBankMoneyWithdrawn": "Вы взяли {1} из банковского счёта клана",
