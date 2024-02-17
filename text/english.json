@@ -825,7 +825,6 @@
 	"PayDayTaxes": "Tax: {1}",
 	"PayDayFines": "Fines: {1}",
 	"PayDayReceive": "You Receive: {1}",
-	"ClanTax": "Your clan's current tax is: {1}",
 	"ClanBankBalance": "Clan Bank Balance: {1}",
 	"ClanBankMoneyDeposited": "You put {1} into the clan bank account",
 	"ClanBankMoneyWithdrawn": "You took {1} from the clan bank account",
@@ -987,5 +986,10 @@
 	"LegalFeesPaid": "You paid {1} for your legal fees ({2} of your cash)",
 	"PlayerChoseRandomNumber": "{1} chose a random number between {2} and {3}. Result: {4}",
 	"InvalidCharactersInText": "Invalid characters in text! You can only use letters, numbers, spaces, hyphens and underscores",
-	"PlayerHasPrivateMessagesDisabled": "That player is not accepting private messages!"
+	"PlayerHasPrivateMessagesDisabled": "That player is not accepting private messages!",
+	"ClanTax": "Your clan's current tax is: {1}",
+	"AdvertisementCooldown": "A new advertisement can be posted in {1} minutes",
+	"AdvertisementPosted": "You posted an advertisement for {1}!",
+	"MaxAdvertismentLengthWillCutOffPrompt": "The maximum advertisement length is {1} characters. The rest will be cut off! Continue?",
+	"MessageTooLongTitle": "Message Too Long"
 }
