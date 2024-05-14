@@ -965,7 +965,10 @@
 		"NoPlayerContent": "Без кастомных изображений (например, логотипов кланов или граффити)",
 		"ChatEmoji": "Показывать эмоджи в чате",
 		"NoCustomHUD": "Нет пользовательского HUD",
-		"NoChatAnimations": "Отсутствие анимации при разговоре"
+		"AutoChatAnimations": "Automatically use animation when talking",
+		"NoItemMessages": "No automatic /me messages when using, dropping, or any other action with an item",
+		"HideMyOwnAME": "Don't show your own /ame messages above your character's head",
+		"HideMiniMap": "Hide minimap"
 	},
 	"SkinChooserSkin": "Выберите скин с помощью кнопок {1} и {2}. Используйте {3} для завершения или {4} для отмены.",
 	"SkinChooserBodyPart": "С помощью кнопок {1} и {2} выберите часть тела, которую нужно изменить.",
@@ -996,5 +999,8 @@
 	"AdvertisementCooldown": "A new advertisement can be posted in {1} minutes",
 	"AdvertisementPosted": "You posted an advertisement for {1}!",
 	"MaxAdvertismentLengthWillCutOffPrompt": "The maximum advertisement length is {1} characters. The rest will be cut off! Continue?",
-	"MessageTooLongTitle": "Message Too Long"
+	"MessageTooLongTitle": "Message Too Long",
+	"ItemGUIAmount": "Count: {1}",
+	"ItemGUIValue": "Value: {2}",
+	"ItemGUIMass": "Mass: {2}"
 }
