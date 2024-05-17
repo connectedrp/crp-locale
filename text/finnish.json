@@ -985,5 +985,6 @@
 	"ItemGUIAmount": "Count: {1}",
 	"ItemGUIValue": "Value: {2}",
 	"ItemGUIMass": "Mass: {2}",
-	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!"
+	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!",
+	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}."
 }
