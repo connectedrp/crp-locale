@@ -965,8 +965,8 @@
 	"VehicleExportInfoLabel": "Use {1} to sell a vehicle here",
 	"PayDayPassive": "Passive Income: {1}",
 	"PayDayEarnings": "Earnings: {1}",
-	"PayDayJobRank": "Job Rank ({1}}: {2}",
-	"PayDayClanRank": "Clan Rank ({1}}: {2}",
+	"PayDayJobRank": "Job Rank ({1}): {2}",
+	"PayDayClanRank": "Clan Rank ({1}): {2}",
 	"FishingLineAlreadyCast": "Your fishing line is already cast!",
 	"ReleasedFromPrison": "You have served your sentence and are released from prison!",
 	"MedicalBillsPaid": "You paid {1} for your medical bills ({2} of your cash)",
@@ -983,5 +983,6 @@
 	"ItemGUIValue": "Value: {2}",
 	"ItemGUIMass": "Mass: {2}",
 	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!",
-	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}."
+	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}.",
+	"WordOnTheStreet": "📰 Word on the street: {1}"
 }

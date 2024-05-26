@@ -986,8 +986,8 @@
 	"VehicleExportInfoLabel": "Используйте {1}, чтобы продать автомобиль здесь",
 	"PayDayPassive": "Пассивный доход: {1}",
 	"PayDayEarnings": "Заработок: {1}",
-	"PayDayJobRank": "Ранг работы ({1}}: {2}",
-	"PayDayClanRank": "Ранг клана ({1}}: {2}",
+	"PayDayJobRank": "Ранг работы ({1}): {2}",
+	"PayDayClanRank": "Ранг клана ({1}): {2}",
 	"FishingLineAlreadyCast": "Ваша удочка уже закинута!",
 	"ReleasedFromPrison": "Вы отбыли наказание и освобождены из тюрьмы!",
 	"MedicalBillsPaid": "Вы оплатили {1} за свои медицинские счета ({2} ваших денег)",
@@ -1004,5 +1004,6 @@
 	"ItemGUIValue": "Value: {2}",
 	"ItemGUIMass": "Mass: {2}",
 	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!",
-	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}."
+	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}.",
+	"WordOnTheStreet": "📰 Word on the street: {1}"
 }
