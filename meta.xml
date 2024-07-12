@@ -1,0 +1,24 @@
+<meta>
+	<info author="Vortrex" version="1.0" description="Connected Roleplay: Locale Script" />
+
+	<!-- Scripts -->
+	<script src="client.js" type="client" language="javascript" />
+    <script src="server.js" type="client" language="javascript" />
+
+	<!-- Client Config -->
+	<script src="config/client.json" type="client" language="javascript" />
+
+	<!-- Locale Files -->
+	<file type="client" src="config/client/locale.json" />
+	<file type="client" src="text/english.json" />
+	<file type="client" src="text/russian.json" />
+	<file type="client" src="text/polish.json" />
+	<file type="client" src="text/spanish.json" />
+	<file type="client" src="text/french.json" />
+	<file type="client" src="text/japanese.json" />
+	<file type="client" src="text/german.json" />
+	<file type="client" src="text/slovak.json" />
+	<file type="client" src="text/finnish.json" />
+	<file type="client" src="text/chinese.json" />
+	<file type="client" src="text/arabic.json" />
+</meta>
