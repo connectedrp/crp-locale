@@ -988,5 +988,8 @@
 	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!",
 	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}.",
 	"WordOnTheStreet": "📰 Word on the street: {1}",
-	"PlayerNotInYourJob": "That player has a different job!"
+	"PlayerNotInYourJob": "That player has a different job!",
+	"AutomaticDepositPercentageSet": "{1}% of your paycheck will be automatically deposited into your bank account",
+	"VehicleExported": "The {1} has been exported for {2}",
+	"MustBeAtVehicleExportLocation": "You must be at the port/docks to export a vehicle!"
 }

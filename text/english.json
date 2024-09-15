@@ -1001,5 +1001,15 @@
 	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!",
 	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}.",
 	"WordOnTheStreet": "📰 Word on the street: {1}",
-	"PlayerNotInYourJob": "That player has a different job!"
+	"PlayerNotInYourJob": "That player has a different job!",
+	"AutomaticDepositPercentageSet": "{1}% of your paycheck will be automatically deposited into your bank account",
+	"VehicleExported": "The {1} has been exported for {2}",
+	"MustBeAtVehicleExportLocation": "You must be at the port/docks to export a vehicle!",
+	"PromptSellVehicle": "{1} would like to sell you a {2} for {3}. Do you accept?",
+	"PromptSellVehicleTitle": "Vehicle Sale",
+	"VehicleSold": "You sold the {1} to {2} for {3}",
+	"VehiclePurchaseCanceled": "You canceled the vehicle purchase",
+	"VehiclePurchaseDeclined": "{1} declined the vehicle purchase",
+	"VehiclePurchasedFromPlayer": "You purchased the {1} from {2} for {3}",
+	"CannotSellToSelf": "You can't sell to yourself!"
 }
