@@ -1011,5 +1011,7 @@
 	"VehiclePurchaseCanceled": "You canceled the vehicle purchase",
 	"VehiclePurchaseDeclined": "{1} declined the vehicle purchase",
 	"VehiclePurchasedFromPlayer": "You purchased the {1} from {2} for {3}",
-	"CannotSellToSelf": "You can't sell to yourself!"
+	"CannotSellToSelf": "You can't sell to yourself!",
+	"AlreadyRentingVehicle": "You are already renting a vehicle!",
+	"VehicleCannotBeExported": "This vehicle can't be exported!"
 }
