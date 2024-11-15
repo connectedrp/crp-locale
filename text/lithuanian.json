@@ -997,5 +997,6 @@
 	"VehiclePurchasedFromPlayer": "You purchased the {1} from {2} for {3}",
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
-	"VehicleCannotBeExported": "This vehicle can't be exported!"
+	"VehicleCannotBeExported": "This vehicle can't be exported!",
+	"AlreadyWorking": "You are already working!"
 }
