@@ -1,7 +1,6 @@
 {
 	"TranslationProvidedBy": "PerikiyoXD and EliasDR",
 	"LocaleEnglishName": "Spanish",
-
 	"LocaleNativeName": "Español",
 	"LocaleOffer": "Este servidor se encuentra disponible en Español. Utilice {1} para usarlo",
 	"LocaleChanged1": "El idioma se ha configurado a {1}",
@@ -289,7 +288,6 @@
 	"VehiclePurchaseNotEnoughMoney": "No tienes suficiente dinero para comprar este vehículo",
 	"HousePurchaseNotEnoughMoney": "No tienes suficiente dinero para comprar esta casa",
 	"BusinessPurchaseNotEnoughMoney": "No tienes suficiente dinero para comprar este negocio",
-
 	"ADDED-21JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"HeaderPlayerHousesList": "Casas del jugador ({1})",
 	"HeaderPlayerStaffFlagsList": "Banderas administrativas del jugador ({1})",
@@ -319,7 +317,6 @@
 	"HeaderBusinessList": "Negocios",
 	"VehicleForSale": "Esto {1} es comprable por {2}! Usa {3} si deseas comprarlo.",
 	"VehicleForRent": "Esto {1} es rentable por {2}! Usa {3} si deseas rentarlo.",
-
 	"ADDED-31JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"LoginFailedInvalidPassword": "Contraseña incorrecta! {1} intentos restantes",
 	"LoginFailedNoPassword": "Debes ingresar una contraseña! ! {1} intentos restantes",
@@ -341,7 +338,6 @@
 	"NeedEmailVerifiedFor2FA": "Necesitas verificar tu email para usar la autenticación de dos-factores.",
 	"SetEmailHelpTip": "Usa {1} para establecer tu email.",
 	"VerifyEmailHelpTip": "Usa {1} para verificar tu email.",
-
 	"ADDED-13FEB2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"NearbyRadio": "Radio Cercano",
 	"FromRadio": "Del Radio",
@@ -361,7 +357,6 @@
 	"InvalidSkin": "¡Esta skin es inválida!",
 	"HeaderInteriorTypes": "Lista de interiores",
 	"GUIAccountSettingToggle": "Has {1} la Interfaz de Usuario",
-
 	"ADDED-23MAR2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations",
 	"CarCommandHelp": "Puedes comprar un auto visitando un concesionario de vehículos. Usa {1} para más información.",
 	"SkinCommandHelp": "Puedes cambiar tu skin visitando una Tienda de Ropa. Usa {1} para más información.",
@@ -684,10 +679,8 @@
 	"NotOrderingAnyBusinessItems": "You aren't ordering anything for a business!",
 	"DidNotCreateCharacter": "You do not have a character to play. Goodbye!",
 	"BusinessOrderNotEnoughMoney": "This business doesn't have enough money to order that! Deposit some using {1}",
-
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"SaveSettings": "Save Settings",
 	"Cancel": "Cancel",
 	"AlreadyOwnVehicle": "You already own this vehicle!",
@@ -765,10 +758,8 @@
 	"MustBeSurrendered": "The player needs to be surrendered (have their hands up, knocked out, or tazed)",
 	"GUINewCharacterRandomNameButton": "Random Name",
 	"AccentsHelpTip": "Use {1} to see a list of available accents",
-
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
 	"PayPhoneIncomingCall": "Somebody is calling you. Go to the payphone at {1} {2} {3} and use {4} to answer it.",
-
 	"TimeMeasurements": {
 		"Seconds": "{1} seconds",
 		"Minutes": "{1} minutes",
@@ -846,7 +837,7 @@
 	"HouseOwnershipTransferSent": "You offered to give house {1} to {2}",
 	"LeftClan": "You left the {1} clan",
 	"ComingSoon": "Coming soon!",
-	"HeaderClanMemberList":	"Clan Members ({1})",
+	"HeaderClanMemberList": "Clan Members ({1})",
 	"SetVehicleBusinessConfirmMessage": "Are you sure you want to give this vehicle to {1}?",
 	"InvalidNPC": "NPC not found!",
 	"ClanUnInviteTooLow": "You can't uninvite members with a rank higher than yours!",
@@ -894,10 +885,8 @@
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
 	"BusinessVehicleOrderSuccessInfo": "You ordered a {1} vehicle for {2}!",
-
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"NoFireCloseEnough": "You are not close enough to a fire!",
 	"NumberMustBeBetween": "The number must be between {1} and {2}!",
 	"HeaderScenarioInfo": "Scenario Information ({1})",
@@ -1008,5 +997,7 @@
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
 	"VehicleCannotBeExported": "This vehicle can't be exported!",
-	"AlreadyWorking": "You are already working!"
+	"AlreadyWorking": "You are already working!",
+	"PayDayInfoHeader": "Next Paycheck Information",
+	"PayDaySimulationCooldown": "Please wait {1} before checking your next paycheck again"
 }

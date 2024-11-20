@@ -1,7 +1,6 @@
 {
 	"TranslationProvidedBy": "dovis",
 	"LocaleEnglishName": "Lithuanian",
-
 	"LocaleNativeName": "Lithuanian",
 	"LocaleOffer": "This server is available in Lithuanian. Use {1} to use it.",
 	"LocaleChanged1": "Your language is now set to {1}",
@@ -283,7 +282,6 @@
 	"VehiclePurchaseNotEnoughMoney": "You don't have enough money to buy this vehicle!",
 	"HousePurchaseNotEnoughMoney": "You don't have enough money to buy this house!",
 	"BusinessPurchaseNotEnoughMoney": "You don't have enough money to buy this business!",
-
 	"ADDED-21JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"HeaderPlayerHousesList": "Player Houses ({1})",
 	"HeaderPlayerStaffFlagsList": "Player Staff Flags ({1})",
@@ -313,7 +311,6 @@
 	"HeaderBusinessList": "Businesses",
 	"VehicleForSale": "This {1} is buyable for {2}! Use {3} if you want to buy it",
 	"VehicleForRent": "This {1} is rentable for {2}! Use {3} if you want to rent it",
-
 	"ADDED-31JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"LoginFailedInvalidPassword": "Invalid password! {1} attempts remaining",
 	"LoginFailedNoPassword": "You must enter a password! ! {1} attempts remaining",
@@ -335,7 +332,6 @@
 	"NeedEmailVerifiedFor2FA": "You need to verify your email to use two-factor authentication.",
 	"SetEmailHelpTip": "Use {1} to set your email.",
 	"VerifyEmailHelpTip": "Use {1} to verify your email.",
-
 	"ADDED-13FEB2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"NearbyRadio": "Nearby radio",
 	"FromRadio": "From radio",
@@ -355,7 +351,6 @@
 	"InvalidSkin": "That skin is invalid!",
 	"HeaderInteriorTypes": "Interiors List",
 	"GUIAccountSettingToggle": "You have turned {1} GUI",
-
 	"ADDED-23MAR2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations",
 	"CarCommandHelp": "You can buy a car by visiting a vehicle dealership. Use {1} for more information.",
 	"SkinCommandHelp": "You can change your skin by visiting a clothes store. Use {1} for more info.",
@@ -504,7 +499,6 @@
 	"GUIResetPasswordEmailPlaceholder": "Email",
 	"GUIResetPasswordSubmitButton": "Reset Password",
 	"GUIResetPasswordLoginButton": "Login",
-
 	"GUIResetPasswordRememberMessage": "Remember your password?",
 	"HeaderJobList": "Jobs",
 	"HeaderBusinessInfo": "Business Info",
@@ -679,10 +673,8 @@
 	"NotOrderingAnyBusinessItems": "You aren't ordering anything for a business!",
 	"DidNotCreateCharacter": "You do not have a character to play. Goodbye!",
 	"BusinessOrderNotEnoughMoney": "This business doesn't have enough money to order that! Deposit some using {1}",
-
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"SaveSettings": "Save Settings",
 	"Cancel": "Cancel",
 	"AlreadyOwnVehicle": "You already own this vehicle!",
@@ -755,10 +747,8 @@
 	"MustBeSurrendered": "The player needs to be surrendered (have their hands up, knocked out, or tazed)",
 	"GUINewCharacterRandomNameButton": "Random Name",
 	"AccentsHelpTip": "Use {1} to see a list of available accents",
-
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
 	"PayPhoneIncomingCall": "Somebody is calling you. Go to the payphone at {1} {2} {3} and use {4} to answer it.",
-
 	"TimeMeasurements": {
 		"Seconds": "{1} seconds",
 		"Minutes": "{1} minutes",
@@ -836,7 +826,7 @@
 	"HouseOwnershipTransferSent": "You offered to give house {1} to {2}",
 	"LeftClan": "You left the {1} clan",
 	"ComingSoon": "Coming soon!",
-	"HeaderClanMemberList":	"Clan Members ({1})",
+	"HeaderClanMemberList": "Clan Members ({1})",
 	"SetVehicleBusinessConfirmMessage": "Are you sure you want to give this vehicle to {1}?",
 	"InvalidNPC": "NPC not found!",
 	"ClanUnInviteTooLow": "You can't uninvite members with a rank higher than yours!",
@@ -884,10 +874,8 @@
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
 	"BusinessVehicleOrderSuccessInfo": "You ordered a {1} vehicle for {2}!",
-
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"NoFireCloseEnough": "You are not close enough to a fire!",
 	"NumberMustBeBetween": "The number must be between {1} and {2}!",
 	"HeaderScenarioInfo": "Scenario Information ({1})",
@@ -998,5 +986,7 @@
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
 	"VehicleCannotBeExported": "This vehicle can't be exported!",
-	"AlreadyWorking": "You are already working!"
+	"AlreadyWorking": "You are already working!",
+	"PayDayInfoHeader": "Next Paycheck Information",
+	"PayDaySimulationCooldown": "Please wait {1} before checking your next paycheck again"
 }

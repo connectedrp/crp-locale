@@ -1,7 +1,6 @@
 {
 	"TranslationProvidedBy": "SIMBA_MEOW",
 	"LocaleEnglishName": "Finnish",
-
 	"LocaleNativeName": "Finnish",
 	"LocaleOffer": "Tämä palvelin on nyt käytettävissä suomenkielellä Käytä {1} jotta voit käyttää sitä",
 	"LocaleChanged1": "Pelisi kieli on nyt vaihdettu suomeen. {1}",
@@ -283,7 +282,6 @@
 	"VehiclePurchaseNotEnoughMoney": "Sinulla ei ole tarpeeksi rahaa ostaa tätä ajoneuvoa!",
 	"HousePurchaseNotEnoughMoney": "Sinulla ei ole tarpeeksi rahaa ostaa tätä taloa!",
 	"BusinessPurchaseNotEnoughMoney": "Sinulla ei ole tarpeeksi rahaa ostaa tätä yritystä",
-
 	"ADDED-21JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"HeaderPlayerHousesList": "Pelaajien talot ({1})",
 	"HeaderPlayerStaffFlagsList": "Pelaajien esikunnan liput ({1})",
@@ -313,7 +311,6 @@
 	"HeaderBusinessList": "Yritykset",
 	"VehicleForSale": "Tämä {1} On Ostettavissa {2}! Käytä {3} Jos haluat ostaa sen",
 	"VehicleForRent": "Tämä {1} On Vuokrattavissa {2}! Use {3} Jos haluat ostaa sen",
-
 	"ADDED-31JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"LoginFailedInvalidPassword": "Väärä Salasana! {1} Yritystä jäljellä",
 	"LoginFailedNoPassword": "Sinun on syötettävä salasana! ! {1} Yritystä jäljellä",
@@ -335,7 +332,6 @@
 	"NeedEmailVerifiedFor2FA": "Sinun on vahvistettava sähköpostisi, jotta voit käyttää kaksivaiheista todennusta.",
 	"SetEmailHelpTip": "Käytä {1} sähköpostiosoitteen määrittämiseen.",
 	"VerifyEmailHelpTip": "Käytä {1} vahvistaaksesi sähköpostiosoitteesi.",
-
 	"ADDED-13FEB2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"NearbyRadio": "Radio Lähdellä",
 	"FromRadio": "Radiosta",
@@ -355,7 +351,6 @@
 	"InvalidSkin": "Tuo Skini on viallinen!",
 	"HeaderInteriorTypes": "Sisustusluettelo",
 	"GUIAccountSettingToggle": "Laitoit päälle {1} Käyttöliittymän",
-
 	"ADDED-23MAR2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations",
 	"CarCommandHelp": "Voit ostaa auton käymällä ajoneuvoliikkeessä. Käytä {1} saadaksesi lisätietoja.",
 	"SkinCommandHelp": "Voit vaihtaa Skiniäsi käymällä vaateliikkeessä. Käytä {1} saadaksesi lisätietoja.",
@@ -677,10 +672,8 @@
 	"NotOrderingAnyBusinessItems": "Et tilaa mitään tuotteita yritykselle!",
 	"DidNotCreateCharacter": "Sinulla ei ole hahmoa pelattavana. Moikka!",
 	"BusinessOrderNotEnoughMoney": "Tällä yrityksellä ei ole tarpeeksi rahaa tilata sitä! Talleta vähän käyttämällä {1}",
-
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessOrderSuccessInfo": "Tilasit {1} {2} Maksoit {4}!",
-
 	"SaveSettings": "Tallenna Asetukset",
 	"Cancel": "Peruuta",
 	"AlreadyOwnVehicle": "Sinä jo OMISTAT Tämän Ajoneuvon!",
@@ -758,10 +751,8 @@
 	"MustBeSurrendered": "Pelaajan pitää antautua (kädet ylös, lyöty tajuttomaksi, tai tainnutettu)",
 	"GUINewCharacterRandomNameButton": "Satunnainen nimi",
 	"AccentsHelpTip": "Käytä {1} Nähdääksesi listan saatavilla olevissa aksenteista",
-
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
 	"PayPhoneIncomingCall": "Joku soittaa sinulle. Mene puheluautomaatille  {1} {2} {3} ja käytä {4} vastaaksesi siihen.",
-
 	"TimeMeasurements": {
 		"Seconds": "{1} sekuntia",
 		"Minutes": "{1} minuuttia",
@@ -793,7 +784,7 @@
 		"VehiclePartItemUsage": "Seiso ajoneuvon vieressä ja käytä {1} tuunatakseen  {2}",
 		"AmmoClipItemUsage": "Varusta ase ja käytä {1} ladataaksesi panoksia",
 		"GenericItemUsage": "Käytä {1} käyttääksesi {2}",
-   	 	"EnterJobVehicleForRoute": "Mene Työ-ajoneuvoon lähdellä aloittaaksesi työ-reitin",
+		"EnterJobVehicleForRoute": "Mene Työ-ajoneuvoon lähdellä aloittaaksesi työ-reitin",
 		"JobLocations": "Vieraile työpaikalla saadaksesi töitä. Käytä {1} löytääkseen työpaikan",
 		"JobRouteStart": "Käytä {1} aloittaaksesi työreitin tällä ajoneuvolla",
 		"PayPhoneFirstUse": "Käytä {1} lopettaaksesi puhelun, ja {2} antaa puhelimen läheiselle",
@@ -839,7 +830,7 @@
 	"HouseOwnershipTransferSent": "Tarjouduit antamaan talon {1} {2}",
 	"LeftClan": "Poistuit {1} Klaanista",
 	"ComingSoon": "Tulossa Pian!",
-	"HeaderClanMemberList":	"Klaanin jäsenet ({1})",
+	"HeaderClanMemberList": "Klaanin jäsenet ({1})",
 	"SetVehicleBusinessConfirmMessage": "Oletko varma, että haluat antaa tämän ajoneuvon {1}?",
 	"InvalidNPC": "NPC:tä ei löytynyt!",
 	"ClanUnInviteTooLow": "Et voi peruuttaa jäsenten kutsua, joilla on korkeampi arvo kuin sinulla!",
@@ -887,10 +878,8 @@
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
 	"BusinessVehicleOrderSuccessInfo": "Tilasit {1} Ajoneuvon  maksoit : {2}!",
-
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "Sinä Tilasit {1} {2} {4}!",
-
 	"NoFireCloseEnough": "Et ole tarpeeksi lähellä tulta!",
 	"NumberMustBeBetween": "Numeron täytyy olla välillä {1} ja {2}!",
 	"HeaderScenarioInfo": "Skenaariotiedot ({1})",
@@ -1001,5 +990,7 @@
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
 	"VehicleCannotBeExported": "This vehicle can't be exported!",
-	"AlreadyWorking": "You are already working!"
+	"AlreadyWorking": "You are already working!",
+	"PayDayInfoHeader": "Next Paycheck Information",
+	"PayDaySimulationCooldown": "Please wait {1} before checking your next paycheck again"
 }

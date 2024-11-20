@@ -1,7 +1,6 @@
 {
 	"TranslationProvidedBy": "VNDTTS(Vende)",
 	"LocaleEnglishName": "Russian",
-
 	"LocaleNativeName": "Русский",
 	"LocaleOffer": "Этот сервер доступен на русском языке. Используйте {1}, чтобы поменять язык.",
 	"LocaleChanged1": "Теперь ваш язык установлен на {1}.",
@@ -286,7 +285,6 @@
 	"VehiclePurchaseNotEnoughMoney": "у вас недостаточно денег для покупки этого транспорта!",
 	"HousePurchaseNotEnoughMoney": "У вас недостаточно денег для покупки этого дома!",
 	"BusinessPurchaseNotEnoughMoney": "У вас недостаточно денег для покупки этого бизнеса!",
-
 	"ADDED-21JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"HeaderPlayerHousesList": "Дома Игрока ({1})",
 	"HeaderPlayerStaffFlagsList": "Флаги игрока персонала ({1})",
@@ -316,7 +314,6 @@
 	"HeaderBusinessList": "Бизнес",
 	"VehicleForSale": "Этот {1} можно купить за {2}! Используйте {3} если хотите его купить",
 	"VehicleForRent": "Этот {1} может быть арендован за {2}! Используйте {3} если хотите его арендовать",
-
 	"ADDED-31JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"LoginFailedInvalidPassword": "Неправильный пароль! Осталось {1} попыток",
 	"LoginFailedNoPassword": "Вы должны ввести пароль! Осталось {1} попыток",
@@ -338,7 +335,6 @@
 	"NeedEmailVerifiedFor2FA": "Вам нужно подтвердить вашу электронную почту чтобы использовать двухфакторную аунтентификацию.",
 	"SetEmailHelpTip": "Используйте {1} чтобы установить ваш адрес электронной почты.",
 	"VerifyEmailHelpTip": "Используйте {1} чтобы подтвердить ваш адрес электронной почты.",
-
 	"ADDED-13FEB2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"NearbyRadio": "Ближайшее радио",
 	"FromRadio": "Из радио",
@@ -358,7 +354,6 @@
 	"InvalidSkin": "Этот скин не правильный!",
 	"HeaderInteriorTypes": "Список интерьеров",
 	"GUIAccountSettingToggle": "Вы переключили {1} GUI",
-
 	"ADDED-23MAR2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations",
 	"CarCommandHelp": "Вы можете приобрести транспорт, посетив автосалон. Используйте {1} чтобы получить больше информации.",
 	"SkinCommandHelp": "Вы можете изменить ваш скин, посетив магазин одежды. Используйте {1} чтобы получить больше информации.",
@@ -685,10 +680,8 @@
 	"NotOrderingAnyBusinessItems": "Вы ничего не заказываете для бизнеса!",
 	"DidNotCreateCharacter": "У вас нет персонажа, чтобы играть. До свидания!",
 	"BusinessOrderNotEnoughMoney": "У этого бизнеса недостаточно денег, чтобы заказать это! Вложите немного денег, используя {1}",
-
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Colt 45 for $5000!",
 	"BusinessOrderSuccessInfo": "Вы заказали {1} {2} за {4}!",
-
 	"SaveSettings": "Сохранить настройки",
 	"Cancel": "Отменить",
 	"AlreadyOwnVehicle": "Вы уже владеете этим автомобилем!",
@@ -775,10 +768,8 @@
 	"MustBeSurrendered": "Игрок должен сдаться (поднять руки, быть нокаутированным или подвергнутся электрошоку)",
 	"GUINewCharacterRandomNameButton": "Случайное имя",
 	"AccentsHelpTip": "Используйте {1}, чтобы просмотреть список доступных акцентов.",
-
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
 	"PayPhoneIncomingCall": "Кто-то звонит вам. Подойдите к телефону, который находится {1} {2} {3} и используйте {4}, чтобы ответить.",
-
 	"TimeMeasurements": {
 		"Seconds": "{1} секунды",
 		"Minutes": "{1} минуты",
@@ -857,7 +848,7 @@
 	"HouseOwnershipTransferSent": "Вы предложили передать дом {1} в собственность {2}",
 	"LeftClan": "Вы покинули клан {1}",
 	"ComingSoon": "Скоро будет!",
-	"HeaderClanMemberList":	"Участники клана ({1})",
+	"HeaderClanMemberList": "Участники клана ({1})",
 	"SetVehicleBusinessConfirmMessage": "Вы уверены, что хотите передать это транспортное средство {1}?",
 	"InvalidNPC": "NPC не найден!",
 	"ClanUnInviteTooLow": "Вы не можете увольнять участников с рангом выше вашего!",
@@ -905,10 +896,8 @@
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
 	"BusinessVehicleOrderSuccessInfo": "Вы заказали {1} автомобиль за {2}!",
-
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "Вы заказали {1} {2} за {4}!",
-
 	"NoFireCloseEnough": "Вы находитесь недостаточно близко к огню!",
 	"NumberMustBeBetween": "Число должно быть между {1} и {2}!",
 	"HeaderScenarioInfo": "Сведения о сценарии ({1})",
@@ -1019,5 +1008,7 @@
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
 	"VehicleCannotBeExported": "This vehicle can't be exported!",
-	"AlreadyWorking": "You are already working!"
+	"AlreadyWorking": "You are already working!",
+	"PayDayInfoHeader": "Next Paycheck Information",
+	"PayDaySimulationCooldown": "Please wait {1} before checking your next paycheck again"
 }

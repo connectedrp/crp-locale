@@ -1,7 +1,6 @@
 {
 	"TranslationProvidedBy": "Kasir",
 	"LocaleEnglishName": "Arabic",
-
 	"LocaleNativeName": "عربى",
 	"LocaleOffer": ".الخادم متاح باللغة الإنجليزية.استخدم {1} لاستخدامه",
 	"LocaleChanged1": "لغتك الآن على {1}",
@@ -47,7 +46,7 @@
 	"PasswordsDontMatch": "كلمة المرور الجديدة وتأكيد كلمة المرور الجديدة ليسا متطابقين!!",
 	"PasswordChanged": "تم بنجاح تغيير كلمة المرور!",
 	"AutoLoggedInIP": "IP تم تسجيل دخولك تلقائيًا بواسطة!",
-	"WelcomeBack":  "مرحبًا بك مرة أخرى في {1} ، {2}! من فضلك {3} للمتابعة.",
+	"WelcomeBack": "مرحبًا بك مرة أخرى في {1} ، {2}! من فضلك {3} للمتابعة.",
 	"WelcomeNewPlayer": "مرحبًا بك في {1} ، {2}! من فضلك {3} للعب.",
 	"InvalidPlayer": "اللاعب غير موجود!",
 	"InvalidBusiness": "لم يتم العثور على الأعمال!",
@@ -157,7 +156,7 @@
 		"الخميس",
 		"الجمعه",
 		"السبت"
-   ],
+	],
 	"CardinalDirections": {
 		"North": "شمال",
 		"Northeast": "الشمال الشرقي",
@@ -284,7 +283,6 @@
 	"VehiclePurchaseNotEnoughMoney": "ليس لديك ما يكفي من المال لشراء هذه السيارة!",
 	"HousePurchaseNotEnoughMoney": "ليس لديك ما يكفي من المال لشراء هذا المنزل!",
 	"BusinessPurchaseNotEnoughMoney": "ليس لديك ما يكفي من المال لشراء هذا العمل!",
-
 	"ADDED-21JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"HeaderPlayerHousesList": "بيوت اللاعبين ({1})",
 	"HeaderPlayerStaffFlagsList": "أعلام طاقم العمل ({1})",
@@ -314,7 +312,6 @@
 	"HeaderBusinessList": "الأعمال",
 	"VehicleForSale": "يمكن شراء {1} مقابل {2}! استخدم {3} إذا كنت ترغب في شرائه",
 	"VehicleForRent": "هذا {1} قابل للتأجير لـ {2}! استخدم {3} إذا كنت تريد استئجاره",
-
 	"ADDED-31JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"LoginFailedInvalidPassword": "رمز مرور خاطئ! عدد المحاولات المتبقية: {1}",
 	"LoginFailedNoPassword": "يجب عليك إدخال كلمة المرور! ! عدد المحاولات المتبقية: {1}",
@@ -336,7 +333,6 @@
 	"NeedEmailVerifiedFor2FA": "تحتاج إلى التحقق من بريدك الإلكتروني لاستخدام المصادقة ذات العاملين.",
 	"SetEmailHelpTip": "استخدم {1} لتعيين بريدك الإلكتروني.",
 	"VerifyEmailHelpTip": "استخدم {1} للتحقق من بريدك الإلكتروني.",
-
 	"ADDED-13FEB2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"NearbyRadio": "راديو قريب",
 	"FromRadio": "من الراديو",
@@ -358,7 +354,6 @@
 	"ViewInventoryKeyPressTip": "اضغط على {1} لرؤية العناصر الخاصة بك",
 	"ViewInventoryCommandTip": "استخدم {1} لمشاهدة عناصرك",
 	"GUIAccountSettingToggle": "لقد قمت بتحويل {1} GUI",
-
 	"ADDED-23MAR2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations",
 	"CarCommandHelp": "يمكنك شراء سيارة من خلال زيارة متجر سيارات. استخدم {1} لمزيد من المعلومات.",
 	"SkinCommandHelp": "يمكنك تغيير بشرتك من خلال زيارة متجر الملابس. استخدم {1} لمزيد من المعلومات.",
@@ -438,79 +433,79 @@
 	],
 	"PromptResponseTip": "استخدم {1} للقبول أو {2} للرفض",
 	"PlayerConnecting": "👋يتم الاتصال بالخادم {1}",
-    "GetStartedJobVehicle": "احصل على {1} لتبدأ.",
-    "VehicleTypes": {
-        "Car": "سيارة",
-        "Truck": "شاحنة",
-        "Van": "سيارة نقل",
-        "Taxi": "تاكسي",
-        "Bus": "باص",
-        "PoliceCar": "سيارة شرطة",
-        "Ambulance": "سياره اسعاف",
-        "FireTruck": "سيارة إطفاء",
-        "Bike": "دراجة",
-        "Motorbike": "دراجات نارية",
-        "Boat": "قارب",
-        "Helicopter": "هليكوبتر",
-        "Plane": "طائرة",
-        "Train": "قطار"
-    },
-    "AlreadyOnJobRoute": "أنت تقوم بالفعل بطريق عمل!",
-    "GaveVehicleToClan": "لقد أعطيت هذا {1} لمجموعتك",
-    "JobDisabled": "تم تعطيل هذه الوظيفة!",
-    "SetHouseClanConfirmMessage": "هل أنت متأكد أنك تريد إعطاء هذا المنزل لمجموعتك?",
+	"GetStartedJobVehicle": "احصل على {1} لتبدأ.",
+	"VehicleTypes": {
+		"Car": "سيارة",
+		"Truck": "شاحنة",
+		"Van": "سيارة نقل",
+		"Taxi": "تاكسي",
+		"Bus": "باص",
+		"PoliceCar": "سيارة شرطة",
+		"Ambulance": "سياره اسعاف",
+		"FireTruck": "سيارة إطفاء",
+		"Bike": "دراجة",
+		"Motorbike": "دراجات نارية",
+		"Boat": "قارب",
+		"Helicopter": "هليكوبتر",
+		"Plane": "طائرة",
+		"Train": "قطار"
+	},
+	"AlreadyOnJobRoute": "أنت تقوم بالفعل بطريق عمل!",
+	"GaveVehicleToClan": "لقد أعطيت هذا {1} لمجموعتك",
+	"JobDisabled": "تم تعطيل هذه الوظيفة!",
+	"SetHouseClanConfirmMessage": "هل أنت متأكد أنك تريد إعطاء هذا المنزل لمجموعتك?",
 	"SetHouseClanConfirmTitle": "تحذير!",
-    "SetBusinessClanConfirmMessage": "هل أنت متأكد أنك تريد إعطاء هذا العمل لمجموعتك",
+	"SetBusinessClanConfirmMessage": "هل أنت متأكد أنك تريد إعطاء هذا العمل لمجموعتك",
 	"SetBusinessClanConfirmTitle": "تحذير!",
-    "MustOwnHouse": "أنت لا تملك هذا المنزل!",
-    "MustOwnBusiness": "أنت لا تملك هذا العمل!",
-    "GaveHouseToClan": "لقد أعطيت هذا المنزل لمجموعتك",
+	"MustOwnHouse": "أنت لا تملك هذا المنزل!",
+	"MustOwnBusiness": "أنت لا تملك هذا العمل!",
+	"GaveHouseToClan": "لقد أعطيت هذا المنزل لمجموعتك",
 	"GaveBusinessToClan": "لقد أعطيت هذا العمل لمجموعتك",
-    "BuyBusinessConfirmMessage": "هل أنت متأكد أنك تريد شراء هذا العمل؟",
-    "BuyBusinessConfirmTitle": "تحذير!",
-    "BuyHouseConfirmMessage": "هل أنت متأكد أنك تريد شراء هذا المنزل؟",
-    "BuyHouseConfirmTitle": "تحذير!",
+	"BuyBusinessConfirmMessage": "هل أنت متأكد أنك تريد شراء هذا العمل؟",
+	"BuyBusinessConfirmTitle": "تحذير!",
+	"BuyHouseConfirmMessage": "هل أنت متأكد أنك تريد شراء هذا المنزل؟",
+	"BuyHouseConfirmTitle": "تحذير!",
 	"BuyBusinessLabel": "استخدم {1} لشراء هذا النشاط التجاري",
 	"BuyHouseLabel": "استخدم {1} لشراء هذا المنزل",
 	"RentHouseLabel": "استخدم {1} لاستئجار هذا المنزل",
-    "AccountEmailAlreadyVerified": "لقد قمت بالفعل بتعيين والتحقق من بريدك الإلكتروني!",
-    "EmailVerificationCodeSent": "تم إرسال رمز التحقق والتعليمات إلى بريدك الإلكتروني.",
-    "GUIPlayAsCharacterButton": "لعب",
-    "GUINewCharacterButton": "شخصية جديدة",
-    "GUIPreviousCharacterButton": "سابق",
-    "GUINextCharacterButton": "التالي",
-    "GUICharacterSelectWindowTitle": "حدد شخصية",
-    "GUICharacterSelectMoneyLabel": "المال: {1} دولار",
-    "GUICharacterSelectClanLabel": "المجموعة: {1}",
-    "GUICharacterSelectLastPlayedLabel": "آخر زيارة: قبل {1} يوم و {2} ساعة و {3} دقيقة",
-    "GUILoginWindowLabelEnterPassword": "من فضلك أدخل كلمة السر",
-    "GUILoginWindowSubmitButton": "تسجيل الدخول",
-    "GUILoginWindowResetPasswordButton": "إعادة ضبط",
-    "GUILoginWindowPasswordPlaceholder": "كلمة المرور",
-    "GUILoginWindowForgotPasswordLabel": "هل نسيت كلمة المرور ؟",
-    "GUIRegisterWindowLabelCreateAccount": "انشاء حساب",
-    "GUIRegisterWindowPasswordPlaceholder": "كلمة المرور",
-    "GUIRegisterWindowConfirmPasswordPlaceholder": "تأكيد كلمة المرور",
-    "GUIRegisterWindowEmailPlaceholder": "ايميل",
-    "GUIRegisterWindowSubmitButton": "انشاء حساب",
-    "GUINewCharacterMessageLabel": "قم بتسميه شخصيتك",
-    "GUINewCharacterFirstNamePlaceholder": "الاسم الأول",
-    "GUINewCharacterLastNamePlaceholder": "الكنية",
+	"AccountEmailAlreadyVerified": "لقد قمت بالفعل بتعيين والتحقق من بريدك الإلكتروني!",
+	"EmailVerificationCodeSent": "تم إرسال رمز التحقق والتعليمات إلى بريدك الإلكتروني.",
+	"GUIPlayAsCharacterButton": "لعب",
+	"GUINewCharacterButton": "شخصية جديدة",
+	"GUIPreviousCharacterButton": "سابق",
+	"GUINextCharacterButton": "التالي",
+	"GUICharacterSelectWindowTitle": "حدد شخصية",
+	"GUICharacterSelectMoneyLabel": "المال: {1} دولار",
+	"GUICharacterSelectClanLabel": "المجموعة: {1}",
+	"GUICharacterSelectLastPlayedLabel": "آخر زيارة: قبل {1} يوم و {2} ساعة و {3} دقيقة",
+	"GUILoginWindowLabelEnterPassword": "من فضلك أدخل كلمة السر",
+	"GUILoginWindowSubmitButton": "تسجيل الدخول",
+	"GUILoginWindowResetPasswordButton": "إعادة ضبط",
+	"GUILoginWindowPasswordPlaceholder": "كلمة المرور",
+	"GUILoginWindowForgotPasswordLabel": "هل نسيت كلمة المرور ؟",
+	"GUIRegisterWindowLabelCreateAccount": "انشاء حساب",
+	"GUIRegisterWindowPasswordPlaceholder": "كلمة المرور",
+	"GUIRegisterWindowConfirmPasswordPlaceholder": "تأكيد كلمة المرور",
+	"GUIRegisterWindowEmailPlaceholder": "ايميل",
+	"GUIRegisterWindowSubmitButton": "انشاء حساب",
+	"GUINewCharacterMessageLabel": "قم بتسميه شخصيتك",
+	"GUINewCharacterFirstNamePlaceholder": "الاسم الأول",
+	"GUINewCharacterLastNamePlaceholder": "الكنية",
 	"GUINewCharacterSubmitButton": "إنشاء إختصار",
-    "GUIChangePasswordWindowTitle": "تغيير كلمة المرور",
-    "GUIChangePasswordPasswordLabel": "أدخل كلمة مرور جديدة",
-    "GUIChangePasswordPasswordPlaceholder": "كلمة المرور",
-    "GUIChangePasswordConfirmPasswordPlaceholder": "تأكيد كلمة المرور",
-    "GUIChangePasswordSubmitButton": "تغيير كلمة المرور",
-    "GUIResetPasswordWindowMessage": "إعادة تعيين كلمة المرور",
-    "GUIResetPasswordConfirmEmailLabel": "برجاء تأكيد بريدك الالكترونى",
-    "GUIResetPasswordEmailPlaceholder": "ايميل",
-    "GUIResetPasswordSubmitButton": "إعادة تعيين كلمة المرور",
-    "GUIResetPasswordLoginButton": "تسجيل",
-    "GUIResetPasswordRememberMessage": "حفظ كلمة المرور الخاصة بك؟",
-    "HeaderJobList": "وظائف",
-    "HeaderBusinessInfo": "معلومات العمل",
-    "HeaderHouseInfo": "معلومات المنزل",
+	"GUIChangePasswordWindowTitle": "تغيير كلمة المرور",
+	"GUIChangePasswordPasswordLabel": "أدخل كلمة مرور جديدة",
+	"GUIChangePasswordPasswordPlaceholder": "كلمة المرور",
+	"GUIChangePasswordConfirmPasswordPlaceholder": "تأكيد كلمة المرور",
+	"GUIChangePasswordSubmitButton": "تغيير كلمة المرور",
+	"GUIResetPasswordWindowMessage": "إعادة تعيين كلمة المرور",
+	"GUIResetPasswordConfirmEmailLabel": "برجاء تأكيد بريدك الالكترونى",
+	"GUIResetPasswordEmailPlaceholder": "ايميل",
+	"GUIResetPasswordSubmitButton": "إعادة تعيين كلمة المرور",
+	"GUIResetPasswordLoginButton": "تسجيل",
+	"GUIResetPasswordRememberMessage": "حفظ كلمة المرور الخاصة بك؟",
+	"HeaderJobList": "وظائف",
+	"HeaderBusinessInfo": "معلومات العمل",
+	"HeaderHouseInfo": "معلومات المنزل",
 	"Locales": {
 		"English": "انجلزي",
 		"Russian": "روسي",
@@ -519,126 +514,126 @@
 		"Dutch": "الهولندية",
 		"Polish": "البولندية",
 		"Chinese": "الصينية",
-        "French": "French",
-        "Japanese": "Japanese",
-        "Slovak": "Slovak",
-        "Arabic": "Arabic"
+		"French": "French",
+		"Japanese": "Japanese",
+		"Slovak": "Slovak",
+		"Arabic": "Arabic"
 	},
-    "TwoFactorAuthSet": "⚙️لقد قمت بتشغيل المصادقة الثنائية {1}",
-    "AccountServerLogoSet": "⚙️ شعار الخادم",
-    "ChatScrollLinesNotNumber": "يجب أن يكون مبلغ البند رقمًا",
-    "ChatScrollLinesMustBeBetween": "يجب أن يكون مبلغ البند بين {1} و {2}",
-    "ChatScrollLinesSet": "سيقوم مربع الدردشة الآن بتمرير {1} سطورًا في المرة الواحدة",
-    "InvalidEmailVerificationCode": "رمز التحقق من البريد الإلكتروني غير صالح! تم إنشاء واحد جديد وإرساله إلى بريدك الإلكتروني.",
-    "EmailVerified": "تم التحقق من بريدك الالكتروني",
-    "EmailVerifiedTip": "يمكنك الآن استخدام بريدك الإلكتروني لإعادة تعيين كلمة المرور والمصادقة ذات العاملين وتنبيهات تسجيل الدخول",
-    "CommandRequiresLogin": "يجب أن تقوم بتسجيل الدخول لاستخدام الأمر {1}",
-    "CommandDisabled": "تم تعطيل الأمر {1}",
-    "CommandDisabledOnDiscord": "الأمر {1} غير متاح في الدسكورد",
-    "CommandNotFoundHelpTip": "الأمر {1} غير موجود! استخدم {2} للأوامر والمعلومات.",
-    "CommandNotFoundPossibleMatchTip": "الأمر {1} غير موجود! هل تقصد {2}؟",
-    "CommandNoPermissions": "ليس لديك إذن لاستخدام الأمر {1}",
-    "GUIResetPasswordCodeInputLabel": "تحقق من بريدك الإلكتروني للحصول على رمز",
-    "GUIResetPasswordCodePlaceholder": "رمز التحقق",
-    "GUIErrorTitle": "خطأ",
-    "GUIWarningTitle": "تحذير",
-    "GUIInfoTitle": "معلومات",
-    "GUIOkButton": "موافق",
-    "GUIErrorResetPasswordFailedInvalidEmail": "بريد إلكتروني خاطئ!",
-    "HeaderVehicleInfo": "معلومات السيارة",
-    "HeaderClanRanksList": "رتبة الكلان",
-    "HeaderNPCInfo": "معلومات الشخصية",
-    "NPCAnimationSet": "تم تحديد الشخصية {1} على {2}",
-    "NPCNameSet": "قمت بتعيين اسم الشخصية {1} على {2}",
-    "VehicleTooFar": "أنت بعيد جدًا عن السيارة!",
-    "HeaderPropertyTemplateTypes": "أنواع العقارات",
-    "MustBeLoggedInAndSpawnedToChat": "تحتاج إلى تسجيل الدخول ونشرها قبل أن تتمكن من الدردشة!",
-    "MutedCantChat": "تم إعطاءك ميوت ولا يمكنك الدردشة!",
-    "CantUseMegaphone": "يجب عليك تجهيز عنصر مكبر الصوت أو أن تكون في سيارة طوارئ!",
-    "HeaderAnimationHelp": "معلومات الرسوم المتحركة",
-    "HeaderBadgeInfo": "معلومات الشارة ({1})",
-    "NoItemCloseEnough": "لا يوجد عنصر قريب بما فيه الكفاية",
-    "CantDropJobEquipmentItem": "لا يمكنك إسقاط عناصر العمل",
-    "CantPutJobEquipmentItem": "لا يمكنك تخزين عناصر العمل",
-    "NoItemEquipped": "ليس لديك أي عنصر محدد",
-    "NoItemInActiveSlot": "ليس لديك عنصر في خانة العنصر النشط",
-    "CantPutItemInSkinChange": "لايمكنك تخزين عنصرأثناء تخصيص مظهرك",
-    "NothingToTakeItemFrom": "أنت لست بالقرب من أي شيء لأخذ العناصر منه",
-    "NoAmmoToLoadIntoWeapon": "ليس لديك أي ذخيرة لتحميلها في {1}",
-    "LoadAmmoIntoWeaponHelpCommand": "لتحميل هذه الذخيرة في سلاح ، جهز السلاح واكتب {1}",
-    "LoadAmmoIntoWeaponHelpKeyPress": "لتحميل هذه الذخيرة في سلاح ، جهز السلاح واضغط {1}",
-    "NobodyCloseEnoughToHandcuff": "لا أحد قريب بما يكفي لتقييد يديه",
-    "NobodyCloseEnoughToTie": "لا أحد قريب بما يكفي لربطه",
-    "HeaderCharactersListSelf": "شخصياتك",
-    "HeaderCharactersListOther": "شخصيات {1}",
-    "CharacterSelectHelpText": "استخدم {1} لتحديد حرف ، أو {2} لإنشاء شخصية جديدة",
-    "ItemDoesntDoAnythingOnUse": "لا يفعل {1} أي شيء عند محاولة استخدامه.",
-    "ItemRadioStationTip": "استخدم {1} لتعيين محطة الراديو",
-    "VehicleLockedCommandTip": "🔒 تم قفل {1} هذا. استخدم {2} لفتحه",
-    "VehicleLockedKeyPressTip": "🔒 تم قفل {1} هذا. اضغط على {2} لفتحه",
-    "VehicleLockedCantUnlock": "🔒 تم قفل هذا {1} وليس لديك المفاتيح لفتحه",
-    "CurrentlyRentingThisVehicle": "أنت تستأجر {1} مقابل {2} في الدقيقة. استخدم {3} إذا كنت تريد التوقف عن تأجيره.",
-    "VehicleBelongsTo": "هذا {1} ينتمي إلى {2} ({3})",
-    "NotOwned": "لا يملكه",
-    "NotCloseEnoughToItemContainer": "أنت لست قريبًا بدرجة كافية من أي شيء يحتوي على عناصر",
-    "Job": "وظيفة",
-    "Player": "لاعب",
-    "BusinessIsNowPaintBall": "هذا العمل هو الآن ساحة كرات الطلاء",
-    "JoinedPaintBall": "لقد انضممت إلى لعبة كرات الطلاء.",
-    "ItemsStoredForPaintBall": "يتم تخزين العناصر الخاصة بك في الخزانة الخاصة بك وسيتم إرجاعها عندما تغادر لعبة كرات الطلاء",
-    "LeftPaintBall": "لقد غادرت لعبة كرات الطلاء. تم إرجاع العناصر الخاصة بك.",
-    "PaintBallEnded": "انتهت مباراة كرة الطلاء. تم إرجاع العناصر الخاصة بك.",
-    "HeaderEventWinners": "الفائزون",
-    "YourPaintBallResults": "لقد تلقيت {1} عمليات قتل و {2} حالة وفاة في مباراة كرات الطلاء",
-    "NoPrivateMessageToReply": "لم تتلق رسالة خاصة للرد عليها",
-    "PrivateMessageReplyCommandTip": "استخدم {1} للرد بسرعة على الرسالة الخاصة",
-    "WeaponDoesNotUseAmmo": "لا يستخدم {1} الذخيرة",
-    "ChatBoxTimestampsToggle": "لقد أدرت عرض الوقت {1} في مربع الدردشة",
-    "ProfanityFilterSet": "لقد قمت بإدخال عامل تصفية الألفاظ النابية في الدردشة {1}",
-    "ResetAllKeyBindsConfirm": "هل أنت متأكد من أنك تريد إعادة تعيين كافة روابط المفاتيح الخاصة بك إلى الوضع الافتراضي؟",
-    "NotRentingAVehicle": "أنت لا تستأجر سيارة!",
-    "StoppedRentingVehicle": "لقد توقفت عن استئجار {1}",
-    "VehicleEngineStartKeyPressTip": "محرك {1} متوقف. اضغط على {2} لبدء تشغيله.",
-    "VehicleEngineStartCommandTip": "محرك {1} متوقف. استخدم {2} لبدء تشغيله.",
-    "StartedRentingVehicle": "أنت الآن تستأجر {1} مقابل {2} في الدقيقة. للتوقف عن الاستئجار ، استخدم {3}",
-    "VehicleAlreadyRentedByOther": "هذه السيارة مستأجرة بالفعل من قبل شخص آخر",
-    "VehicleAlreadyRentedBySelf": "أنت تستأجر هذه السيارة بالفعل",
-    "JobRankTooLow": "أنت لست رتبة عالية بما يكفي!",
-    "InvalidKeyName": "معرف المفتاح أو الاسم الذي أدخلته غير صالح!",
-    "KeyBindsReset": "تمت إعادة تعيين جميع روابط المفاتيح إلى الوضع الافتراضي",
-    "KeyBindNameTip": "أستخدم أسماء مفاتيح أو أحرف أو ارقام.لاتضف مسافات",
-    "UniversalInlineExamplesList": "أمثلة: {1}",
-    "KeyBindRemoved": "لقد قمت بإزالة رابط المفتاح للمفتاح {1}",
-    "KeyBindAdded": "لقد ربطت المفتاح {1} بـ {2}",
-    "CopyAllKeyBindsToServerConfirm": "هل تريد بالتأكيد نسخ جميع روابط المفاتيح إلى خادم {1}؟",
-    "CopiedAllKeyBindsToServer": "تم نسخ جميع روابط المفاتيح الخاصة بك إلى خادم {1}",
-    "MustBeSpawned": "يجب أن تولد!",
-    "ChatEmojiSet": "لقد قمت بتشغيل الرموز التعبيرية تلقائيًا في الدردشة {1}",
-    "FishingLineNotCast": "خط الصيد الخاص بك لا يلقي!",
-    "NeedFishingRod": "عليك أن تمسك صنارة الصيد!",
-    "FishingCastCommandHelp": "استخدم {1} لرمي خط الصيد الخاص بك",
-    "FishingCastKeyBindHelp": "اضغط على {1} لإلقاء خط الصيد الخاص بك",
-    "Paused": "متوقف مؤقتًا",
-    "PaintBallAlmostWin": "{1} يحتاج فقط إلى {2} عمليات قتل أخرى للفوز بمباراة كرة الطلاء!",
-    "HeaderClanFlagsList": "أعلام القبيلة ({1})",
-    "PleaseWait": "برجاء الإنتظار ...",
-    "HeaderServerRulesList": "قوانين سيرفر",
-    "FrequencyChannelChanged": "قمت بتعيين قناة {1} في الفتحة {2} على {3}",
-    "ItemTurnedOnOff": "لقد أدرت {1} {2} في الفتحة {3}",
-    "SkinSelectHelpTextSkin": "اضغط على {1} أو {2} لتبديل السطح ، أو {3} للحفظ ، أو {4} للإلغاء",
-    "SkinSelectHelpTextBodyPart": "اضغط على {1} أو {2} لتبديل جزء من الجسم",
-    "SkinSelectBodyPartNames": {
-        "Head": "رأس",
-        "UpperBody": "الجزء العلوي من الجسم",
-        "LowerBody": "الجسم السفلي",
-        "Hair": "شعر",
-        "Hat": "قبعة",
-        "Glasses": "نظارات",
-        "LeftHand": "اليد اليسرى",
-        "RightHand": "اليد اليمنى",
-        "LeftWrist": "معصم اليد اليسرى",
-        "RightWrist": "معصم اليد اليمنى"
-    },
+	"TwoFactorAuthSet": "⚙️لقد قمت بتشغيل المصادقة الثنائية {1}",
+	"AccountServerLogoSet": "⚙️ شعار الخادم",
+	"ChatScrollLinesNotNumber": "يجب أن يكون مبلغ البند رقمًا",
+	"ChatScrollLinesMustBeBetween": "يجب أن يكون مبلغ البند بين {1} و {2}",
+	"ChatScrollLinesSet": "سيقوم مربع الدردشة الآن بتمرير {1} سطورًا في المرة الواحدة",
+	"InvalidEmailVerificationCode": "رمز التحقق من البريد الإلكتروني غير صالح! تم إنشاء واحد جديد وإرساله إلى بريدك الإلكتروني.",
+	"EmailVerified": "تم التحقق من بريدك الالكتروني",
+	"EmailVerifiedTip": "يمكنك الآن استخدام بريدك الإلكتروني لإعادة تعيين كلمة المرور والمصادقة ذات العاملين وتنبيهات تسجيل الدخول",
+	"CommandRequiresLogin": "يجب أن تقوم بتسجيل الدخول لاستخدام الأمر {1}",
+	"CommandDisabled": "تم تعطيل الأمر {1}",
+	"CommandDisabledOnDiscord": "الأمر {1} غير متاح في الدسكورد",
+	"CommandNotFoundHelpTip": "الأمر {1} غير موجود! استخدم {2} للأوامر والمعلومات.",
+	"CommandNotFoundPossibleMatchTip": "الأمر {1} غير موجود! هل تقصد {2}؟",
+	"CommandNoPermissions": "ليس لديك إذن لاستخدام الأمر {1}",
+	"GUIResetPasswordCodeInputLabel": "تحقق من بريدك الإلكتروني للحصول على رمز",
+	"GUIResetPasswordCodePlaceholder": "رمز التحقق",
+	"GUIErrorTitle": "خطأ",
+	"GUIWarningTitle": "تحذير",
+	"GUIInfoTitle": "معلومات",
+	"GUIOkButton": "موافق",
+	"GUIErrorResetPasswordFailedInvalidEmail": "بريد إلكتروني خاطئ!",
+	"HeaderVehicleInfo": "معلومات السيارة",
+	"HeaderClanRanksList": "رتبة الكلان",
+	"HeaderNPCInfo": "معلومات الشخصية",
+	"NPCAnimationSet": "تم تحديد الشخصية {1} على {2}",
+	"NPCNameSet": "قمت بتعيين اسم الشخصية {1} على {2}",
+	"VehicleTooFar": "أنت بعيد جدًا عن السيارة!",
+	"HeaderPropertyTemplateTypes": "أنواع العقارات",
+	"MustBeLoggedInAndSpawnedToChat": "تحتاج إلى تسجيل الدخول ونشرها قبل أن تتمكن من الدردشة!",
+	"MutedCantChat": "تم إعطاءك ميوت ولا يمكنك الدردشة!",
+	"CantUseMegaphone": "يجب عليك تجهيز عنصر مكبر الصوت أو أن تكون في سيارة طوارئ!",
+	"HeaderAnimationHelp": "معلومات الرسوم المتحركة",
+	"HeaderBadgeInfo": "معلومات الشارة ({1})",
+	"NoItemCloseEnough": "لا يوجد عنصر قريب بما فيه الكفاية",
+	"CantDropJobEquipmentItem": "لا يمكنك إسقاط عناصر العمل",
+	"CantPutJobEquipmentItem": "لا يمكنك تخزين عناصر العمل",
+	"NoItemEquipped": "ليس لديك أي عنصر محدد",
+	"NoItemInActiveSlot": "ليس لديك عنصر في خانة العنصر النشط",
+	"CantPutItemInSkinChange": "لايمكنك تخزين عنصرأثناء تخصيص مظهرك",
+	"NothingToTakeItemFrom": "أنت لست بالقرب من أي شيء لأخذ العناصر منه",
+	"NoAmmoToLoadIntoWeapon": "ليس لديك أي ذخيرة لتحميلها في {1}",
+	"LoadAmmoIntoWeaponHelpCommand": "لتحميل هذه الذخيرة في سلاح ، جهز السلاح واكتب {1}",
+	"LoadAmmoIntoWeaponHelpKeyPress": "لتحميل هذه الذخيرة في سلاح ، جهز السلاح واضغط {1}",
+	"NobodyCloseEnoughToHandcuff": "لا أحد قريب بما يكفي لتقييد يديه",
+	"NobodyCloseEnoughToTie": "لا أحد قريب بما يكفي لربطه",
+	"HeaderCharactersListSelf": "شخصياتك",
+	"HeaderCharactersListOther": "شخصيات {1}",
+	"CharacterSelectHelpText": "استخدم {1} لتحديد حرف ، أو {2} لإنشاء شخصية جديدة",
+	"ItemDoesntDoAnythingOnUse": "لا يفعل {1} أي شيء عند محاولة استخدامه.",
+	"ItemRadioStationTip": "استخدم {1} لتعيين محطة الراديو",
+	"VehicleLockedCommandTip": "🔒 تم قفل {1} هذا. استخدم {2} لفتحه",
+	"VehicleLockedKeyPressTip": "🔒 تم قفل {1} هذا. اضغط على {2} لفتحه",
+	"VehicleLockedCantUnlock": "🔒 تم قفل هذا {1} وليس لديك المفاتيح لفتحه",
+	"CurrentlyRentingThisVehicle": "أنت تستأجر {1} مقابل {2} في الدقيقة. استخدم {3} إذا كنت تريد التوقف عن تأجيره.",
+	"VehicleBelongsTo": "هذا {1} ينتمي إلى {2} ({3})",
+	"NotOwned": "لا يملكه",
+	"NotCloseEnoughToItemContainer": "أنت لست قريبًا بدرجة كافية من أي شيء يحتوي على عناصر",
+	"Job": "وظيفة",
+	"Player": "لاعب",
+	"BusinessIsNowPaintBall": "هذا العمل هو الآن ساحة كرات الطلاء",
+	"JoinedPaintBall": "لقد انضممت إلى لعبة كرات الطلاء.",
+	"ItemsStoredForPaintBall": "يتم تخزين العناصر الخاصة بك في الخزانة الخاصة بك وسيتم إرجاعها عندما تغادر لعبة كرات الطلاء",
+	"LeftPaintBall": "لقد غادرت لعبة كرات الطلاء. تم إرجاع العناصر الخاصة بك.",
+	"PaintBallEnded": "انتهت مباراة كرة الطلاء. تم إرجاع العناصر الخاصة بك.",
+	"HeaderEventWinners": "الفائزون",
+	"YourPaintBallResults": "لقد تلقيت {1} عمليات قتل و {2} حالة وفاة في مباراة كرات الطلاء",
+	"NoPrivateMessageToReply": "لم تتلق رسالة خاصة للرد عليها",
+	"PrivateMessageReplyCommandTip": "استخدم {1} للرد بسرعة على الرسالة الخاصة",
+	"WeaponDoesNotUseAmmo": "لا يستخدم {1} الذخيرة",
+	"ChatBoxTimestampsToggle": "لقد أدرت عرض الوقت {1} في مربع الدردشة",
+	"ProfanityFilterSet": "لقد قمت بإدخال عامل تصفية الألفاظ النابية في الدردشة {1}",
+	"ResetAllKeyBindsConfirm": "هل أنت متأكد من أنك تريد إعادة تعيين كافة روابط المفاتيح الخاصة بك إلى الوضع الافتراضي؟",
+	"NotRentingAVehicle": "أنت لا تستأجر سيارة!",
+	"StoppedRentingVehicle": "لقد توقفت عن استئجار {1}",
+	"VehicleEngineStartKeyPressTip": "محرك {1} متوقف. اضغط على {2} لبدء تشغيله.",
+	"VehicleEngineStartCommandTip": "محرك {1} متوقف. استخدم {2} لبدء تشغيله.",
+	"StartedRentingVehicle": "أنت الآن تستأجر {1} مقابل {2} في الدقيقة. للتوقف عن الاستئجار ، استخدم {3}",
+	"VehicleAlreadyRentedByOther": "هذه السيارة مستأجرة بالفعل من قبل شخص آخر",
+	"VehicleAlreadyRentedBySelf": "أنت تستأجر هذه السيارة بالفعل",
+	"JobRankTooLow": "أنت لست رتبة عالية بما يكفي!",
+	"InvalidKeyName": "معرف المفتاح أو الاسم الذي أدخلته غير صالح!",
+	"KeyBindsReset": "تمت إعادة تعيين جميع روابط المفاتيح إلى الوضع الافتراضي",
+	"KeyBindNameTip": "أستخدم أسماء مفاتيح أو أحرف أو ارقام.لاتضف مسافات",
+	"UniversalInlineExamplesList": "أمثلة: {1}",
+	"KeyBindRemoved": "لقد قمت بإزالة رابط المفتاح للمفتاح {1}",
+	"KeyBindAdded": "لقد ربطت المفتاح {1} بـ {2}",
+	"CopyAllKeyBindsToServerConfirm": "هل تريد بالتأكيد نسخ جميع روابط المفاتيح إلى خادم {1}؟",
+	"CopiedAllKeyBindsToServer": "تم نسخ جميع روابط المفاتيح الخاصة بك إلى خادم {1}",
+	"MustBeSpawned": "يجب أن تولد!",
+	"ChatEmojiSet": "لقد قمت بتشغيل الرموز التعبيرية تلقائيًا في الدردشة {1}",
+	"FishingLineNotCast": "خط الصيد الخاص بك لا يلقي!",
+	"NeedFishingRod": "عليك أن تمسك صنارة الصيد!",
+	"FishingCastCommandHelp": "استخدم {1} لرمي خط الصيد الخاص بك",
+	"FishingCastKeyBindHelp": "اضغط على {1} لإلقاء خط الصيد الخاص بك",
+	"Paused": "متوقف مؤقتًا",
+	"PaintBallAlmostWin": "{1} يحتاج فقط إلى {2} عمليات قتل أخرى للفوز بمباراة كرة الطلاء!",
+	"HeaderClanFlagsList": "أعلام القبيلة ({1})",
+	"PleaseWait": "برجاء الإنتظار ...",
+	"HeaderServerRulesList": "قوانين سيرفر",
+	"FrequencyChannelChanged": "قمت بتعيين قناة {1} في الفتحة {2} على {3}",
+	"ItemTurnedOnOff": "لقد أدرت {1} {2} في الفتحة {3}",
+	"SkinSelectHelpTextSkin": "اضغط على {1} أو {2} لتبديل السطح ، أو {3} للحفظ ، أو {4} للإلغاء",
+	"SkinSelectHelpTextBodyPart": "اضغط على {1} أو {2} لتبديل جزء من الجسم",
+	"SkinSelectBodyPartNames": {
+		"Head": "رأس",
+		"UpperBody": "الجزء العلوي من الجسم",
+		"LowerBody": "الجسم السفلي",
+		"Hair": "شعر",
+		"Hat": "قبعة",
+		"Glasses": "نظارات",
+		"LeftHand": "اليد اليسرى",
+		"RightHand": "اليد اليمنى",
+		"LeftWrist": "معصم اليد اليسرى",
+		"RightWrist": "معصم اليد اليمنى"
+	},
 	"DisconnectReasons": {
 		"Unknown": "غير معروف",
 		"LostConnection": "انقطع الإتصال",
@@ -684,10 +679,8 @@
 	"NotOrderingAnyBusinessItems": "You aren't ordering anything for a business!",
 	"DidNotCreateCharacter": "You do not have a character to play. Goodbye!",
 	"BusinessOrderNotEnoughMoney": "This business doesn't have enough money to order that! Deposit some using {1}",
-
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"SaveSettings": "Save Settings",
 	"Cancel": "Cancel",
 	"AlreadyOwnVehicle": "You already own this vehicle!",
@@ -765,10 +758,8 @@
 	"MustBeSurrendered": "The player needs to be surrendered (have their hands up, knocked out, or tazed)",
 	"GUINewCharacterRandomNameButton": "Random Name",
 	"AccentsHelpTip": "Use {1} to see a list of available accents",
-
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
 	"PayPhoneIncomingCall": "Somebody is calling you. Go to the payphone at {1} {2} {3} and use {4} to answer it.",
-
 	"TimeMeasurements": {
 		"Seconds": "{1} seconds",
 		"Minutes": "{1} minutes",
@@ -846,7 +837,7 @@
 	"HouseOwnershipTransferSent": "You offered to give house {1} to {2}",
 	"LeftClan": "You left the {1} clan",
 	"ComingSoon": "Coming soon!",
-	"HeaderClanMemberList":	"Clan Members ({1})",
+	"HeaderClanMemberList": "Clan Members ({1})",
 	"SetVehicleBusinessConfirmMessage": "Are you sure you want to give this vehicle to {1}?",
 	"InvalidNPC": "NPC not found!",
 	"ClanUnInviteTooLow": "You can't uninvite members with a rank higher than yours!",
@@ -894,10 +885,8 @@
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
 	"BusinessVehicleOrderSuccessInfo": "You ordered a {1} vehicle for {2}!",
-
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"NoFireCloseEnough": "You are not close enough to a fire!",
 	"NumberMustBeBetween": "The number must be between {1} and {2}!",
 	"HeaderScenarioInfo": "Scenario Information ({1})",
@@ -1008,5 +997,7 @@
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
 	"VehicleCannotBeExported": "This vehicle can't be exported!",
-	"AlreadyWorking": "You are already working!"
+	"AlreadyWorking": "You are already working!",
+	"PayDayInfoHeader": "Next Paycheck Information",
+	"PayDaySimulationCooldown": "Please wait {1} before checking your next paycheck again"
 }
