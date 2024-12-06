@@ -282,7 +282,6 @@
 	"VehiclePurchaseNotEnoughMoney": "Nie masz wystarczająco dużo funduszy aby kupić to auto!",
 	"HousePurchaseNotEnoughMoney": "Nie masz wystarczająco dużo funduszy aby kupić to mieszkanie!",
 	"BusinessPurchaseNotEnoughMoney": "Nie masz wystarczająco dużo funduszy aby kupić ten biznes!",
-
 	"ADDED-21JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"HeaderPlayerHousesList": "Mieszkania Gracza ({1})",
 	"HeaderPlayerStaffFlagsList": "Flagi Administracji ({1})",
@@ -312,7 +311,6 @@
 	"HeaderBusinessList": "Biznesy",
 	"VehicleForSale": "Ten {1} jest do kupienia za {2}! Użyj {3} jeżeli chcesz go kupić",
 	"VehicleForRent": "Ten {1} jest do wynajęcia za {2}! Użyj {3} jeżeli chcesz go wynająć",
-
 	"ADDED-31JAN2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"LoginFailedInvalidPassword": "Nieprawidłowe hasło! Pozostało {1} prób",
 	"LoginFailedNoPassword": "Musisz podać hasło! ! Pozostało {1} prób",
@@ -334,7 +332,6 @@
 	"NeedEmailVerifiedFor2FA": "Musisz zweryfikować swój adres email, aby używać weryfikacji dwuetapowej",
 	"SetEmailHelpTip": "Użyj {1} aby ustawić swój adres email.",
 	"VerifyEmailHelpTip": "Użyj {1} aby zweryfikować swój adres email.",
-
 	"ADDED-13FEB2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations.",
 	"NearbyRadio": "Pobliskie radio",
 	"FromRadio": "Z radia",
@@ -354,7 +351,6 @@
 	"InvalidSkin": "Ta skórka jest nieprawidłowa!",
 	"HeaderInteriorTypes": "Wnętrza",
 	"GUIAccountSettingToggle": "Przełączyłeś {1} GUI",
-
 	"ADDED-23MAR2022": "DO NOT TRANSLATE. This string is just a comment to separate newly added translations",
 	"CarCommandHelp": "Możesz kupić pojazd poprzez odwiedzenie salonu samochodowego. Użyj {1} aby uzyskać więcej informacji.",
 	"SkinCommandHelp": "Możesz zmienić swój wygląd poprzez odwiedzenie sklepu odzieżowego. Użyj {1} aby uzyskać więcej informacji.",
@@ -677,10 +673,8 @@
 	"NotOrderingAnyBusinessItems": "Nie zamawiasz nic dla bizensu!",
 	"DidNotCreateCharacter": "Nie masz żadnej postaci za grania. Do zobaczenia!",
 	"BusinessOrderNotEnoughMoney": "Ten biznes nie ma wystarczają dużo pieniędzy żeby to zamówić! Wypłac trochę używając {1}",
-
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessOrderSuccessInfo": "Zamówiłeś {1} {2} za {4}!",
-
 	"SaveSettings": "Zapisz ustawienia",
 	"Cancel": "Anuluj",
 	"AlreadyOwnVehicle": "Już posiadasz ten pojazd!",
@@ -707,7 +701,7 @@
 	"HeaderHousesInRangeList": "Domy (w promieniu {1} metrów)",
 	"HeaderPayPhonesInRangeList": "Budki telefoniczne (w promieniu {1} metrów)",
 	"HeaderCommandsForStaffFlagList": "Komendy administratora ({1})",
-	"PlayerLocateDistanceAndDirection": "{1} jest {2} metrów {3}",
+	"PlayerLocateDistanceAndDirection": "{1} is at {4}, {2} meters {3}",
 	"MustBeNumber": "Musisz użyć numeru!",
 	"HeaderJobRoutesList": "Trasy zakładu pracy ({1})",
 	"HeaderJobRouteInfo": "Informacje o trasie zakładu pracy ({1})",
@@ -758,10 +752,8 @@
 	"MustBeSurrendered": "Ten gracz musi zostać poddany (ręce do góry, nieprzytomny, bądz sparaliżowany)",
 	"GUINewCharacterRandomNameButton": "Losowa Nazwa",
 	"AccentsHelpTip": "Użyj {1} aby zobaczyć pełną listę akcentów",
-
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
 	"PayPhoneIncomingCall": "Ktoś do ciebie dzwoni. Idź do budki telefonicznej {1} {2} {3} i użyj {4} aby odebrać połączenie.",
-
 	"TimeMeasurements": {
 		"Seconds": "{1} sekund",
 		"Minutes": "{1} minut",
@@ -839,7 +831,7 @@
 	"HouseOwnershipTransferSent": "Zaoferowałeś oddać mieszkanie {1} do {2}",
 	"LeftClan": "Opuściłeś klan {1}",
 	"ComingSoon": "Coming Soon!",
-	"HeaderClanMemberList":	"Członkowie Klanu ({1})",
+	"HeaderClanMemberList": "Członkowie Klanu ({1})",
 	"SetVehicleBusinessConfirmMessage": "Czy napewno chcesz oddać ten pojazd do {1}?",
 	"InvalidNPC": "Nie znaleziono NPC!",
 	"ClanUnInviteTooLow": "Nie możesz wycofać zaproszenia od członków z rangą wyższą niż twoja!",
@@ -887,10 +879,8 @@
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
 	"BusinessVehicleOrderSuccessInfo": "You ordered a {1} vehicle for {2}!",
-
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "You ordered {1} {2} for {4}!",
-
 	"NoFireCloseEnough": "You are not close enough to a fire!",
 	"NumberMustBeBetween": "The number must be between {1} and {2}!",
 	"HeaderScenarioInfo": "Scenario Information ({1})",
@@ -1001,5 +991,8 @@
 	"CannotSellToSelf": "You can't sell to yourself!",
 	"AlreadyRentingVehicle": "You are already renting a vehicle!",
 	"VehicleCannotBeExported": "This vehicle can't be exported!",
-	"AlreadyWorking": "You are already working!"
+	"AlreadyWorking": "You are already working!",
+	"LotteryNoWinners": "The winning lottery number is {1}! No one won this time. The new prize is {2}",
+	"LotteryWithWinners": "The winning lottery number is {1}! {3} won the prize of {2}",
+	"YourLotteryNumber": "Your lottery number is: {1}"
 }
