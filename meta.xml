@@ -9,7 +9,7 @@
 	<script src="config/client.json" type="client" language="javascript" />
 
 	<!-- Locale Files -->
-	<file type="client" src="config/client/locale.json" />
+	<file type="client" src="config/client.json" />
 	<file type="client" src="text/english.json" />
 	<file type="client" src="text/russian.json" />
 	<file type="client" src="text/polish.json" />
