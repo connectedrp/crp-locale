@@ -1015,8 +1015,11 @@
 		"NoCustomHUD": "No custom HUD",
 		"AutoChatAnimations": "Automatically use animation when talking",
 		"NoItemMessages": "No automatic /me messages when using, dropping, or any other action with an item",
+		"HideMyOwnAME": "Don't show your own /ame messages above your character's head",
+		"HideMiniMap": "Hide minimap",
 		"NoAutoAFK": "Don't set AFK status automatically when ALT+TAB",
 		"ChatBoxAME": "Show /ame messages in chatbox instead of above character's heads",
 		"NoConnectMessages": "Don't show connection messages in chat"
-	}
+	},
+	"HeaderJobRanksList": "Job Ranks ({1})"
 }

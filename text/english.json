@@ -1022,5 +1022,6 @@
 		"NoAutoAFK": "Don't set AFK status automatically when ALT+TAB",
 		"ChatBoxAME": "Show /ame messages in chatbox instead of above character's heads",
 		"NoConnectMessages": "Don't show connection messages in chat"
-	}
+	},
+	"HeaderJobRanksList": "Job Ranks ({1})"
 }
