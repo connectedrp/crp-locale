@@ -265,7 +265,6 @@
 	"MustBeInAVehicle": "你先得坐在一辆车上！",
 	"MustBeInOrNearVehicle": "必须要有辆车在你旁边，或者你坐上那辆车！",
 	"MustBeInVehicleFrontSeat": "你必须坐在车辆前排座椅上！",
-	"MustBeInVehicleDriverSeat": "你必须是车辆主驾驶！",
 	"DontHaveVehicleKey": "你并没有这车的钥匙！",
 	"NoGateAccess": "你无法进入这个大门。",
 	"GateBroken": "这门已是破烂不堪。",
@@ -1013,5 +1012,7 @@
 		"ChatBoxAME": "Show /ame messages in chatbox instead of above character's heads",
 		"NoConnectMessages": "Don't show connection messages in chat"
 	},
-	"HeaderJobRanksList": "Job Ranks ({1})"
+	"HeaderJobRanksList": "Job Ranks ({1})",
+	"ClanChatDisabled": "The OOC clan chat is disabled!",
+	"PlayerAFK": "That player is AFK"
 }

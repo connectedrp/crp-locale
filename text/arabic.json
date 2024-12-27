@@ -265,7 +265,6 @@
 	"MustBeInAVehicle": "يجب أن تكون في مركبة!",
 	"MustBeInOrNearVehicle": "أنت بحاجة إلى أن تكون في السيارة أو بالقرب منها!",
 	"MustBeInVehicleFrontSeat": "يجب أن تكون في المقاعد الأمامية للسيارة!",
-	"MustBeInVehicleDriverSeat": "يجب أن تكون السائق!",
 	"DontHaveVehicleKey": "ليس لديك مفتاح لهذه السيارة!",
 	"NoGateAccess": "لا يمكنك الوصول إلى هذه البوابة!",
 	"GateBroken": "هذه البوابة مكسورة!",
@@ -1017,5 +1016,7 @@
 		"ChatBoxAME": "Show /ame messages in chatbox instead of above character's heads",
 		"NoConnectMessages": "Don't show connection messages in chat"
 	},
-	"HeaderJobRanksList": "Job Ranks ({1})"
+	"HeaderJobRanksList": "Job Ranks ({1})",
+	"ClanChatDisabled": "The OOC clan chat is disabled!",
+	"PlayerAFK": "That player is AFK"
 }

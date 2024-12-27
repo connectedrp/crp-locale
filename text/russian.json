@@ -267,7 +267,6 @@
 	"MustBeInAVehicle": "Вы должны быть внутри транспорта!",
 	"MustBeInOrNearVehicle": "Вы должны быть возле транспорта!",
 	"MustBeInVehicleFrontSeat": "Вы можете сидеть только спереди!",
-	"MustBeInVehicleDriverSeat": "Вы можете быть только водителем!",
 	"DontHaveVehicleKey": "У вас нет ключей к этому транспорту!",
 	"NoGateAccess": "У вас нет доступа к воротам!",
 	"GateBroken": "Эти ворота сломаны!",
@@ -1028,5 +1027,7 @@
 		"ChatBoxAME": "Show /ame messages in chatbox instead of above character's heads",
 		"NoConnectMessages": "Don't show connection messages in chat"
 	},
-	"HeaderJobRanksList": "Job Ranks ({1})"
+	"HeaderJobRanksList": "Job Ranks ({1})",
+	"ClanChatDisabled": "The OOC clan chat is disabled!",
+	"PlayerAFK": "That player is AFK"
 }

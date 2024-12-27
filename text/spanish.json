@@ -270,7 +270,6 @@
 	"MustBeInAVehicle": "Necesitas estar en un vehículo",
 	"MustBeInOrNearVehicle": "Tienes que estar dentro o cerca de un vehículo",
 	"MustBeInVehicleFrontSeat": "Tienes que estar en los asientos delanteros del vehículo",
-	"MustBeInVehicleDriverSeat": "Tienes que ser el conductor",
 	"DontHaveVehicleKey": "No tiene una llave para este vehículo",
 	"NoGateAccess": "No tienes acceso a esta puerta",
 	"GateBroken": "Esta puerta está rota",
@@ -1017,5 +1016,7 @@
 		"ChatBoxAME": "Show /ame messages in chatbox instead of above character's heads",
 		"NoConnectMessages": "Don't show connection messages in chat"
 	},
-	"HeaderJobRanksList": "Job Ranks ({1})"
+	"HeaderJobRanksList": "Job Ranks ({1})",
+	"ClanChatDisabled": "The OOC clan chat is disabled!",
+	"PlayerAFK": "That player is AFK"
 }
