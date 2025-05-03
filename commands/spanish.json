@@ -1,134 +1,134 @@
 ﻿[
 	{
 		"Command": "Accent",
-		"TranslatedCommand": "Accent",
-		"Description": "Sets your character's accent",
-		"SyntaxString": "<accent name/id>"
+		"TranslatedCommand": "Acento",
+		"Description": "Establece el acento de tu personaje.",
+		"SyntaxString": "<acento name/id>"
 	},
 	{
 		"Command": "Accents",
-		"TranslatedCommand": "Accents",
-		"Description": "Shows a list of all available accents",
+		"TranslatedCommand": "Acentos",
+		"Description": "Lista de los acentos disponibles",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "AccentList",
-		"TranslatedCommand": "AccentList",
-		"Description": "Shows a list of all available accents",
+		"TranslatedCommand": "Listacentos",
+		"Description": "Lista de los acentos disponibles",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Login",
 		"TranslatedCommand": "Login",
-		"Description": "Login to an account",
-		"SyntaxString": "<password>"
+		"Description": "Inicia sesión en tu cuenta",
+		"SyntaxString": "<Contraseña>"
 	},
 	{
 		"Command": "Register",
 		"TranslatedCommand": "Register",
-		"Description": "Creates an account",
-		"SyntaxString": "<password>"
+		"Description": "Crear una cuenta",
+		"SyntaxString": "<Contraseña>"
 	},
 	{
 		"Command": "ChangePass",
-		"TranslatedCommand": "ChangePass",
-		"Description": "Change an account password",
-		"SyntaxString": "<old password> <new password>"
+		"TranslatedCommand": "Ccontraseña",
+		"Description": "Cambiar la contraseña de tu cuenta",
+		"SyntaxString": "<Contraseña actual> <Nueva Contraseña>"
 	},
 	{
 		"Command": "IPLogin",
 		"TranslatedCommand": "IPLogin",
-		"Description": "Toggle whether to automatically login if you join with the same IP as your last join",
+		"Description": "Activa o desactiva el inicio de sesión automático si te conectas con la misma IP de tu ultima conexión",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "GUI",
 		"TranslatedCommand": "GUI",
-		"Description": "Toggle whether to use GUI. If GUI is disabled on the server, it won't show even if you have GUI enabled.",
+		"Description": "Activa o desactiva el uso de la interfaz gráfica del usuario.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "2FA",
 		"TranslatedCommand": "2FA",
-		"Description": "Set up and use two-factor authentication.",
+		"Description": "Configurar y activar la autenticación de dos factores.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "SetEmail",
-		"TranslatedCommand": "SetEmail",
-		"Description": "Sets your email. To reset your password, you must have a valid email set and verified.",
-		"SyntaxString": "<email address>"
+		"TranslatedCommand": "Agregaremail",
+		"Description": "Agrega tu correo electrónico. Para poder recuperar tu contraseña en caso de perdida, debes tener un correo electrónico válido y verificado.",
+		"SyntaxString": "<dirección Email>"
 	},
 	{
 		"Command": "VerifyEmail",
-		"TranslatedCommand": "VerifyEmail",
-		"Description": "Confirms/verifies your email.",
-		"SyntaxString": "<verification code>"
+		"TranslatedCommand": "Verficaremail",
+		"Description": "Se te envio un codigo a tu correo electrónico para verificar tu correo.",
+		"SyntaxString": "<Codigo Verificación>"
 	},
 	{
 		"Command": "NoTips",
-		"TranslatedCommand": "NoTips",
-		"Description": "Turn on and off random tips",
+		"TranslatedCommand": "Consejos",
+		"Description": "Activar y desactivar las sugerencias aleatorias.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "LoginAlert",
 		"TranslatedCommand": "LoginAlert",
-		"Description": "Turn on and off email notifications for attempts to login to your account",
+		"Description": "Activar y desactivar las notificaciones por correo electrónico para los intentos de iniciar sesión en su cuenta.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ScrollLines",
 		"TranslatedCommand": "ScrollLines",
-		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
-		"SyntaxString": "<number of lines>"
+		"Description": "Establece cuántas líneas del cuadro de chat se deben desplazar a la vez cuando se usan las teclas Re Pág/Av Pág",
+		"SyntaxString": "<Numero de lineas>"
 	},
 	{
 		"Command": "ChatScrollLines",
 		"TranslatedCommand": "ChatScrollLines",
-		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
-		"SyntaxString": "<number of lines>"
+		"Description": "Establece cuántas líneas del cuadro de chat se deben desplazar a la vez cuando se usan las teclas Re Pág/Av Pág",
+		"SyntaxString": "<Numero de lineas>"
 	},
 	{
 		"Command": "ChatScroll",
-		"TranslatedCommand": "ChatScroll",
-		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"TranslatedCommand": "Chatlineas",
+		"Description": "Establece cuántas líneas del cuadro de chat se deben desplazar a la vez cuando se usan las teclas Re Pág/Av Pág",
 		"SyntaxString": "<number of lines>"
 	},
 	{
 		"Command": "ChatAutoHide",
 		"TranslatedCommand": "ChatAutoHide",
-		"Description": "Sets how long to wait to hide the chatbox after last use (in seconds)",
-		"SyntaxString": "<time in seconds>"
+		"Description": "Establece cuánto tiempo de espera para ocultar el cuadro de chat después del último uso (en segundos)",
+		"SyntaxString": "<tiempo en segundos>"
 	},
 	{
 		"Command": "ChatTimeStamp",
 		"TranslatedCommand": "ChatTimeStamp",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Activa o desactiva la hora del texto del chat.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ChatTimeStamps",
 		"TranslatedCommand": "ChatTimeStamps",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Activa o desactiva la hora del texto del chat.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ChatTime",
-		"TranslatedCommand": "ChatTime",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"TranslatedCommand": "chathora",
+		"Description": "Activa o desactiva la hora del texto del chat.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ChatTimes",
 		"TranslatedCommand": "ChatTimes",
-		"Description": "Turns on/off timestamps in the chatbox",
+		"Description": "Activa o desactiva las marcas de tiempo en el cuadro de chat.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ChatFilter",
 		"TranslatedCommand": "ChatFilter",
-		"Description": "Turns on/off profanity filter",
+		"Description": "Activa o desactiva el filtro de insultos",
 		"SyntaxString": ""
 	},
 	{
@@ -146,355 +146,355 @@
 	{
 		"Command": "ResetActionTips",
 		"TranslatedCommand": "ResetActionTips",
-		"Description": "Resets all your action tips (messages that show when needed",
+		"Description": "Reiniciar todos los consejos mostrados por el servidor",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "HUD",
 		"TranslatedCommand": "HUD",
-		"Description": "Toggles whether to use custom HUD or not",
+		"Description": "Activar/Desactivar el HUD del servidor",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Screenshot",
 		"TranslatedCommand": "Screenshot",
-		"Description": "Toggles screenshot mode on or off (hides HUD and chat)",
+		"Description": "Activar/desactivar el modo de captura de pantalla (oculta el HUD y el chat)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Settings",
-		"TranslatedCommand": "Settings",
-		"Description": "Shows account settings or toggles them on and off",
-		"SyntaxString": "[setting name]"
+		"TranslatedCommand": "Config",
+		"Description": "Muestra la configuración de la cuenta, para activar o desactivar",
+		"SyntaxString": "[Nombre configuración]"
 	},
 	{
 		"Command": "ResetKeyBinds",
-		"TranslatedCommand": "ResetKeyBinds",
-		"Description": "Resets all your keybinds to default",
+		"TranslatedCommand": "Reiniciarmacros",
+		"Description": "Restablece todas las combinaciones de teclas a los valores predeterminados",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "AddActivity",
 		"TranslatedCommand": "AddActivity",
-		"Description": "Creates a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Crea una actividad",
+		"SyntaxString": "<Nombre de actividad>"
 	},
 	{
 		"Command": "DelActivity",
 		"TranslatedCommand": "DelActivity",
-		"Description": "Deletes a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Eliminar Actividad",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityEnable",
 		"TranslatedCommand": "ActivityEnable",
-		"Description": "Enables a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Activar actividad",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityDisable",
 		"TranslatedCommand": "ActivityDisable",
-		"Description": "Disables a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Desactivar actividad",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityChance",
 		"TranslatedCommand": "ActivityChance",
-		"Description": "Sets the chance of a activity being enabled when randomization is on",
+		"Description": "Establece la probabilidad de que se habilite una actividad cuando la aleatorización está activada",
 		"SyntaxString": "<activity name> <0-100 percent>"
 	},
 	{
 		"Command": "ActivityRandom",
 		"TranslatedCommand": "ActivityRandom",
-		"Description": "Sets whether a activities can be randomly turned on or off",
-		"SyntaxString": "<activity name>"
+		"Description": "Establece si una actividad se puede activar o desactivar aleatoriamente",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityRandomall",
 		"TranslatedCommand": "ActivityRandomall",
-		"Description": "Sets whether all activities can be randomly turned on or off",
+		"Description": "Establece si todas las actividades se pueden activar o desactivar aleatoriamente",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ActivityInfo",
 		"TranslatedCommand": "ActivityInfo",
-		"Description": "Shows the information for a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Muestra la información de una actividad.",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityType",
 		"TranslatedCommand": "ActivityType",
-		"Description": "Shows the information for a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Muestra la información de tipo de actividad.",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityPlayerStart",
 		"TranslatedCommand": "ActivityPlayerStart",
-		"Description": "Shows the information for a activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Muestra la información de una actividad.",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityStartPos",
 		"TranslatedCommand": "ActivityStartPos",
-		"Description": "Sets the start position for the activity",
-		"SyntaxString": "<activity name>"
+		"Description": "Establece la posición del inicio de la actividad.",
+		"SyntaxString": "<Nombre actividad>"
 	},
 	{
 		"Command": "ActivityMaxPlayers",
 		"TranslatedCommand": "ActivityMaxPlayers",
-		"Description": "Sets how many players can join an activity",
-		"SyntaxString": "<activity name> <amount>"
+		"Description": "Establece cuántos jugadores pueden unirse a una actividad.",
+		"SyntaxString": "<Nombre actividad> <Cantidad>"
 	},
 	{
 		"Command": "Anim",
 		"TranslatedCommand": "Anim",
-		"Description": "Makes your player ped use an animation",
-		"SyntaxString": "<animation name>"
+		"Description": "usar una animación.",
+		"SyntaxString": "<Nombre animación>"
 	},
 	{
 		"Command": "An",
 		"TranslatedCommand": "An",
-		"Description": "Makes your player ped use an animation",
-		"SyntaxString": "<animation name>"
+		"Description": "usar una animación",
+		"SyntaxString": "<Nombre animación>"
 	},
 	{
 		"Command": "E",
 		"TranslatedCommand": "E",
-		"Description": "Makes your player ped use an animation",
+		"Description": "usar una animación",
 		"SyntaxString": "<animation name>"
 	},
 	{
 		"Command": "Anims",
 		"TranslatedCommand": "Anims",
-		"Description": "Shows a list of animations",
+		"Description": "Muestra la lista de animaciones",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "AnimList",
-		"TranslatedCommand": "AnimList",
-		"Description": "Shows a list of animations",
+		"TranslatedCommand": "Listanim",
+		"Description": "Muestra la lista de animaciones",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StopAnim",
-		"TranslatedCommand": "StopAnim",
-		"Description": "Stops your current animation",
+		"TranslatedCommand": "deteneranim",
+		"Description": "Detiene la animacion",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ABan",
 		"TranslatedCommand": "ABan",
-		"Description": "Bans a player's account.",
-		"SyntaxString": "<player name/id> <reason>"
+		"Description": "Banea la cuenta de un jugador.",
+		"SyntaxString": "<Jugador Nombre/id> <Motivo>"
 	},
 	{
 		"Command": "AcctBan",
 		"TranslatedCommand": "AcctBan",
-		"Description": "Bans a player's account.",
-		"SyntaxString": "<player name/id> <reason>"
+		"Description": "Banea la cuenta de un jugador.",
+		"SyntaxString": "<Jugador Nombre/id> <motivo>"
 	},
 	{
 		"Command": "CBan",
 		"TranslatedCommand": "CBan",
-		"Description": "Bans a player's character.",
-		"SyntaxString": "<player name/id> <reason>"
+		"Description": "Banea el personaje de un jugador.",
+		"SyntaxString": "<Jugador Nombre/id> <motivo>"
 	},
 	{
 		"Command": "CharBan",
 		"TranslatedCommand": "CharBan",
-		"Description": "Bans a player's character.",
-		"SyntaxString": "<player name/id> <reason>"
+		"Description": "Banea el personaje de un jugador.",
+		"SyntaxString": "<Jugador Nombre/id> <motivo>"
 	},
 	{
 		"Command": "SABan",
 		"TranslatedCommand": "SABan",
-		"Description": "Bans a player's character (subaccount).",
-		"SyntaxString": "<player name/id> <reason>"
+		"Description": "Banea el personaje de un jugador (subcuenta).",
+		"SyntaxString": "<Jugador nombre/id> <motivo>"
 	},
 	{
 		"Command": "IPBan",
 		"TranslatedCommand": "IPBan",
-		"Description": "Bans a player's IP.",
-		"SyntaxString": "<player name/id> <reason>"
+		"Description": "Banear IP de un jugador..",
+		"SyntaxString": "<Jugador Nombre/id> <motivo>"
 	},
 	{
 		"Command": "SubnetBan",
 		"TranslatedCommand": "SubnetBan",
-		"Description": "Bans a player's subnet.",
-		"SyntaxString": "<player name/id> <range> <reason>"
+		"Description": "Prohíbe la subred de un jugador",
+		"SyntaxString": "<Jugador Nombre/id> <rango> <motivo>"
 	},
 	{
 		"Command": "BankBalance",
-		"TranslatedCommand": "BankBalance",
-		"Description": "Shows how much money you have in your bank account",
+		"TranslatedCommand": "BancoSaldo",
+		"Description": "Muestra cuánto dinero tienes en tu cuenta bancaria",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BankWithdraw",
-		"TranslatedCommand": "BankWithdraw",
-		"Description": "Takes money from your bank account",
-		"SyntaxString": "<amount>"
+		"TranslatedCommand": "Sacardinero",
+		"Description": "Saca dinero de tu cuenta bancaria",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "BankDeposit",
-		"TranslatedCommand": "BankDeposit",
-		"Description": "Puts money into your bank account",
-		"SyntaxString": "<amount>"
+		"TranslatedCommand": "Depositardinero",
+		"Description": "Depositar dinero en tu cuenta bancaria",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "ClanBankBalance",
-		"TranslatedCommand": "ClanBankBalance",
-		"Description": "Shows how much money you have in your clan's bank account",
+		"TranslatedCommand": "ClanSaldo",
+		"Description": "Muestra cuánto dinero tienes en la cuenta bancaria de tu clan.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ClanBankWithdraw",
-		"TranslatedCommand": "ClanBankWithdraw",
-		"Description": "Takes money from your clan's bank account",
-		"SyntaxString": "<amount>"
+		"TranslatedCommand": "Clansacar",
+		"Description": "Saca dinero de la cuenta bancaria de tu clan.",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "ClanBankDeposit",
-		"TranslatedCommand": "ClanBankDeposit",
-		"Description": "Puts money into your clan's bank account",
-		"SyntaxString": "<amount>"
+		"TranslatedCommand": "Clandepositar",
+		"Description": "Deposita dinero en la cuenta bancaria de tu clan",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "AddBiz",
 		"TranslatedCommand": "AddBiz",
-		"Description": "Creates a business",
-		"SyntaxString": "<name>"
+		"Description": "Crea un negocio",
+		"SyntaxString": "<Nombre>"
 	},
 	{
 		"Command": "DelBiz",
 		"TranslatedCommand": "DelBiz",
-		"Description": "Deletes a business",
+		"Description": "Eliminar negocio",
 		"SyntaxString": "[id]"
 	},
 	{
 		"Command": "BizReloadAll",
 		"TranslatedCommand": "BizReloadAll",
-		"Description": "Reloads all businesses from the database",
+		"Description": "Recarga todos los negocios de la base de datos.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizBuy",
-		"TranslatedCommand": "BizBuy",
-		"Description": "Purchases a business",
+		"TranslatedCommand": "Cnegocio",
+		"Description": "Comprar negocio",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizFee",
 		"TranslatedCommand": "BizFee",
-		"Description": "Sets a fee to charge players when they enter the business.",
-		"SyntaxString": "<amount>"
+		"Description": "Establece una tarifa que se les cobrará a los jugadores cuando ingresen al negocio.",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "BizEntranceFee",
 		"TranslatedCommand": "BizEntranceFee",
-		"Description": "Sets a fee to charge players when they enter the business.",
-		"SyntaxString": "<amount>"
+		"Description": "Establece una tarifa que se les cobrará a los jugadores cuando ingresen al negocio.",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "BizTill",
 		"TranslatedCommand": "BizTill",
-		"Description": "Shows the business's till (cash register) amount",
+		"Description": "Muestra el importe de la caja registradora del negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizBalance",
 		"TranslatedCommand": "BizBalance",
-		"Description": "Shows the business's till (cash register) amount",
+		"Description": "Muestra el importe de la caja registradora del negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizWithdraw",
 		"TranslatedCommand": "BizWithdraw",
-		"Description": "Take money out of the business till (cash register)",
-		"SyntaxString": "<amount>"
+		"Description": "Sacar dinero de la caja registradora del negocio",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "BizDeposit",
 		"TranslatedCommand": "BizDeposit",
-		"Description": "Put money into the business till (cash register)",
-		"SyntaxString": "<amount>"
+		"Description": "Depositar dinero en la caja registradora del negocio",
+		"SyntaxString": "<Cantidad>"
 	},
 	{
 		"Command": "BizStock",
 		"TranslatedCommand": "BizStock",
-		"Description": "Uses storage items to restock the business with.",
-		"SyntaxString": "<item name> <amount> <sell price>"
+		"Description": "Lista de artículos de almacenamiento ​​para reabastecer el negocio..",
+		"SyntaxString": "<Nombre Item> <Cantidad> <precio de venta>"
 	},
 	{
 		"Command": "BizStore",
 		"TranslatedCommand": "BizStore",
-		"Description": "Moves items from the business to the business storage",
-		"SyntaxString": "<item name> <amount>"
+		"Description": "Mueve artículos de la empresa al almacenamiento de la empresa.",
+		"SyntaxString": "<Nombre Item> <Cantidad>"
 	},
 	{
 		"Command": "BizOrder",
 		"TranslatedCommand": "BizOrder",
-		"Description": "Orders items to sell from a business",
-		"SyntaxString": "<item name> <amount>"
+		"Description": "Solicita artículos para vender desde una empresa",
+		"SyntaxString": "<Nombre Item> <Cantidad>"
 	},
 	{
 		"Command": "BizItemPrice",
 		"TranslatedCommand": "BizItemPrice",
-		"Description": "Sets the purchase price of a business item",
-		"SyntaxString": "<item slot> <sell price>"
+		"Description": "Establece el precio de compra de un artículo comercial.",
+		"SyntaxString": "<item slot> <precio de venta>"
 	},
 	{
 		"Command": "BizName",
 		"TranslatedCommand": "BizName",
-		"Description": "Changes a business name",
-		"SyntaxString": "<name>"
+		"Description": "Cambiar nombre del negocio",
+		"SyntaxString": "<Nombre>"
 	},
 	{
 		"Command": "BizOwner",
 		"TranslatedCommand": "BizOwner",
-		"Description": "Changes the owner of a business",
-		"SyntaxString": "<player name/id>"
+		"Description": "Cambiar dueño del negocio",
+		"SyntaxString": "<Jugador Nombre/id>"
 	},
 	{
 		"Command": "BizDelOwner",
 		"TranslatedCommand": "BizDelOwner",
-		"Description": "Removes the owner of a business",
+		"Description": "Elimina al propietario de un negocio",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizPublic",
 		"TranslatedCommand": "BizPublic",
-		"Description": "Changes a business to public (city hall, govt buildings, etc)",
+		"Description": "Cambia un negocio a público (ayuntamiento, edificios gubernamentales, etc.)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizJob",
 		"TranslatedCommand": "BizJob",
-		"Description": "Changes the owner of a business to a job",
+		"Description": "Cambia el propietario de un negocio a un puesto de trabajo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizRank",
 		"TranslatedCommand": "BizRank",
-		"Description": "Changes the job/clan rank required to use the business",
+		"Description": "Cambia el rango de trabajo/clan requerido para usar el negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizClan",
 		"TranslatedCommand": "BizClan",
-		"Description": "Changes the owner of a business to a clan",
+		"Description": "Cambia el propietario de un negocio a un clan.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizBuyPrice",
 		"TranslatedCommand": "BizBuyPrice",
-		"Description": "Changes the price to buy the business",
+		"Description": "Cambia el precio para comprar el negocio.",
 		"SyntaxString": "<amount>"
 	},
 	{
 		"Command": "BizForSale",
 		"TranslatedCommand": "BizForSale",
-		"Description": "Toggles whether the business is for sale",
+		"Description": "Alterna si el negocio está a la venta",
 		"SyntaxString": ""
 	},
 	{
@@ -585,19 +585,19 @@
 		"Command": "NearBusinesses",
 		"TranslatedCommand": "NearBusinesses",
 		"Description": "Shows all businesses within X meters",
-		"SyntaxString": "[distance]"
+		"SyntaxString": "[Distancia]"
 	},
 	{
 		"Command": "MyBizs",
-		"TranslatedCommand": "MyBizs",
+		"TranslatedCommand": "Minegocio",
 		"Description": "Shows all businesses you own",
-		"SyntaxString": "[distance]"
+		"SyntaxString": "[Distancia]"
 	},
 	{
 		"Command": "MyBiz",
-		"TranslatedCommand": "MyBiz",
+		"TranslatedCommand": "Misnegocios",
 		"Description": "Shows all businesses you own",
-		"SyntaxString": "[distance]"
+		"SyntaxString": "[Distancia]"
 	},
 	{
 		"Command": "MyBusinesses",
@@ -619,7 +619,7 @@
 	},
 	{
 		"Command": "ClanBiz",
-		"TranslatedCommand": "ClanBiz",
+		"TranslatedCommand": "Clannegocio",
 		"Description": "Shows all businesses owned by your clan",
 		"SyntaxString": ""
 	},
@@ -637,7 +637,7 @@
 	},
 	{
 		"Command": "JobBiz",
-		"TranslatedCommand": "JobBiz",
+		"TranslatedCommand": "Trabajonegocio",
 		"Description": "Shows all businesses owned by your job",
 		"SyntaxString": ""
 	},
@@ -649,14 +649,14 @@
 	},
 	{
 		"Command": "BizVeh",
-		"TranslatedCommand": "BizVeh",
-		"Description": "Shows all vehicles owned by your business",
+		"TranslatedCommand": "Negocioveh",
+		"Description": "Muestra todos los vehículos de su propiedadr business",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizVehicles",
 		"TranslatedCommand": "BizVehicles",
-		"Description": "Shows all vehicles owned by your business",
+		"Description": "Muestra todos los vehículos de su propiedadr business",
 		"SyntaxString": ""
 	},
 	{
@@ -735,139 +735,139 @@
 		"Command": "Me",
 		"TranslatedCommand": "Me",
 		"Description": "Shows a custom action message in chat",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Do",
 		"TranslatedCommand": "Do",
 		"Description": "Shows a custom action description in chat",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Try",
 		"TranslatedCommand": "Try",
 		"Description": "Attempts a custom action message in chat",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "S",
 		"TranslatedCommand": "S",
 		"Description": "Shout a message to others in the area",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Shout",
 		"TranslatedCommand": "Shout",
 		"Description": "Shout a message to others in the area",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Talk",
 		"TranslatedCommand": "Talk",
 		"Description": "Say a message to others nearby",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Local",
 		"TranslatedCommand": "Local",
 		"Description": "Say a message to others nearby",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "L",
 		"TranslatedCommand": "L",
 		"Description": "Say a message to others nearby",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "W",
 		"TranslatedCommand": "W",
 		"Description": "Whisper a message to players very close to you",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Whisper",
 		"TranslatedCommand": "Whisper",
 		"Description": "Whisper a message to players very close to you",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Clanchat",
 		"TranslatedCommand": "Clanchat",
 		"Description": "Sends an OOC chat message to members in your clan",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Clan",
 		"TranslatedCommand": "Clan",
 		"Description": "Sends an OOC chat message to members in your clan",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "C",
 		"TranslatedCommand": "C",
 		"Description": "Sends an OOC chat message to members in your clan",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "M",
 		"TranslatedCommand": "M",
 		"Description": "Shouts a message over a megaphone (portable bullhorn/loudspeaker)",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Megaphone",
 		"TranslatedCommand": "Megaphone",
 		"Description": "Shouts a message over a megaphone (portable bullhorn/loudspeaker)",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "PM",
 		"TranslatedCommand": "PM",
 		"Description": "Sends a private message to a player",
-		"SyntaxString": "<player name/id> <message>"
+		"SyntaxString": "<Jugador Nombre/id> <Texto>"
 	},
 	{
 		"Command": "DM",
 		"TranslatedCommand": "DM",
 		"Description": "Sends a private message to a player",
-		"SyntaxString": "<player name/id> <message>"
+		"SyntaxString": "<Jugador Nombre/id> <Texto>"
 	},
 	{
 		"Command": "Msg",
 		"TranslatedCommand": "Msg",
 		"Description": "Sends a private message to a player",
-		"SyntaxString": "<player name/id> <message>"
+		"SyntaxString": "<Jugador Nombre/id> <Texto>"
 	},
 	{
 		"Command": "Reply",
 		"TranslatedCommand": "Reply",
 		"Description": "Replies to the last private message you received",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "B",
 		"TranslatedCommand": "B",
 		"Description": "Local OOC (out of character) chat, shows to players in proximity",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "O",
 		"TranslatedCommand": "O",
 		"Description": "Global OOC (out of character) chat, shows to all players",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "AME",
 		"TranslatedCommand": "AME",
 		"Description": "Shows a custom action message above your head",
-		"SyntaxString": "<message>"
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "AddClan",
 		"TranslatedCommand": "AddClan",
 		"Description": "Creates an new empty, unowned clan.",
-		"SyntaxString": "<name>"
+		"SyntaxString": "<Nombre>"
 	},
 	{
 		"Command": "DelClan",
@@ -897,13 +897,13 @@
 		"Command": "AddClanRank",
 		"TranslatedCommand": "AddClanRank",
 		"Description": "Adds a clan rank",
-		"SyntaxString": "<name> <level>"
+		"SyntaxString": "<Nombre> <Nivel>"
 	},
 	{
 		"Command": "DelClanRank",
 		"TranslatedCommand": "DelClanRank",
 		"Description": "Removes a clan rank",
-		"SyntaxString": "<name>"
+		"SyntaxString": "<Nombre>"
 	},
 	{
 		"Command": "ClanWebhook",
@@ -921,7 +921,7 @@
 		"Command": "ClanOwner",
 		"TranslatedCommand": "ClanOwner",
 		"Description": "Gives ownership of the clan to a player",
-		"SyntaxString": "<player name/id> <clan name/id>"
+		"SyntaxString": "<Jugador Nombre/id> <clan nombre/id>"
 	},
 	{
 		"Command": "ClanTag",
@@ -933,19 +933,19 @@
 		"Command": "ClanName",
 		"TranslatedCommand": "ClanName",
 		"Description": "Sets a clan's name",
-		"SyntaxString": "<name>"
+		"SyntaxString": "<Nombre>"
 	},
 	{
 		"Command": "ClanRankTag",
 		"TranslatedCommand": "ClanRankTag",
 		"Description": "Sets a clan rank's custom tag",
-		"SyntaxString": "<rank name/id> <tag>"
+		"SyntaxString": "<Rango Nombre/id> <tag>"
 	},
 	{
 		"Command": "ClanRankWage",
 		"TranslatedCommand": "ClanRankWage",
 		"Description": "Sets a clan rank's pay (paid every payday from clan bank)",
-		"SyntaxString": "<rank name/id> <amount per payday>"
+		"SyntaxString": "<Rango name/id> <amount per payday>"
 	},
 	{
 		"Command": "ClanRankPay",
@@ -957,13 +957,13 @@
 		"Command": "ClanRankName",
 		"TranslatedCommand": "ClanRankName",
 		"Description": "Sets a clan rank's title",
-		"SyntaxString": "<rank name/id> <new name>"
+		"SyntaxString": "<Rango name/id> <new name>"
 	},
 	{
 		"Command": "ClanRankLevel",
 		"TranslatedCommand": "ClanRankLevel",
 		"Description": "Sets a clan rank's level",
-		"SyntaxString": "<rank name/id> <new level>"
+		"SyntaxString": "<Rango name/id> <new level>"
 	},
 	{
 		"Command": "AddClanRankFlag",
@@ -999,25 +999,25 @@
 		"Command": "ClanInvite",
 		"TranslatedCommand": "ClanInvite",
 		"Description": "Invites a player to a clan",
-		"SyntaxString": "<player name/id>"
+		"SyntaxString": "<Jugador name/id>"
 	},
 	{
 		"Command": "ClanHire",
 		"TranslatedCommand": "ClanHire",
 		"Description": "Invites a player to a clan",
-		"SyntaxString": "<player name/id>"
+		"SyntaxString": "<Jugador name/id>"
 	},
 	{
 		"Command": "ClanUninvite",
 		"TranslatedCommand": "ClanUninvite",
 		"Description": "Removes a player from their clan",
-		"SyntaxString": "<player name/id>"
+		"SyntaxString": "<Jugador name/id>"
 	},
 	{
 		"Command": "ClanFire",
 		"TranslatedCommand": "ClanFire",
 		"Description": "Removes a player from their clan",
-		"SyntaxString": "<player name/id>"
+		"SyntaxString": "<Jugador name/id>"
 	},
 	{
 		"Command": "LeaveClan",
@@ -1039,7 +1039,7 @@
 	},
 	{
 		"Command": "ClanMembers",
-		"TranslatedCommand": "ClanMembers",
+		"TranslatedCommand": "Clanmiembros",
 		"Description": "Shows a list of all clan members",
 		"SyntaxString": ""
 	},
@@ -1081,9 +1081,9 @@
 	},
 	{
 		"Command": "Time",
-		"TranslatedCommand": "Time",
+		"TranslatedCommand": "Hora",
 		"Description": "Gets or sets the time. If setting, hours are required, minute is optional and will default to 0",
-		"SyntaxString": "<hour> [minute]"
+		"SyntaxString": "<Hora> [Minutos]"
 	},
 	{
 		"Command": "MinuteDuration",
@@ -1093,9 +1093,9 @@
 	},
 	{
 		"Command": "Weather",
-		"TranslatedCommand": "Weather",
+		"TranslatedCommand": "clima",
 		"Description": "Change the weather to specified type.",
-		"SyntaxString": "<weather id/name>"
+		"SyntaxString": "<Clima id/name>"
 	},
 	{
 		"Command": "Snow",
@@ -1415,7 +1415,7 @@
 		"SyntaxString": "<player name/id>"
 	},
 	{
-		"Command": "Tax",
+		"Command": "Impuestos",
 		"TranslatedCommand": "Tax",
 		"SyntaxString": ""
 	},
@@ -1426,9 +1426,9 @@
 	},
 	{
 		"Command": "AutoDeposit",
-		"TranslatedCommand": "AutoDeposit",
-		"Description": "Sets how much percentage of your paycheck is automatically deposited into your bank account",
-		"SyntaxString": "<percentage of paycheck 0-100>"
+		"TranslatedCommand": "Ahorrar",
+		"Description": "Establece qué porcentaje de su cheque de pago se deposita automáticamente en su cuenta bancaria",
+		"SyntaxString": "<Establece el porcentaje de 0-100>"
 	},
 	{
 		"Command": "ForcePayday",
@@ -1547,13 +1547,13 @@
 	{
 		"Command": "PayDay",
 		"TranslatedCommand": "PayDay",
-		"Description": "Shows information on your next pay check",
+		"Description": "Muestra información sobre tu próximo pago",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "PayCheck",
 		"TranslatedCommand": "PayCheck",
-		"Description": "Shows information on your next pay check",
+		"Description": "Muestra información sobre tu próximo pago",
 		"SyntaxString": ""
 	},
 	{
@@ -1564,32 +1564,32 @@
 	},
 	{
 		"Command": "Fish",
-		"TranslatedCommand": "Fish",
-		"Description": "Casts your fishing line into the water",
+		"TranslatedCommand": "pescar",
+		"Description": "Lanza tu línea de pesca al agua",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "CastLine",
 		"TranslatedCommand": "CastLine",
-		"Description": "Casts your fishing line into the water",
+		"Description": "Lanza tu línea de pesca al agua",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ResetLine",
 		"TranslatedCommand": "ResetLine",
-		"Description": "Casts your fishing line into the water",
+		"Description": "Lanza tu línea de pesca al agua",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Gate",
 		"TranslatedCommand": "Gate",
-		"Description": "Opens/closes the nearest gate",
+		"Description": "Abre/cierra la puerta más cercana",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Door",
 		"TranslatedCommand": "Door",
-		"Description": "Opens/closes the nearest gate",
+		"Description": "Abre/cierra la puerta más cercana",
 		"SyntaxString": ""
 	},
 	{
@@ -1600,86 +1600,86 @@
 	},
 	{
 		"Command": "Help",
-		"TranslatedCommand": "Help",
-		"Description": "Shows help messages for information",
+		"TranslatedCommand": "Ayuda",
+		"Description": "Muestra mensajes de ayuda para obtener información.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Commands",
-		"TranslatedCommand": "Commands",
-		"Description": "Shows help messages for information",
+		"TranslatedCommand": "Comandos",
+		"Description": "Muestra mensajes de ayuda para obtener información.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Cmds",
 		"TranslatedCommand": "Cmds",
-		"Description": "Shows help messages for information",
+		"Description": "Muestra mensajes de ayuda para obtener información.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Info",
 		"TranslatedCommand": "Info",
-		"Description": "Shows help messages for information",
+		"Description": "Muestra mensajes de ayuda para obtener información.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Veh",
 		"TranslatedCommand": "Veh",
-		"Description": "Explains how to get/buy a vehicle",
+		"Description": "Explica cómo obtener/comprar un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "V",
 		"TranslatedCommand": "V",
-		"Description": "Explains how to get/buy a vehicle",
+		"Description": "Explica cómo obtener/comprar un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Car",
 		"TranslatedCommand": "Car",
-		"Description": "Explains how to get/buy a vehicle",
+		"Description": "Explica cómo obtener/comprar un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Cars",
 		"TranslatedCommand": "Cars",
-		"Description": "Explains how to get/buy a vehicle",
+		"Description": "Explica cómo obtener/comprar un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "SpawnCar",
 		"TranslatedCommand": "SpawnCar",
-		"Description": "Explains how to get/buy a vehicle",
+		"Description": "Explica cómo obtener/comprar un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "SpawnVeh",
 		"TranslatedCommand": "SpawnVeh",
-		"Description": "Explains how to get/buy a vehicle",
+		"Description": "Explica cómo obtener/comprar un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Skin",
 		"TranslatedCommand": "Skin",
-		"Description": "Explains how to change your skin",
+		"Description": "Ayuda de cómo cambiar tu personaje.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Skins",
 		"TranslatedCommand": "Skins",
-		"Description": "Explains how to change your skin",
+		"Description": "Ayuda de cómo cambiar tu personaje.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Clothes",
 		"TranslatedCommand": "Clothes",
-		"Description": "Explains how to change your skin",
+		"Description": "Ayuda de cómo cambiar tu personaje.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ChangeSkin",
 		"TranslatedCommand": "ChangeSkin",
-		"Description": "Explains how to change your skin",
+		"Description": "Ayuda de cómo cambiar tu personaje.",
 		"SyntaxString": ""
 	},
 	{
@@ -1702,14 +1702,14 @@
 	},
 	{
 		"Command": "HouseInfo",
-		"TranslatedCommand": "HouseInfo",
-		"Description": "Shows a house's information",
+		"TranslatedCommand": "Casainfo",
+		"Description": "Muestra la información de una casa.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "HouseBuy",
-		"TranslatedCommand": "HouseBuy",
-		"Description": "Purchases a house",
+		"TranslatedCommand": "Comprarcasa",
+		"Description": "Compra una casa",
 		"SyntaxString": ""
 	},
 	{
@@ -1780,14 +1780,14 @@
 	},
 	{
 		"Command": "MyHouses",
-		"TranslatedCommand": "MyHouses",
-		"Description": "Shows all houses you own",
+		"TranslatedCommand": "Micasa",
+		"Description": "Muestra la lista de sus casas",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "MyHouse",
 		"TranslatedCommand": "MyHouse",
-		"Description": "Shows all houses you own",
+		"Description": "Muestra la lista de sus casas",
 		"SyntaxString": ""
 	},
 	{
@@ -1835,13 +1835,13 @@
 	{
 		"Command": "I",
 		"TranslatedCommand": "I",
-		"Description": "Switches to the item in the specified slot of your inventory.",
+		"Description": "Cambia el item a la ranura especificada de tu inventario.",
 		"SyntaxString": "<slot id>"
 	},
 	{
 		"Command": "Item",
 		"TranslatedCommand": "Item",
-		"Description": "Switches to the item in the specified slot of your inventory.",
+		"Description": "Cambia el item a la ranura especificada de tu inventario.",
 		"SyntaxString": "<slot id>"
 	},
 	{
@@ -1876,80 +1876,80 @@
 	},
 	{
 		"Command": "Drop",
-		"TranslatedCommand": "Drop",
-		"Description": "Drops your currently equipped item or the item in the specified slot",
+		"TranslatedCommand": "tirar",
+		"Description": "Tira el objeto que tengas equipado o que selecciones del inventario.",
 		"SyntaxString": "[slot]"
 	},
 	{
 		"Command": "Put",
-		"TranslatedCommand": "Put",
-		"Description": "Puts an item from your inventory into the nearest item place (Vehicle trunk/dash, house, business, etc)",
+		"TranslatedCommand": "Guardar",
+		"Description": "Coloca un artículo de tu inventario en el lugar de artículos más cercano (baúl/tablero del vehículo, casa, negocio, etc.)",
 		"SyntaxString": "[slot]"
 	},
 	{
 		"Command": "Take",
-		"TranslatedCommand": "Take",
-		"Description": "Takes an item from the nearest item place (Vehicle trunk, dash, house, business, etc)",
+		"TranslatedCommand": "Sacar",
+		"Description": "Sacar un artículo del lugar más cercano (maletero del vehículo, tablero, casa, negocio, etc.)",
 		"SyntaxString": "[slot]"
 	},
 	{
 		"Command": "Use",
-		"TranslatedCommand": "Use",
-		"Description": "Uses the currently equipped item",
+		"TranslatedCommand": "Usar",
+		"Description": "Utiliza el objeto equipado actualmente",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Inv",
 		"TranslatedCommand": "Inv",
-		"Description": "Shows the items in your inventory",
+		"Description": "Muestra los artículos de tu inventario.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Inventory",
 		"TranslatedCommand": "Inventory",
-		"Description": "Shows the items in your inventory",
+		"Description": "Muestra los artículos de tu inventario.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ItemStorage",
 		"TranslatedCommand": "ItemStorage",
-		"Description": "Shows the items stored in a container item",
+		"Description": "Muestra los elementos almacenados en un contenedor.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehTrunk",
-		"TranslatedCommand": "VehTrunk",
-		"Description": "Shows the items in a vehicle's trunk",
+		"TranslatedCommand": "Vehmaletero",
+		"Description": "Muestra los artículos en el maletero de un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehDash",
 		"TranslatedCommand": "VehDash",
-		"Description": "Shows the items in a vehicle's dash compartment (inside)",
+		"Description": "Muestra los artículos guardados en el maletero de un vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "HouseItems",
-		"TranslatedCommand": "HouseItems",
-		"Description": "Shows the items in the house's storage",
+		"TranslatedCommand": "Casainv",
+		"Description": "Muestra los articulos almacenados en el armario de la casa.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizStorage",
-		"TranslatedCommand": "BizStorage",
-		"Description": "Shows the items in the business's extra storage (not buyable)",
+		"TranslatedCommand": "negocioinv",
+		"Description": "Muestra los artículos almacenados del armario del negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizFloor",
-		"TranslatedCommand": "BizFloor",
-		"Description": "Shows the items that can be bought from the business",
+		"TranslatedCommand": "Negociolist",
+		"Description": "Muestra los artículos que se pueden comprar en el negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BusinessStorage",
 		"TranslatedCommand": "BusinessStorage",
-		"Description": "Shows the items in the business's extra storage (not buyable)",
+		"Description": "Muestra los artículos en el almacenamiento adicional de la empresa (no se pueden comprar)",
 		"SyntaxString": ""
 	},
 	{
@@ -1960,26 +1960,26 @@
 	},
 	{
 		"Command": "BuyList",
-		"TranslatedCommand": "BuyList",
-		"Description": "Shows the items that can be bought from the business",
+		"TranslatedCommand": "Lista",
+		"Description": "Muestra los artículos que se pueden comprar en el negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Power",
-		"TranslatedCommand": "Power",
-		"Description": "Turns on or off an item",
+		"TranslatedCommand": "Prender",
+		"Description": "Enciende o apaga un elemento",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Radio",
 		"TranslatedCommand": "Radio",
-		"Description": "Chat over a radio (Vehicle radio or item)",
+		"Description": "Chat por radio (radio de vehículo o artículo)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "R",
 		"TranslatedCommand": "R",
-		"Description": "Chat over a radio (Vehicle radio or item)",
+		"Description": "Chat por radio (radio de vehículo o artículo)",
 		"SyntaxString": ""
 	},
 	{
@@ -2236,92 +2236,92 @@
 	},
 	{
 		"Command": "TakeJob",
-		"TranslatedCommand": "TakeJob",
-		"Description": "Gives you the job",
+		"TranslatedCommand": "Trabajar",
+		"Description": "Para tomar el empleo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StartWork",
-		"TranslatedCommand": "StartWork",
-		"Description": "Start working at your job (use at a job location or near a job vehicle)",
+		"TranslatedCommand": "Iniciartrabajo",
+		"Description": "Entraste en servicio del empleo (dirigete a un vehiculo para iniciar a trabajar)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StopWork",
-		"TranslatedCommand": "StopWork",
-		"Description": "Stop working at your job",
+		"TranslatedCommand": "Terminartrabajo",
+		"Description": "Has terminado de trabajar",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StartJob",
 		"TranslatedCommand": "StartJob",
-		"Description": "Start working at your job (use at a job location or near a job vehicle)",
+		"Description": "Entraste en servicio del empleo (dirigete a un vehiculo para iniciar a trabajar)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StopJob",
 		"TranslatedCommand": "StopJob",
-		"Description": "Stop working at your job",
+		"Description": "Has terminado de trabajar",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "QuitJob",
-		"TranslatedCommand": "QuitJob",
-		"Description": "Leave your job and be unemployed",
+		"TranslatedCommand": "Renunciar",
+		"Description": "Has renunciado a tu trabajo, ahora no tienes empleo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Uniform",
-		"TranslatedCommand": "Uniform",
-		"Description": "Use a job uniform",
-		"SyntaxString": "[uniform]"
+		"TranslatedCommand": "Uniforme",
+		"Description": "Usalo para ponerte la ropa de trabajo",
+		"SyntaxString": "[Uniforme]"
 	},
 	{
 		"Command": "Equip",
-		"TranslatedCommand": "Equip",
-		"Description": "Get equipment for your job",
+		"TranslatedCommand": "Equipo",
+		"Description": "Consigue el equipo para tu trabajo",
 		"SyntaxString": "[equipment]"
 	},
 	{
 		"Command": "Jobs",
-		"TranslatedCommand": "Jobs",
-		"Description": "Shows a list of all jobs",
+		"TranslatedCommand": "Trabajos",
+		"Description": "Muestra la lista de los trabajos disponibles.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "JobList",
-		"TranslatedCommand": "JobList",
-		"Description": "Shows a list of all jobs",
+		"TranslatedCommand": "Listatrabajos",
+		"Description": "Muestra la lista de los trabajos disponibles.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Department",
 		"TranslatedCommand": "Department",
-		"Description": "Communicate with all emergency services (radio must be on and able to transmit)",
-		"SyntaxString": "<message>"
+		"Description": "Para Comunicarse con todos los servicios de emergencia (la radio debe estar encendida y poder transmitir)",
+		"SyntaxString": "<texto>"
 	},
 	{
 		"Command": "D",
 		"TranslatedCommand": "D",
-		"Description": "Communicate with all emergency services (radio must be on and able to transmit)",
-		"SyntaxString": "<message>"
+		"Description": "Para Comunicarse con todos los servicios de emergencia (la radio debe estar encendida y poder transmitir)",
+		"SyntaxString": "<texto>"
 	},
 	{
 		"Command": "Fine",
-		"TranslatedCommand": "Fine",
-		"Description": "Searches a person",
+		"TranslatedCommand": "Multa",
+		"Description": "Busca a una persona",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StartRoute",
-		"TranslatedCommand": "StartRoute",
-		"Description": "Starts a job route. A vehicle might be required.",
+		"TranslatedCommand": "Iniciarruta",
+		"Description": "Para iniciar una ruta de trabajo se requiere un vehículo del trabajo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "StopRoute",
-		"TranslatedCommand": "StopRoute",
-		"Description": "Stops a job route.",
+		"TranslatedCommand": "terminarruta",
+		"Description": "Cancela la ruta del trabajo.",
 		"SyntaxString": ""
 	},
 	{
@@ -2548,14 +2548,14 @@
 	},
 	{
 		"Command": "JobInfo",
-		"TranslatedCommand": "JobInfo",
-		"Description": "Get info for nearest or specified job",
+		"TranslatedCommand": "Trabajoinfo",
+		"Description": "Obtenga información sobre el trabajo más cercano o seleccionado",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "JobLocInfo",
-		"TranslatedCommand": "JobLocInfo",
-		"Description": "Get info for nearest or specified job location",
+		"TranslatedCommand": "buscartrabajo",
+		"Description": "Obtenga información sobre la ubicación de trabajo más cercano",
 		"SyntaxString": ""
 	},
 	{
@@ -2728,9 +2728,9 @@
 	},
 	{
 		"Command": "Language",
-		"TranslatedCommand": "Language",
-		"Description": "Sets your language",
-		"SyntaxString": "<language name>"
+		"TranslatedCommand": "idioma",
+		"Description": "Cambia el idioma del servidor",
+		"SyntaxString": "<Idioma Nombre>"
 	},
 	{
 		"Command": "Locale",
@@ -2752,8 +2752,8 @@
 	},
 	{
 		"Command": "Languages",
-		"TranslatedCommand": "Languages",
-		"Description": "Shows a list of available languages",
+		"TranslatedCommand": "Idiomas",
+		"Description": "Muestra la lista de idiomas disponibles.",
 		"SyntaxString": ""
 	},
 	{
@@ -2872,158 +2872,158 @@
 	},
 	{
 		"Command": "Enter",
-		"TranslatedCommand": "Enter",
-		"Description": "Enters or exists a house/business",
+		"TranslatedCommand": "entrar",
+		"Description": "Para entrar o salir de Casa/negocio",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Exit",
-		"TranslatedCommand": "Exit",
-		"Description": "Enters or exists a house/business",
+		"TranslatedCommand": "Salir",
+		"Description": "Para entrar o salir de Casa/negocio",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Cursor",
 		"TranslatedCommand": "Cursor",
-		"Description": "Toggles cursor visibility",
+		"Description": "Alterna la visibilidad del cursor",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "MouseCam",
 		"TranslatedCommand": "MouseCam",
-		"Description": "Toggles vehicle mouse camera for games that don't have it",
+		"Description": "Activa o desactiva la cámara del mouse del vehículo para los juegos que no la tienen.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Yes",
-		"TranslatedCommand": "Yes",
-		"Description": "Answers a prompt with YES",
+		"TranslatedCommand": "Si",
+		"Description": "Responde a una pregunta con SÍ",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "No",
 		"TranslatedCommand": "No",
-		"Description": "Answers a prompt with NO",
+		"Description": "Responde a una pregunta con NO",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Admins",
 		"TranslatedCommand": "Admins",
-		"Description": "Shows a list of online admins",
+		"Description": "Mustra la lista de administradores",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Stuck",
-		"TranslatedCommand": "Stuck",
-		"Description": "Fixes your position and virtual world if bugged",
+		"TranslatedCommand": "debug",
+		"Description": "Corrige tu posición y el mundo virtual si hay errores.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "GPS",
 		"TranslatedCommand": "GPS",
-		"Description": "Shows you locations for special places or where to buy items",
+		"Description": "Le muestra ubicaciones de lugares especiales o dónde comprar artículos.",
 		"SyntaxString": "<name>"
 	},
 	{
 		"Command": "Speak",
 		"TranslatedCommand": "Speak",
-		"Description": "Makes your ped say something in their game voice (IV only)",
+		"Description": "Hace que tu peatón diga algo con su voz de juego (solo IV)",
 		"SyntaxString": "<speech name>"
 	},
 	{
 		"Command": "Lock",
-		"TranslatedCommand": "Lock",
-		"Description": "Locks and unlocks your vehicle, house, or business",
+		"TranslatedCommand": "Desbloquear",
+		"Description": "Bloquea y desbloquea su vehículo, casa o negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Locks",
 		"TranslatedCommand": "Locks",
-		"Description": "Locks and unlocks your vehicle, house, or business",
+		"Description": "Bloquea y desbloquea su vehículo, casa o negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "DoorLock",
 		"TranslatedCommand": "DoorLock",
-		"Description": "Locks and unlocks your vehicle, house, or business",
+		"Description": "Bloquea y desbloquea su vehículo, casa o negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "LockDoor",
 		"TranslatedCommand": "LockDoor",
-		"Description": "Locks and unlocks your vehicle, house, or business",
+		"Description": "Bloquea y desbloquea su vehículo, casa o negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Lights",
-		"TranslatedCommand": "Lights",
-		"Description": "Turns on and off the lights for your vehicle, house, or business",
+		"TranslatedCommand": "luces",
+		"Description": "Enciende y apaga las luces de su vehículo, casa o negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Light",
 		"TranslatedCommand": "Light",
-		"Description": "Turns on and off the lights for your vehicle, house, or business",
+		"Description": "Enciende y apaga las luces de su vehículo, casa o negocio.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Kill",
 		"TranslatedCommand": "Kill",
-		"Description": "Kills yourself",
+		"Description": "Se suicida",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Suicide",
 		"TranslatedCommand": "Suicide",
-		"Description": "Kills yourself",
+		"Description": "Se suicida",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Scoreboard",
 		"TranslatedCommand": "Scoreboard",
-		"Description": "Shows the scoreboard (key press only)",
+		"Description": "Muestra el marcador (solo pulsando una tecla)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Map",
 		"TranslatedCommand": "Map",
-		"Description": "Shows the map (key press only)",
+		"Description": "Muestra el mapa (solo pulsando una tecla)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Locate",
 		"TranslatedCommand": "Locate",
-		"Description": "Shows the distance and direction of another player",
-		"SyntaxString": "<player name/id>"
+		"Description": "Muestra la distancia y la dirección del otro jugador",
+		"SyntaxString": "<Jugador name/id>"
 	},
 	{
 		"Command": "Pay",
-		"TranslatedCommand": "Pay",
-		"Description": "Gives a player some of your money",
-		"SyntaxString": "<player name/id> <amount>"
+		"TranslatedCommand": "Pagar",
+		"Description": "Le das a un jugador algo de tu dinero",
+		"SyntaxString": "<Jugador Nombre/id> <Cantidad>"
 	},
 	{
 		"Command": "Detain",
-		"TranslatedCommand": "Detain",
-		"Description": "Puts a handcuffed person in the back of your police vehicle",
+		"TranslatedCommand": "detener",
+		"Description": "Coloca a una persona esposada en la parte trasera de su vehículo policial.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Drag",
-		"TranslatedCommand": "Drag",
-		"Description": "Drags a handcuffed person around",
+		"TranslatedCommand": "arrastrar",
+		"Description": "Arrastra a una persona esposada",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Search",
-		"TranslatedCommand": "Search",
-		"Description": "Searches a person",
+		"TranslatedCommand": "buscar",
+		"Description": "Busca a una persona",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "AFK",
 		"TranslatedCommand": "AFK",
-		"Description": "Sets your AFK status",
+		"Description": "Establece tu estado AFK",
 		"SyntaxString": ""
 	},
 	{
@@ -3041,74 +3041,74 @@
 	{
 		"Command": "Faggio",
 		"TranslatedCommand": "Faggio",
-		"Description": "Creates a single use faggio rental",
+		"Description": "Crea un alquiler de faggio de un solo uso",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Buy",
-		"TranslatedCommand": "Buy",
-		"Description": "Buys an item from a business or NPC",
+		"TranslatedCommand": "Comprar",
+		"Description": "Compra un artículo de una empresa o NPC",
 		"SyntaxString": "<slot id>"
 	},
 	{
 		"Command": "Stats",
 		"TranslatedCommand": "Stats",
-		"Description": "Shows basic info on your account and current character",
+		"Description": "Muestra información básica sobre tu cuenta y personaje actual.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "RobBiz",
-		"TranslatedCommand": "RobBiz",
-		"Description": "Robs a business",
+		"TranslatedCommand": "robarnegocio",
+		"Description": "Roba un negocio",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Arrest",
-		"TranslatedCommand": "Arrest",
-		"Description": "Puts a player in jail",
-		"SyntaxString": "<time in minutes>"
+		"TranslatedCommand": "Arrestar",
+		"Description": "Pone a un jugador en la cárcel",
+		"SyntaxString": "<Tiempo en minutos>"
 	},
 	{
 		"Command": "Jail",
 		"TranslatedCommand": "Jail",
-		"Description": "Puts a player in jail",
-		"SyntaxString": "<time in minutes>"
+		"Description": "Pone a un jugador en la cárcel",
+		"SyntaxString": "<Tiempo en minutos>"
 	},
 	{
 		"Command": "Random",
 		"TranslatedCommand": "Random",
-		"Description": "Chooses a random number and shows to nearby players",
-		"SyntaxString": "<minimum number> <maximum number>"
+		"Description": "Elige un número aleatorio y lo muestra a los jugadores cercanos.",
+		"SyntaxString": "<Numero Minimo> <Numero Maximo>"
 	},
 	{
 		"Command": "ClearChat",
 		"TranslatedCommand": "ClearChat",
-		"Description": "Clears the chat",
+		"Description": "Limpia el chat",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Ad",
 		"TranslatedCommand": "Ad",
-		"Description": "Shows an advertisement",
-		"SyntaxString": "<message>"
+		"Description": "Muestra un anuncio",
+		"SyntaxString": "<Text>"
 	},
 	{
 		"Command": "Adv",
 		"TranslatedCommand": "Adv",
-		"Description": "Shows an advertisement",
-		"SyntaxString": "<message>"
+		"Description": "Muestra un anuncio",
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Advertise",
 		"TranslatedCommand": "Advertise",
-		"Description": "Shows an advertisement",
-		"SyntaxString": "<message>"
+		"Description": "Muestra un anuncio",
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Advertisement",
 		"TranslatedCommand": "Advertisement",
-		"Description": "Shows an advertisement",
-		"SyntaxString": "<message>"
+		"Description": "Muestra un anuncio",
+		"SyntaxString": "<Texto>"
 	},
 	{
 		"Command": "Blip",
@@ -3124,9 +3124,9 @@
 	},
 	{
 		"Command": "Sit",
-		"TranslatedCommand": "Sit",
-		"Description": "Sits at the closest registered seat",
-		"SyntaxString": "<animation name>"
+		"TranslatedCommand": "sentarse",
+		"Description": "Se sienta en el asiento registrado más cercano",
+		"SyntaxString": "<Nombre animacion>"
 	},
 	{
 		"Command": "AddNPC",
@@ -3209,43 +3209,43 @@
 	{
 		"Command": "DelPayphone",
 		"TranslatedCommand": "DelPayphone",
-		"Description": "Deleted a payphone with number (optional, will use closest payphone if no number)",
-		"SyntaxString": "[number]"
+		"Description": "Se eliminó un teléfono público con número (opcional, se usará el teléfono público más cercano si no hay número)",
+		"SyntaxString": "[Numero]"
 	},
 	{
 		"Command": "Call",
-		"TranslatedCommand": "Call",
-		"Description": "Calls the player (nearest payphone or their cellphone if applicable",
-		"SyntaxString": "<player name/id>"
+		"TranslatedCommand": "llamar",
+		"Description": "Llama a un jugador desde un teléfono público más cercano o desde su teléfono personal.",
+		"SyntaxString": "<Jugador Nombre/id>"
 	},
 	{
 		"Command": "Hangup",
-		"TranslatedCommand": "Hangup",
-		"Description": "Ends a payphone call",
+		"TranslatedCommand": "Colgar",
+		"Description": "Finaliza una llamada de teléfono público",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Answer",
-		"TranslatedCommand": "Answer",
-		"Description": "Answer's a ringing phone",
+		"TranslatedCommand": "Contestar",
+		"Description": "Responder a un teléfono que suena",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "GivePhone",
-		"TranslatedCommand": "GivePhone",
-		"Description": "Gives a phone to another player to talk on the call",
-		"SyntaxString": "<player name/id>"
+		"TranslatedCommand": "Darnumero",
+		"Description": "Da un teléfono a otro jugador para hablar sobre la llamada.",
+		"SyntaxString": "<jugador Nombre/id>"
 	},
 	{
 		"Command": "PayPhone",
 		"TranslatedCommand": "PayPhone",
-		"Description": "Shows a phone's number",
+		"Description": "Muestra el número de un teléfono",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Number",
-		"TranslatedCommand": "Number",
-		"Description": "Shows a phone's number",
+		"TranslatedCommand": "Numero",
+		"Description": "Muestra el número de un teléfono",
 		"SyntaxString": ""
 	},
 	{
@@ -3424,13 +3424,13 @@
 	},
 	{
 		"Command": "Goto",
-		"TranslatedCommand": "Goto",
+		"TranslatedCommand": "ir",
 		"Description": "Teleports you to a player.",
 		"SyntaxString": "<player name/id>"
 	},
 	{
 		"Command": "GetHere",
-		"TranslatedCommand": "GetHere",
+		"TranslatedCommand": "traer",
 		"Description": "Teleports a player to you.",
 		"SyntaxString": "<player name/id>"
 	},
@@ -4159,26 +4159,26 @@
 	},
 	{
 		"Command": "Engine",
-		"TranslatedCommand": "Engine",
-		"Description": "Toggle the engine of a vehicle",
+		"TranslatedCommand": "Motor",
+		"Description": "Enciende/apaga el motor del vehiculo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "Siren",
-		"TranslatedCommand": "Siren",
-		"Description": "Toggle the siren of a vehicle",
+		"TranslatedCommand": "Sirena",
+		"Description": "Enciende/apaga las sirenas del vehiculo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehInteriorLight",
-		"TranslatedCommand": "VehInteriorLight",
-		"Description": "Toggle the interior light of a vehicle",
+		"TranslatedCommand": "Lucesint",
+		"Description": "Activar y desactivar la luz interior de un vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehInsideLight",
 		"TranslatedCommand": "VehInsideLight",
-		"Description": "Toggle the interior light of a vehicle",
+		"Description": "Activar y desactivar la luz interior de un vehículo",
 		"SyntaxString": ""
 	},
 	{
@@ -4189,7 +4189,7 @@
 	},
 	{
 		"Command": "VehHazards",
-		"TranslatedCommand": "VehHazards",
+		"TranslatedCommand": "estacionarias",
 		"Description": "Toggle the hazard lights of a vehicle",
 		"SyntaxString": ""
 	},
@@ -4399,26 +4399,26 @@
 	},
 	{
 		"Command": "VehRent",
-		"TranslatedCommand": "VehRent",
-		"Description": "Starts renting your current vehicle (if rentable)",
+		"TranslatedCommand": "Rentarveh",
+		"Description": "Comienza a alquilar tu vehículo actual (si es alquilable)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "RentVeh",
 		"TranslatedCommand": "RentVeh",
-		"Description": "Starts renting your current vehicle (if rentable)",
+		"Description": "Comienza a alquilar tu vehículo actual (si es alquilable)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehicleRent",
 		"TranslatedCommand": "VehicleRent",
-		"Description": "Starts renting your current vehicle (if rentable)",
+		"Description": "Comienza a alquilar tu vehículo actual (si es alquilable)",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "RentVehicle",
 		"TranslatedCommand": "RentVehicle",
-		"Description": "Starts renting your current vehicle (if rentable)",
+		"Description": "Comienza a alquilar tu vehículo actual (si es alquilable)",
 		"SyntaxString": ""
 	},
 	{
@@ -4466,13 +4466,13 @@
 	{
 		"Command": "StopRentVeh",
 		"TranslatedCommand": "StopRentVeh",
-		"Description": "Stops renting your vehicle",
+		"Description": "Dejar de alquilar tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehStopRent",
-		"TranslatedCommand": "VehStopRent",
-		"Description": "Stops renting your vehicle",
+		"TranslatedCommand": "terminarrenta",
+		"Description": "Dejar de alquilar tu vehículo",
 		"SyntaxString": ""
 	},
 	{
@@ -4484,43 +4484,43 @@
 	{
 		"Command": "VehicleStopRent",
 		"TranslatedCommand": "VehicleStopRent",
-		"Description": "Stops renting your vehicle",
+		"Description": "Dejar de alquilar tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehBuy",
-		"TranslatedCommand": "VehBuy",
-		"Description": "Purchases your vehicle",
+		"TranslatedCommand": "comprarveh",
+		"Description": "Compra tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehicleBuy",
 		"TranslatedCommand": "VehicleBuy",
-		"Description": "Purchases your vehicle",
+		"Description": "Compra tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BuyVeh",
 		"TranslatedCommand": "BuyVeh",
-		"Description": "Purchases your vehicle",
+		"Description": "Compra tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BuyVehicle",
 		"TranslatedCommand": "BuyVehicle",
-		"Description": "Purchases your vehicle",
+		"Description": "Compra tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehColour",
-		"TranslatedCommand": "VehColour",
-		"Description": "Sets a vehicle's colour",
-		"SyntaxString": "<colour1> <colour2>"
+		"TranslatedCommand": "Vehcolor",
+		"Description": "Establece el color de un vehículo",
+		"SyntaxString": "<Color1> <Color2>"
 	},
 	{
 		"Command": "VehicleColour",
 		"TranslatedCommand": "VehicleColour",
-		"Description": "Sets a vehicle's colour",
+		"Description": "Establece el color de un vehículo",
 		"SyntaxString": "<colour1> <colour2>"
 	},
 	{
@@ -4549,26 +4549,26 @@
 	},
 	{
 		"Command": "VehRepair",
-		"TranslatedCommand": "VehRepair",
-		"Description": "Repairs your vehicle",
+		"TranslatedCommand": "Repararveh",
+		"Description": "Repara tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "VehicleRepair",
 		"TranslatedCommand": "VehicleRepair",
-		"Description": "Repairs your vehicle",
+		"Description": "Repara tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "RepairVeh",
 		"TranslatedCommand": "RepairVeh",
-		"Description": "Repairs your vehicle",
+		"Description": "Repara tu vehículo",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "RepairVehicle",
 		"TranslatedCommand": "RepairVehicle",
-		"Description": "Repairs your vehicle",
+		"Description": "Repara tu vehículo",
 		"SyntaxString": ""
 	},
 	{
@@ -4579,68 +4579,68 @@
 	},
 	{
 		"Command": "MyVehicles",
-		"TranslatedCommand": "MyVehicles",
-		"Description": "Shows all vehicles owned by you",
+		"TranslatedCommand": "Misvehiculos",
+		"Description": "Muestra todos los vehículos de su propiedad",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "MyVeh",
 		"TranslatedCommand": "MyVeh",
-		"Description": "Shows all vehicles owned by you",
+		"Description": "Muestra todos los vehículos de su propiedad",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "MyVehicle",
 		"TranslatedCommand": "MyVehicle",
-		"Description": "Shows all vehicles owned by you",
+		"Description": "Muestra todos los vehículos de su propiedad",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ClanVehicles",
 		"TranslatedCommand": "ClanVehicles",
-		"Description": "Shows all vehicles owned by your clan",
+		"Description": "Muestra todos los vehículos de su propiedadr clan",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ClanVeh",
 		"TranslatedCommand": "ClanVeh",
-		"Description": "Shows all vehicles owned by your clan",
+		"Description": "Muestra todos los vehículos de su propiedadr clan",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "ClanVehicle",
 		"TranslatedCommand": "ClanVehicle",
-		"Description": "Shows all vehicles owned by your clan",
+		"Description": "Muestra todos los vehículos de su propiedadr clan",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "JobVehicles",
 		"TranslatedCommand": "JobVehicles",
-		"Description": "Shows all vehicles owned by your job",
+		"Description": "Muestra todos los vehículos de su propiedadr job",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "JobVeh",
 		"TranslatedCommand": "JobVeh",
-		"Description": "Shows all vehicles owned by your job",
+		"Description": "Muestra todos los vehículos de su propiedadr job",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "JobVehicle",
 		"TranslatedCommand": "JobVehicle",
-		"Description": "Shows all vehicles owned by your job",
+		"Description": "Muestra todos los vehículos de su propiedadr job",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizVehicle",
 		"TranslatedCommand": "BizVehicle",
-		"Description": "Shows all vehicles owned by your business",
+		"Description": "Muestra todos los vehículos de su propiedadr business",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "BizVeh",
 		"TranslatedCommand": "BizVeh",
-		"Description": "Shows all vehicles owned by your business",
+		"Description": "Muestra todos los vehículos de su propiedadr business",
 		"SyntaxString": ""
 	},
 	{
@@ -4663,20 +4663,20 @@
 	},
 	{
 		"Command": "Trunk",
-		"TranslatedCommand": "Trunk",
-		"Description": "Opens/closes your vehicle's trunk",
+		"TranslatedCommand": "maletero",
+		"Description": "Abre/cierra el maletero de su vehículo.",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "SellVehicle",
-		"TranslatedCommand": "SellVehicle",
-		"Description": "Sells your vehicle to another player",
+		"TranslatedCommand": "Venderveh",
+		"Description": "Vende tu vehículo a otro jugador",
 		"SyntaxString": ""
 	},
 	{
 		"Command": "SellVeh",
 		"TranslatedCommand": "SellVeh",
-		"Description": "Sells your vehicle to another player",
+		"Description": "Vende tu vehículo a otro jugador",
 		"SyntaxString": ""
 	},
 	{
