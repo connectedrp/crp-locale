@@ -1,0 +1,4742 @@
+﻿[
+	{
+		"Command": "Accent",
+		"TranslatedCommand": "Accent",
+		"Description": "Sets your character's accent",
+		"SyntaxString": "<accent name/id>"
+	},
+	{
+		"Command": "Accents",
+		"TranslatedCommand": "Accents",
+		"Description": "Shows a list of all available accents",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AccentList",
+		"TranslatedCommand": "AccentList",
+		"Description": "Shows a list of all available accents",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Login",
+		"TranslatedCommand": "Login",
+		"Description": "Login to an account",
+		"SyntaxString": "<password>"
+	},
+	{
+		"Command": "Register",
+		"TranslatedCommand": "Register",
+		"Description": "Creates an account",
+		"SyntaxString": "<password>"
+	},
+	{
+		"Command": "ChangePass",
+		"TranslatedCommand": "ChangePass",
+		"Description": "Change an account password",
+		"SyntaxString": "<old password> <new password>"
+	},
+	{
+		"Command": "IPLogin",
+		"TranslatedCommand": "IPLogin",
+		"Description": "Toggle whether to automatically login if you join with the same IP as your last join",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "GUI",
+		"TranslatedCommand": "GUI",
+		"Description": "Toggle whether to use GUI. If GUI is disabled on the server, it won't show even if you have GUI enabled.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "2FA",
+		"TranslatedCommand": "2FA",
+		"Description": "Set up and use two-factor authentication.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SetEmail",
+		"TranslatedCommand": "SetEmail",
+		"Description": "Sets your email. To reset your password, you must have a valid email set and verified.",
+		"SyntaxString": "<email address>"
+	},
+	{
+		"Command": "VerifyEmail",
+		"TranslatedCommand": "VerifyEmail",
+		"Description": "Confirms/verifies your email.",
+		"SyntaxString": "<verification code>"
+	},
+	{
+		"Command": "NoTips",
+		"TranslatedCommand": "NoTips",
+		"Description": "Turn on and off random tips",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "LoginAlert",
+		"TranslatedCommand": "LoginAlert",
+		"Description": "Turn on and off email notifications for attempts to login to your account",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ScrollLines",
+		"TranslatedCommand": "ScrollLines",
+		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"SyntaxString": "<number of lines>"
+	},
+	{
+		"Command": "ChatScrollLines",
+		"TranslatedCommand": "ChatScrollLines",
+		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"SyntaxString": "<number of lines>"
+	},
+	{
+		"Command": "ChatScroll",
+		"TranslatedCommand": "ChatScroll",
+		"Description": "Sets how many chatbox lines to scroll at a time when using pageup/pagedown",
+		"SyntaxString": "<number of lines>"
+	},
+	{
+		"Command": "ChatAutoHide",
+		"TranslatedCommand": "ChatAutoHide",
+		"Description": "Sets how long to wait to hide the chatbox after last use (in seconds)",
+		"SyntaxString": "<time in seconds>"
+	},
+	{
+		"Command": "ChatTimeStamp",
+		"TranslatedCommand": "ChatTimeStamp",
+		"Description": "Turns on/off timestamps in the chatbox",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ChatTimeStamps",
+		"TranslatedCommand": "ChatTimeStamps",
+		"Description": "Turns on/off timestamps in the chatbox",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ChatTime",
+		"TranslatedCommand": "ChatTime",
+		"Description": "Turns on/off timestamps in the chatbox",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ChatTimes",
+		"TranslatedCommand": "ChatTimes",
+		"Description": "Turns on/off timestamps in the chatbox",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ChatFilter",
+		"TranslatedCommand": "ChatFilter",
+		"Description": "Turns on/off profanity filter",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ChatEmoji",
+		"TranslatedCommand": "ChatEmoji",
+		"Description": "Turns on/off automatic emoji",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Emoji",
+		"TranslatedCommand": "Emoji",
+		"Description": "Turns on/off automatic emoji",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ResetActionTips",
+		"TranslatedCommand": "ResetActionTips",
+		"Description": "Resets all your action tips (messages that show when needed",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HUD",
+		"TranslatedCommand": "HUD",
+		"Description": "Toggles whether to use custom HUD or not",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Screenshot",
+		"TranslatedCommand": "Screenshot",
+		"Description": "Toggles screenshot mode on or off (hides HUD and chat)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Settings",
+		"TranslatedCommand": "Settings",
+		"Description": "Shows account settings or toggles them on and off",
+		"SyntaxString": "[setting name]"
+	},
+	{
+		"Command": "ResetKeyBinds",
+		"TranslatedCommand": "ResetKeyBinds",
+		"Description": "Resets all your keybinds to default",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddActivity",
+		"TranslatedCommand": "AddActivity",
+		"Description": "Creates a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "DelActivity",
+		"TranslatedCommand": "DelActivity",
+		"Description": "Deletes a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityEnable",
+		"TranslatedCommand": "ActivityEnable",
+		"Description": "Enables a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityDisable",
+		"TranslatedCommand": "ActivityDisable",
+		"Description": "Disables a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityChance",
+		"TranslatedCommand": "ActivityChance",
+		"Description": "Sets the chance of a activity being enabled when randomization is on",
+		"SyntaxString": "<activity name> <0-100 percent>"
+	},
+	{
+		"Command": "ActivityRandom",
+		"TranslatedCommand": "ActivityRandom",
+		"Description": "Sets whether a activities can be randomly turned on or off",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityRandomall",
+		"TranslatedCommand": "ActivityRandomall",
+		"Description": "Sets whether all activities can be randomly turned on or off",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ActivityInfo",
+		"TranslatedCommand": "ActivityInfo",
+		"Description": "Shows the information for a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityType",
+		"TranslatedCommand": "ActivityType",
+		"Description": "Shows the information for a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityPlayerStart",
+		"TranslatedCommand": "ActivityPlayerStart",
+		"Description": "Shows the information for a activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityStartPos",
+		"TranslatedCommand": "ActivityStartPos",
+		"Description": "Sets the start position for the activity",
+		"SyntaxString": "<activity name>"
+	},
+	{
+		"Command": "ActivityMaxPlayers",
+		"TranslatedCommand": "ActivityMaxPlayers",
+		"Description": "Sets how many players can join an activity",
+		"SyntaxString": "<activity name> <amount>"
+	},
+	{
+		"Command": "Anim",
+		"TranslatedCommand": "Anim",
+		"Description": "Makes your player ped use an animation",
+		"SyntaxString": "<animation name>"
+	},
+	{
+		"Command": "An",
+		"TranslatedCommand": "An",
+		"Description": "Makes your player ped use an animation",
+		"SyntaxString": "<animation name>"
+	},
+	{
+		"Command": "E",
+		"TranslatedCommand": "E",
+		"Description": "Makes your player ped use an animation",
+		"SyntaxString": "<animation name>"
+	},
+	{
+		"Command": "Anims",
+		"TranslatedCommand": "Anims",
+		"Description": "Shows a list of animations",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AnimList",
+		"TranslatedCommand": "AnimList",
+		"Description": "Shows a list of animations",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StopAnim",
+		"TranslatedCommand": "StopAnim",
+		"Description": "Stops your current animation",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ABan",
+		"TranslatedCommand": "ABan",
+		"Description": "Bans a player's account.",
+		"SyntaxString": "<player name/id> <reason>"
+	},
+	{
+		"Command": "AcctBan",
+		"TranslatedCommand": "AcctBan",
+		"Description": "Bans a player's account.",
+		"SyntaxString": "<player name/id> <reason>"
+	},
+	{
+		"Command": "CBan",
+		"TranslatedCommand": "CBan",
+		"Description": "Bans a player's character.",
+		"SyntaxString": "<player name/id> <reason>"
+	},
+	{
+		"Command": "CharBan",
+		"TranslatedCommand": "CharBan",
+		"Description": "Bans a player's character.",
+		"SyntaxString": "<player name/id> <reason>"
+	},
+	{
+		"Command": "SABan",
+		"TranslatedCommand": "SABan",
+		"Description": "Bans a player's character (subaccount).",
+		"SyntaxString": "<player name/id> <reason>"
+	},
+	{
+		"Command": "IPBan",
+		"TranslatedCommand": "IPBan",
+		"Description": "Bans a player's IP.",
+		"SyntaxString": "<player name/id> <reason>"
+	},
+	{
+		"Command": "SubnetBan",
+		"TranslatedCommand": "SubnetBan",
+		"Description": "Bans a player's subnet.",
+		"SyntaxString": "<player name/id> <range> <reason>"
+	},
+	{
+		"Command": "BankBalance",
+		"TranslatedCommand": "BankBalance",
+		"Description": "Shows how much money you have in your bank account",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BankWithdraw",
+		"TranslatedCommand": "BankWithdraw",
+		"Description": "Takes money from your bank account",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BankDeposit",
+		"TranslatedCommand": "BankDeposit",
+		"Description": "Puts money into your bank account",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "ClanBankBalance",
+		"TranslatedCommand": "ClanBankBalance",
+		"Description": "Shows how much money you have in your clan's bank account",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanBankWithdraw",
+		"TranslatedCommand": "ClanBankWithdraw",
+		"Description": "Takes money from your clan's bank account",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "ClanBankDeposit",
+		"TranslatedCommand": "ClanBankDeposit",
+		"Description": "Puts money into your clan's bank account",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "AddBiz",
+		"TranslatedCommand": "AddBiz",
+		"Description": "Creates a business",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "DelBiz",
+		"TranslatedCommand": "DelBiz",
+		"Description": "Deletes a business",
+		"SyntaxString": "[id]"
+	},
+	{
+		"Command": "BizReloadAll",
+		"TranslatedCommand": "BizReloadAll",
+		"Description": "Reloads all businesses from the database",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizBuy",
+		"TranslatedCommand": "BizBuy",
+		"Description": "Purchases a business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizFee",
+		"TranslatedCommand": "BizFee",
+		"Description": "Sets a fee to charge players when they enter the business.",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BizEntranceFee",
+		"TranslatedCommand": "BizEntranceFee",
+		"Description": "Sets a fee to charge players when they enter the business.",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BizTill",
+		"TranslatedCommand": "BizTill",
+		"Description": "Shows the business's till (cash register) amount",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizBalance",
+		"TranslatedCommand": "BizBalance",
+		"Description": "Shows the business's till (cash register) amount",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizWithdraw",
+		"TranslatedCommand": "BizWithdraw",
+		"Description": "Take money out of the business till (cash register)",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BizDeposit",
+		"TranslatedCommand": "BizDeposit",
+		"Description": "Put money into the business till (cash register)",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BizStock",
+		"TranslatedCommand": "BizStock",
+		"Description": "Uses storage items to restock the business with.",
+		"SyntaxString": "<item name> <amount> <sell price>"
+	},
+	{
+		"Command": "BizStore",
+		"TranslatedCommand": "BizStore",
+		"Description": "Moves items from the business to the business storage",
+		"SyntaxString": "<item name> <amount>"
+	},
+	{
+		"Command": "BizOrder",
+		"TranslatedCommand": "BizOrder",
+		"Description": "Orders items to sell from a business",
+		"SyntaxString": "<item name> <amount>"
+	},
+	{
+		"Command": "BizItemPrice",
+		"TranslatedCommand": "BizItemPrice",
+		"Description": "Sets the purchase price of a business item",
+		"SyntaxString": "<item slot> <sell price>"
+	},
+	{
+		"Command": "BizName",
+		"TranslatedCommand": "BizName",
+		"Description": "Changes a business name",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "BizOwner",
+		"TranslatedCommand": "BizOwner",
+		"Description": "Changes the owner of a business",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "BizDelOwner",
+		"TranslatedCommand": "BizDelOwner",
+		"Description": "Removes the owner of a business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizPublic",
+		"TranslatedCommand": "BizPublic",
+		"Description": "Changes a business to public (city hall, govt buildings, etc)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizJob",
+		"TranslatedCommand": "BizJob",
+		"Description": "Changes the owner of a business to a job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizRank",
+		"TranslatedCommand": "BizRank",
+		"Description": "Changes the job/clan rank required to use the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizClan",
+		"TranslatedCommand": "BizClan",
+		"Description": "Changes the owner of a business to a clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizBuyPrice",
+		"TranslatedCommand": "BizBuyPrice",
+		"Description": "Changes the price to buy the business",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BizForSale",
+		"TranslatedCommand": "BizForSale",
+		"Description": "Toggles whether the business is for sale",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizBlip",
+		"TranslatedCommand": "BizBlip",
+		"Description": "Sets the business blip display",
+		"SyntaxString": "<type name/model id>"
+	},
+	{
+		"Command": "BizPickup",
+		"TranslatedCommand": "BizPickup",
+		"Description": "Sets the business pickup display",
+		"SyntaxString": "<type name/model id>"
+	},
+	{
+		"Command": "BizInfo",
+		"TranslatedCommand": "BizInfo",
+		"Description": "Shows business information",
+		"SyntaxString": "[business id]"
+	},
+	{
+		"Command": "BizFloorItems",
+		"TranslatedCommand": "BizFloorItems",
+		"Description": "Shows all business floor items (for sale) to a player",
+		"SyntaxString": "[business id]"
+	},
+	{
+		"Command": "BizStorageItems",
+		"TranslatedCommand": "BizStorageItems",
+		"Description": "Shows all business storage items (i.e. back room) to a player",
+		"SyntaxString": "[business id]"
+	},
+	{
+		"Command": "BizEntrance",
+		"TranslatedCommand": "BizEntrance",
+		"Description": "Moves the entrance (exterior point) of the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizExit",
+		"TranslatedCommand": "BizExit",
+		"Description": "Moves the exit (interior point) of the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizIntType",
+		"TranslatedCommand": "BizIntType",
+		"Description": "Changes the business interior",
+		"SyntaxString": "<interior template name/business id>"
+	},
+	{
+		"Command": "BizDefaultItems",
+		"TranslatedCommand": "BizDefaultItems",
+		"Description": "Gives the business the default items based on template name",
+		"SyntaxString": "<item template>"
+	},
+	{
+		"Command": "BizDelFloorItems",
+		"TranslatedCommand": "BizDelFloorItems",
+		"Description": "Destroys all items on the business floor (for-sale items)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizDelStorageItems",
+		"TranslatedCommand": "BizDelStorageItems",
+		"Description": "Destroys all items in the business's storage",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NearBiz",
+		"TranslatedCommand": "NearBiz",
+		"Description": "Shows all businesses within X meters",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "NearBizs",
+		"TranslatedCommand": "NearBizs",
+		"Description": "Shows all businesses within X meters",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "NearBusiness",
+		"TranslatedCommand": "NearBusiness",
+		"Description": "Shows all businesses within X meters",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "NearBusinesses",
+		"TranslatedCommand": "NearBusinesses",
+		"Description": "Shows all businesses within X meters",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "MyBizs",
+		"TranslatedCommand": "MyBizs",
+		"Description": "Shows all businesses you own",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "MyBiz",
+		"TranslatedCommand": "MyBiz",
+		"Description": "Shows all businesses you own",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "MyBusinesses",
+		"TranslatedCommand": "MyBusinesses",
+		"Description": "Shows all businesses you own",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "MyBusiness",
+		"TranslatedCommand": "MyBusiness",
+		"Description": "Shows all businesses you own",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "ClanBizs",
+		"TranslatedCommand": "ClanBizs",
+		"Description": "Shows all businesses owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanBiz",
+		"TranslatedCommand": "ClanBiz",
+		"Description": "Shows all businesses owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanBusinesses",
+		"TranslatedCommand": "ClanBusinesses",
+		"Description": "Shows all businesses owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobBizs",
+		"TranslatedCommand": "JobBizs",
+		"Description": "Shows all businesses owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobBiz",
+		"TranslatedCommand": "JobBiz",
+		"Description": "Shows all businesses owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobBusinesses",
+		"TranslatedCommand": "JobBusinesses",
+		"Description": "Shows all businesses owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizVeh",
+		"TranslatedCommand": "BizVeh",
+		"Description": "Shows all vehicles owned by your business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizVehicles",
+		"TranslatedCommand": "BizVehicles",
+		"Description": "Shows all vehicles owned by your business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizAllowVeh",
+		"TranslatedCommand": "BizAllowVeh",
+		"Description": "Toggles whether vehicles are allowed to enter/exit the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizCombineItems",
+		"TranslatedCommand": "BizCombineItems",
+		"Description": "Combines two sets of a for-sale item into one",
+		"SyntaxString": "<item slot 1> <item slot 2>"
+	},
+	{
+		"Command": "BizExitDistance",
+		"TranslatedCommand": "BizExitDistance",
+		"Description": "Sets the max distance the exit location to allow exiting a business",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "BizEnterDistance",
+		"TranslatedCommand": "BizEnterDistance",
+		"Description": "Sets the max distance from the entrance location to allow entering a business",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "BizExiticonDistance",
+		"TranslatedCommand": "BizExiticonDistance",
+		"Description": "Sets how far to show the business' exit icon",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "BizEnterpickupDistance",
+		"TranslatedCommand": "BizEnterpickupDistance",
+		"Description": "Sets how far to show the business' entrance pickup",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "BizEnterblipDistance",
+		"TranslatedCommand": "BizEnterblipDistance",
+		"Description": "Sets how far to show the business' entrance blip",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "BizAutoExit",
+		"TranslatedCommand": "BizAutoExit",
+		"Description": "Sets whether to automatically make a player exit when they get within exit range",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizAutoEnter",
+		"TranslatedCommand": "BizAutoEnter",
+		"Description": "Sets whether to automatically make a player enter when they get within entrance range",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizType",
+		"TranslatedCommand": "BizType",
+		"Description": "Sets a business's type",
+		"SyntaxString": "<type name/id>"
+	},
+	{
+		"Command": "BizScene",
+		"TranslatedCommand": "BizScene",
+		"Description": "Sets a business's scene description (shows to player when they enter)",
+		"SyntaxString": "<new scene description>"
+	},
+	{
+		"Command": "DealCard",
+		"TranslatedCommand": "DealCard",
+		"Description": "Deals a card to a player",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Me",
+		"TranslatedCommand": "Me",
+		"Description": "Shows a custom action message in chat",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Do",
+		"TranslatedCommand": "Do",
+		"Description": "Shows a custom action description in chat",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Try",
+		"TranslatedCommand": "Try",
+		"Description": "Attempts a custom action message in chat",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "S",
+		"TranslatedCommand": "S",
+		"Description": "Shout a message to others in the area",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Shout",
+		"TranslatedCommand": "Shout",
+		"Description": "Shout a message to others in the area",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Talk",
+		"TranslatedCommand": "Talk",
+		"Description": "Say a message to others nearby",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Local",
+		"TranslatedCommand": "Local",
+		"Description": "Say a message to others nearby",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "L",
+		"TranslatedCommand": "L",
+		"Description": "Say a message to others nearby",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "W",
+		"TranslatedCommand": "W",
+		"Description": "Whisper a message to players very close to you",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Whisper",
+		"TranslatedCommand": "Whisper",
+		"Description": "Whisper a message to players very close to you",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Clanchat",
+		"TranslatedCommand": "Clanchat",
+		"Description": "Sends an OOC chat message to members in your clan",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Clan",
+		"TranslatedCommand": "Clan",
+		"Description": "Sends an OOC chat message to members in your clan",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "C",
+		"TranslatedCommand": "C",
+		"Description": "Sends an OOC chat message to members in your clan",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "M",
+		"TranslatedCommand": "M",
+		"Description": "Shouts a message over a megaphone (portable bullhorn/loudspeaker)",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Megaphone",
+		"TranslatedCommand": "Megaphone",
+		"Description": "Shouts a message over a megaphone (portable bullhorn/loudspeaker)",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "PM",
+		"TranslatedCommand": "PM",
+		"Description": "Sends a private message to a player",
+		"SyntaxString": "<player name/id> <message>"
+	},
+	{
+		"Command": "DM",
+		"TranslatedCommand": "DM",
+		"Description": "Sends a private message to a player",
+		"SyntaxString": "<player name/id> <message>"
+	},
+	{
+		"Command": "Msg",
+		"TranslatedCommand": "Msg",
+		"Description": "Sends a private message to a player",
+		"SyntaxString": "<player name/id> <message>"
+	},
+	{
+		"Command": "Reply",
+		"TranslatedCommand": "Reply",
+		"Description": "Replies to the last private message you received",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "B",
+		"TranslatedCommand": "B",
+		"Description": "Local OOC (out of character) chat, shows to players in proximity",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "O",
+		"TranslatedCommand": "O",
+		"Description": "Global OOC (out of character) chat, shows to all players",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "AME",
+		"TranslatedCommand": "AME",
+		"Description": "Shows a custom action message above your head",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "AddClan",
+		"TranslatedCommand": "AddClan",
+		"Description": "Creates an new empty, unowned clan.",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "DelClan",
+		"TranslatedCommand": "DelClan",
+		"Description": "Deletes a clan by ID or name",
+		"SyntaxString": "<clan id>"
+	},
+	{
+		"Command": "Clans",
+		"TranslatedCommand": "Clans",
+		"Description": "List clans (search by partial name, if provided)",
+		"SyntaxString": "[search text]"
+	},
+	{
+		"Command": "ClanRanks",
+		"TranslatedCommand": "ClanRanks",
+		"Description": "Shows a list of a clan's ranks",
+		"SyntaxString": "[clan name]"
+	},
+	{
+		"Command": "ClanFlags",
+		"TranslatedCommand": "ClanFlags",
+		"Description": "Shows a list of clan permission flags",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddClanRank",
+		"TranslatedCommand": "AddClanRank",
+		"Description": "Adds a clan rank",
+		"SyntaxString": "<name> <level>"
+	},
+	{
+		"Command": "DelClanRank",
+		"TranslatedCommand": "DelClanRank",
+		"Description": "Removes a clan rank",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "ClanWebhook",
+		"TranslatedCommand": "ClanWebhook",
+		"Description": "Sets a discord webhook for the clan",
+		"SyntaxString": "<url>"
+	},
+	{
+		"Command": "ClanWebhookFlags",
+		"TranslatedCommand": "ClanWebhookFlags",
+		"Description": "Sets which events are sent to the clan's discord webhook",
+		"SyntaxString": "<flag name>"
+	},
+	{
+		"Command": "ClanOwner",
+		"TranslatedCommand": "ClanOwner",
+		"Description": "Gives ownership of the clan to a player",
+		"SyntaxString": "<player name/id> <clan name/id>"
+	},
+	{
+		"Command": "ClanTag",
+		"TranslatedCommand": "ClanTag",
+		"Description": "Sets a clan's main tag",
+		"SyntaxString": "<tag>"
+	},
+	{
+		"Command": "ClanName",
+		"TranslatedCommand": "ClanName",
+		"Description": "Sets a clan's name",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "ClanRankTag",
+		"TranslatedCommand": "ClanRankTag",
+		"Description": "Sets a clan rank's custom tag",
+		"SyntaxString": "<rank name/id> <tag>"
+	},
+	{
+		"Command": "ClanRankWage",
+		"TranslatedCommand": "ClanRankWage",
+		"Description": "Sets a clan rank's pay (paid every payday from clan bank)",
+		"SyntaxString": "<rank name/id> <amount per payday>"
+	},
+	{
+		"Command": "ClanRankPay",
+		"TranslatedCommand": "ClanRankPay",
+		"Description": "Sets a clan rank's pay (paid every payday from clan bank)",
+		"SyntaxString": "<rank name/id> <amount per payday>"
+	},
+	{
+		"Command": "ClanRankName",
+		"TranslatedCommand": "ClanRankName",
+		"Description": "Sets a clan rank's title",
+		"SyntaxString": "<rank name/id> <new name>"
+	},
+	{
+		"Command": "ClanRankLevel",
+		"TranslatedCommand": "ClanRankLevel",
+		"Description": "Sets a clan rank's level",
+		"SyntaxString": "<rank name/id> <new level>"
+	},
+	{
+		"Command": "AddClanRankFlag",
+		"TranslatedCommand": "AddClanRankFlag",
+		"Description": "Gives a clan rank a clan permission.",
+		"SyntaxString": "<rank name/id> <flag name>"
+	},
+	{
+		"Command": "ClanRankFlags",
+		"TranslatedCommand": "ClanRankFlags",
+		"Description": "Lists a clan rank's permission flags",
+		"SyntaxString": "<rank name/id>"
+	},
+	{
+		"Command": "DelClanRankFlag",
+		"TranslatedCommand": "DelClanRankFlag",
+		"Description": "Takes a clan permission from a clan rank",
+		"SyntaxString": "<rank name/id> <flag name>"
+	},
+	{
+		"Command": "ClanSetRank",
+		"TranslatedCommand": "ClanSetRank",
+		"Description": "Sets the rank of a clan member",
+		"SyntaxString": "<player name/id> <rank name>"
+	},
+	{
+		"Command": "ClanRank",
+		"TranslatedCommand": "ClanRank",
+		"Description": "Sets the rank of a clan member",
+		"SyntaxString": "<player name/id> <rank name>"
+	},
+	{
+		"Command": "ClanInvite",
+		"TranslatedCommand": "ClanInvite",
+		"Description": "Invites a player to a clan",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "ClanHire",
+		"TranslatedCommand": "ClanHire",
+		"Description": "Invites a player to a clan",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "ClanUninvite",
+		"TranslatedCommand": "ClanUninvite",
+		"Description": "Removes a player from their clan",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "ClanFire",
+		"TranslatedCommand": "ClanFire",
+		"Description": "Removes a player from their clan",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "LeaveClan",
+		"TranslatedCommand": "LeaveClan",
+		"Description": "Removes you from your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "QuitClan",
+		"TranslatedCommand": "QuitClan",
+		"Description": "Removes you from your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanLeave",
+		"TranslatedCommand": "ClanLeave",
+		"Description": "Removes you from your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanMembers",
+		"TranslatedCommand": "ClanMembers",
+		"Description": "Shows a list of all clan members",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanInfo",
+		"TranslatedCommand": "ClanInfo",
+		"Description": "Shows information about a clan",
+		"SyntaxString": "[clan name/id]"
+	},
+	{
+		"Command": "ClanTax",
+		"TranslatedCommand": "ClanTax",
+		"Description": "Shows your clan's current tax",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CMDTypeEnable",
+		"TranslatedCommand": "CMDTypeEnable",
+		"Description": "Enables all commands by type.",
+		"SyntaxString": "<type>"
+	},
+	{
+		"Command": "CMDTypeDisable",
+		"TranslatedCommand": "CMDTypeDisable",
+		"Description": "Disables all commands by type.",
+		"SyntaxString": "<type>"
+	},
+	{
+		"Command": "CMDEnable",
+		"TranslatedCommand": "CMDEnable",
+		"Description": "Enable a specific command",
+		"SyntaxString": "<command>"
+	},
+	{
+		"Command": "CMDDisable",
+		"TranslatedCommand": "CMDDisable",
+		"Description": "Disables a specific command",
+		"SyntaxString": "<command>"
+	},
+	{
+		"Command": "Time",
+		"TranslatedCommand": "Time",
+		"Description": "Gets or sets the time. If setting, hours are required, minute is optional and will default to 0",
+		"SyntaxString": "<hour> [minute]"
+	},
+	{
+		"Command": "MinuteDuration",
+		"TranslatedCommand": "MinuteDuration",
+		"Description": "Gets or sets how long a minute lasts in milliseconds. 60000 is real time.",
+		"SyntaxString": "<time in ms>"
+	},
+	{
+		"Command": "Weather",
+		"TranslatedCommand": "Weather",
+		"Description": "Change the weather to specified type.",
+		"SyntaxString": "<weather id/name>"
+	},
+	{
+		"Command": "Snow",
+		"TranslatedCommand": "Snow",
+		"Description": "Toggles winter/snow",
+		"SyntaxString": "<falling snow> <ground snow>"
+	},
+	{
+		"Command": "LogoGlobal",
+		"TranslatedCommand": "LogoGlobal",
+		"Description": "Toggles the corner server logo display on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "GUIGlobal",
+		"TranslatedCommand": "GUIGlobal",
+		"Description": "Toggles server GUI on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "GUIColours",
+		"TranslatedCommand": "GUIColours",
+		"SyntaxString": "<red> <green> <blue>"
+	},
+	{
+		"Command": "NewCharSpawn",
+		"TranslatedCommand": "NewCharSpawn",
+		"Description": "Sets the starting spawn position for new characters",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NewCharCash",
+		"TranslatedCommand": "NewCharCash",
+		"Description": "Sets the starting money for new characters",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "NewCharSkin",
+		"TranslatedCommand": "NewCharSkin",
+		"Description": "Sets the default skin for new characters",
+		"SyntaxString": "[skin id]"
+	},
+	{
+		"Command": "ReloadConfig",
+		"TranslatedCommand": "ReloadConfig",
+		"Description": "Loads and applies the server configuration",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ReloadEmailConfig",
+		"TranslatedCommand": "ReloadEmailConfig",
+		"Description": "Loads and applies the email configuration",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ReloadDatabaseConfig",
+		"TranslatedCommand": "ReloadDatabaseConfig",
+		"Description": "Loads and applies the database configuration",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ReloadLocaleConfig",
+		"TranslatedCommand": "ReloadLocaleConfig",
+		"Description": "Loads and applies the locale configuration and texts",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ReloadAccentConfig",
+		"TranslatedCommand": "ReloadAccentConfig",
+		"Description": "Loads and applies the accent configuration and texts",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizBlips",
+		"TranslatedCommand": "BizBlips",
+		"Description": "Toggles all business blips on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "BusinessBlips",
+		"TranslatedCommand": "BusinessBlips",
+		"Description": "Toggles all business blips on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "HouseBlips",
+		"TranslatedCommand": "HouseBlips",
+		"Description": "Toggles all house blips on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "JobBlips",
+		"TranslatedCommand": "JobBlips",
+		"Description": "Toggles all job blips on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "BizPickups",
+		"TranslatedCommand": "BizPickups",
+		"Description": "Toggles all business pickups on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "BusinessPickups",
+		"TranslatedCommand": "BusinessPickups",
+		"Description": "Toggles all business pickups on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "HousePickups",
+		"TranslatedCommand": "HousePickups",
+		"Description": "Toggles all house pickups on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "JobPickups",
+		"TranslatedCommand": "JobPickups",
+		"Description": "Toggles all job pickups on/off",
+		"SyntaxString": "<0/1 state>"
+	},
+	{
+		"Command": "NametagDistance",
+		"TranslatedCommand": "NametagDistance",
+		"Description": "Sets the distance at which name tags are displayed",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "Paydays",
+		"TranslatedCommand": "Paydays",
+		"Description": "Turns on/off paydays",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Timecycle",
+		"TranslatedCommand": "Timecycle",
+		"Description": "Turns on/off time cycle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizRobberyCooldown",
+		"TranslatedCommand": "BizRobberyCooldown",
+		"Description": "Sets the business robbery cooldown time (in seconds)",
+		"SyntaxString": "<time in seconds>"
+	},
+	{
+		"Command": "AdvertisementCost",
+		"TranslatedCommand": "AdvertisementCost",
+		"Description": "Sets the cost of an advertisement",
+		"SyntaxString": "<amount per ad>"
+	},
+	{
+		"Command": "WordOnTheStreet",
+		"TranslatedCommand": "WordOnTheStreet",
+		"Description": "Sets the server's {ALTCOLOUR}Word on the Street{MAINCOLOUR} message",
+		"SyntaxString": "<message> (use 'none' without quotes to remove the message)"
+	},
+	{
+		"Command": "WOTS",
+		"TranslatedCommand": "WOTS",
+		"Description": "Sets the server's {ALTCOLOUR}Word on the Street{MAINCOLOUR} message",
+		"SyntaxString": "<message> (use 'none' without quotes to remove the message)"
+	},
+	{
+		"Command": "Lottery",
+		"TranslatedCommand": "Lottery",
+		"Description": "Gets or sets the lottery prize amount",
+		"SyntaxString": "[amount]"
+	},
+	{
+		"Command": "LotteryPrize",
+		"TranslatedCommand": "LotteryPrize",
+		"Description": "Gets or sets the lottery prize amount",
+		"SyntaxString": "[amount]"
+	},
+	{
+		"Command": "LotteryPrizeIncrease",
+		"TranslatedCommand": "LotteryPrizeIncrease",
+		"Description": "Gets or sets how much the lottery prize increases each time it's not won",
+		"SyntaxString": "[amount]"
+	},
+	{
+		"Command": "LotteryPrizeStart",
+		"TranslatedCommand": "LotteryPrizeStart",
+		"Description": "Gets or sets the starting lottery prize (the amount it restarts with after somebody wins it)",
+		"SyntaxString": "[amount]"
+	},
+	{
+		"Command": "LotteryPrizeMax",
+		"TranslatedCommand": "LotteryPrizeMax",
+		"Description": "Gets or sets the maximum lottery prize",
+		"SyntaxString": "[amount]"
+	},
+	{
+		"Command": "DBQuery",
+		"TranslatedCommand": "DBQuery",
+		"Description": "Run a query on the database",
+		"SyntaxString": "<query>"
+	},
+	{
+		"Command": "SCode",
+		"TranslatedCommand": "SCode",
+		"Description": "Execute server-side code",
+		"SyntaxString": "<code>"
+	},
+	{
+		"Command": "CCode",
+		"TranslatedCommand": "CCode",
+		"Description": "Execute client-side code for a player",
+		"SyntaxString": "<code>"
+	},
+	{
+		"Command": "CCodeAll",
+		"TranslatedCommand": "CCodeAll",
+		"Description": "Execute client-side code for all players",
+		"SyntaxString": "<code>"
+	},
+	{
+		"Command": "GMX",
+		"TranslatedCommand": "GMX",
+		"Description": "Restart the gamemode",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SaveAll",
+		"TranslatedCommand": "SaveAll",
+		"Description": "Immediately save all data to database",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DoCmd",
+		"TranslatedCommand": "DoCmd",
+		"Description": "Force a player to use a command",
+		"SyntaxString": "<player name/id> <command> [params]"
+	},
+	{
+		"Command": "DoCmdAll",
+		"TranslatedCommand": "DoCmdAll",
+		"Description": "Force all players to use a command",
+		"SyntaxString": "<command> [params]"
+	},
+	{
+		"Command": "AddLogLevel",
+		"TranslatedCommand": "AddLogLevel",
+		"Description": "Enables a log level",
+		"SyntaxString": "<log level name>"
+	},
+	{
+		"Command": "DelLogLevel",
+		"TranslatedCommand": "DelLogLevel",
+		"Description": "Disables a log level",
+		"SyntaxString": "<log level name>"
+	},
+	{
+		"Command": "LogLevel",
+		"TranslatedCommand": "LogLevel",
+		"Description": "Gets the current log level",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NoSave",
+		"TranslatedCommand": "NoSave",
+		"Description": "Pauses saving to database (used for testing)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StreamURLAll",
+		"TranslatedCommand": "StreamURLAll",
+		"Description": "Plays a URL radio stream for all players",
+		"SyntaxString": "<url> <volume>"
+	},
+	{
+		"Command": "StreamNameall",
+		"TranslatedCommand": "StreamNameall",
+		"Description": "Plays an audio file stream for all players",
+		"SyntaxString": "<name> <volume>"
+	},
+	{
+		"Command": "StreamStopAll",
+		"TranslatedCommand": "StreamStopAll",
+		"Description": "Stops the playing radio stream for all players",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "FixBlips",
+		"TranslatedCommand": "FixBlips",
+		"Description": "Clears and recreates all map blips",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "FixPickups",
+		"TranslatedCommand": "FixPickups",
+		"Description": "Clears and recreates all pickups",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ResetAmbience",
+		"TranslatedCommand": "ResetAmbience",
+		"Description": "Clears all current server ambience elements (traffic, peds, etc)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TestGUIPrompt",
+		"TranslatedCommand": "TestGUIPrompt",
+		"Description": "Shows a sample prompt GUI (two buttons) to a player for testing",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "TestGUIInfo",
+		"TranslatedCommand": "TestGUIInfo",
+		"Description": "Shows a sample info dialog GUI to a player for testing",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "TestGUIError",
+		"TranslatedCommand": "TestGUIError",
+		"Description": "Shows a sample error dialog GUI to a player for testing",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "Tax",
+		"TranslatedCommand": "Tax",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Wealth",
+		"TranslatedCommand": "Wealth",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AutoDeposit",
+		"TranslatedCommand": "AutoDeposit",
+		"Description": "Sets how much percentage of your paycheck is automatically deposited into your bank account",
+		"SyntaxString": "<percentage of paycheck 0-100>"
+	},
+	{
+		"Command": "ForcePayday",
+		"TranslatedCommand": "ForcePayday",
+		"Description": "Gives a player an instant payday.",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "IncomeMultiplier",
+		"TranslatedCommand": "IncomeMultiplier",
+		"Description": "Multiplies gross pay by this amount. 100% adds nothing extra",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "Inflation",
+		"TranslatedCommand": "Inflation",
+		"Description": "Sets the server inflation (in percent). 100% is no inflation, prices are normal",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "Incomeinflation",
+		"TranslatedCommand": "Incomeinflation",
+		"Description": "Sets income inflation. 100% is no inflation, payday is normal",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "IncomeTax",
+		"TranslatedCommand": "IncomeTax",
+		"Description": "Sets the server income tax (in percent). Players will be taxed this much when getting pay",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "HouseTaxAmount",
+		"TranslatedCommand": "HouseTaxAmount",
+		"Description": "Sets the base upkeep cost of a house",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "BizTaxAmount",
+		"TranslatedCommand": "BizTaxAmount",
+		"Description": "Sets the base upkeep cost of a business",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "VehTaxAmount",
+		"TranslatedCommand": "VehTaxAmount",
+		"Description": "Sets the base upkeep cost of a vehicle",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "CurrencyString",
+		"TranslatedCommand": "CurrencyString",
+		"Description": "Sets the currency string",
+		"SyntaxString": "<string> MUST INCLUDE {AMOUNT}"
+	},
+	{
+		"Command": "PassiveIncome",
+		"TranslatedCommand": "PassiveIncome",
+		"Description": "Sets the base upkeep cost of a vehicle",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "PlrVehTax",
+		"TranslatedCommand": "PlrVehTax",
+		"Description": "Toggles tax/upkeep for player vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanVehTax",
+		"TranslatedCommand": "ClanVehTax",
+		"Description": "Toggles tax/upkeep for clan vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizVehTax",
+		"TranslatedCommand": "BizVehTax",
+		"Description": "Toggles tax/upkeep for business-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "PlrHouseTax",
+		"TranslatedCommand": "PlrHouseTax",
+		"Description": "Toggles tax/upkeep for player houses",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanHouseTax",
+		"TranslatedCommand": "ClanHouseTax",
+		"Description": "Toggles tax/upkeep for clan houses",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizHouseTax",
+		"TranslatedCommand": "BizHouseTax",
+		"Description": "Toggles tax/upkeep for business-owned houses",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "PlrBizTax",
+		"TranslatedCommand": "PlrBizTax",
+		"Description": "Toggles tax/upkeep for player businesses",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanBizTax",
+		"TranslatedCommand": "ClanBizTax",
+		"Description": "Toggles tax/upkeep for clan businesses",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizBiztax",
+		"TranslatedCommand": "BizBiztax",
+		"Description": "Toggles tax/upkeep for business-owned businesses",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "PayDay",
+		"TranslatedCommand": "PayDay",
+		"Description": "Shows information on your next pay check",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "PayCheck",
+		"TranslatedCommand": "PayCheck",
+		"Description": "Shows information on your next pay check",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TestEmail",
+		"TranslatedCommand": "TestEmail",
+		"Description": "Allows a developer to test the email system",
+		"SyntaxString": "<email address>"
+	},
+	{
+		"Command": "Fish",
+		"TranslatedCommand": "Fish",
+		"Description": "Casts your fishing line into the water",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CastLine",
+		"TranslatedCommand": "CastLine",
+		"Description": "Casts your fishing line into the water",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ResetLine",
+		"TranslatedCommand": "ResetLine",
+		"Description": "Casts your fishing line into the water",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Gate",
+		"TranslatedCommand": "Gate",
+		"Description": "Opens/closes the nearest gate",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Door",
+		"TranslatedCommand": "Door",
+		"Description": "Opens/closes the nearest gate",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "GateReloadAll",
+		"TranslatedCommand": "GateReloadAll",
+		"Description": "Reloads all gates",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Help",
+		"TranslatedCommand": "Help",
+		"Description": "Shows help messages for information",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Commands",
+		"TranslatedCommand": "Commands",
+		"Description": "Shows help messages for information",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Cmds",
+		"TranslatedCommand": "Cmds",
+		"Description": "Shows help messages for information",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Info",
+		"TranslatedCommand": "Info",
+		"Description": "Shows help messages for information",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Veh",
+		"TranslatedCommand": "Veh",
+		"Description": "Explains how to get/buy a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "V",
+		"TranslatedCommand": "V",
+		"Description": "Explains how to get/buy a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Car",
+		"TranslatedCommand": "Car",
+		"Description": "Explains how to get/buy a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Cars",
+		"TranslatedCommand": "Cars",
+		"Description": "Explains how to get/buy a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SpawnCar",
+		"TranslatedCommand": "SpawnCar",
+		"Description": "Explains how to get/buy a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SpawnVeh",
+		"TranslatedCommand": "SpawnVeh",
+		"Description": "Explains how to get/buy a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Skin",
+		"TranslatedCommand": "Skin",
+		"Description": "Explains how to change your skin",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Skins",
+		"TranslatedCommand": "Skins",
+		"Description": "Explains how to change your skin",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Clothes",
+		"TranslatedCommand": "Clothes",
+		"Description": "Explains how to change your skin",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ChangeSkin",
+		"TranslatedCommand": "ChangeSkin",
+		"Description": "Explains how to change your skin",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddHouse",
+		"TranslatedCommand": "AddHouse",
+		"Description": "Creates a new house",
+		"SyntaxString": "<description>"
+	},
+	{
+		"Command": "DelHouse",
+		"TranslatedCommand": "DelHouse",
+		"Description": "Deletes a house",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseReloadAll",
+		"TranslatedCommand": "HouseReloadAll",
+		"Description": "Reloads all houses from the database",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseInfo",
+		"TranslatedCommand": "HouseInfo",
+		"Description": "Shows a house's information",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseBuy",
+		"TranslatedCommand": "HouseBuy",
+		"Description": "Purchases a house",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseClan",
+		"TranslatedCommand": "HouseClan",
+		"Description": "Gives a house to your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseDesc",
+		"TranslatedCommand": "HouseDesc",
+		"Description": "Sets a house's description",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseDelOwner",
+		"TranslatedCommand": "HouseDelOwner",
+		"Description": "Removes the owner of a house, making the house unowned",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseOwner",
+		"TranslatedCommand": "HouseOwner",
+		"Description": "Gives a house to a player",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseBuyprice",
+		"TranslatedCommand": "HouseBuyprice",
+		"Description": "Sets the purchase price of a house so people can buy it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseRentprice",
+		"TranslatedCommand": "HouseRentprice",
+		"Description": "Sets the rent price of a house so people can rent it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseBlip",
+		"TranslatedCommand": "HouseBlip",
+		"Description": "Changes or removes a house's map icon",
+		"SyntaxString": "<type name/model id>"
+	},
+	{
+		"Command": "HousePickup",
+		"TranslatedCommand": "HousePickup",
+		"Description": "Changes or removes a house's pickup",
+		"SyntaxString": "<type name/model id>"
+	},
+	{
+		"Command": "HouseEntrance",
+		"TranslatedCommand": "HouseEntrance",
+		"Description": "Moves a house's entrance (outside/exterior location to enter the house)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseExit",
+		"TranslatedCommand": "HouseExit",
+		"Description": "Moves a house's exit (inside/interior location to exit the house)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseInttype",
+		"TranslatedCommand": "HouseInttype",
+		"Description": "Sets a house's interior to a pre-defined type",
+		"SyntaxString": "<interior template name/business id>"
+	},
+	{
+		"Command": "MyHouses",
+		"TranslatedCommand": "MyHouses",
+		"Description": "Shows all houses you own",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "MyHouse",
+		"TranslatedCommand": "MyHouse",
+		"Description": "Shows all houses you own",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanHouses",
+		"TranslatedCommand": "ClanHouses",
+		"Description": "Shows all houses owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanHouse",
+		"TranslatedCommand": "ClanHouse",
+		"Description": "Shows all houses owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobHouses",
+		"TranslatedCommand": "JobHouses",
+		"Description": "Shows all businesses owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobHouse",
+		"TranslatedCommand": "JobHouse",
+		"Description": "Shows all businesses owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseScene",
+		"TranslatedCommand": "HouseScene",
+		"Description": "Sets a house's scene description (shows to player when they enter)",
+		"SyntaxString": "<new scene description>"
+	},
+	{
+		"Command": "HouseEntrancePickupDistance",
+		"TranslatedCommand": "HouseEntrancePickupDistance",
+		"Description": "Sets the distance a house's entrance pickup will be shown",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "HouseEntranceBlipDistance",
+		"TranslatedCommand": "HouseEntranceBlipDistance",
+		"Description": "Sets the distance a house's entrance blip will be shown",
+		"SyntaxString": "<distance>"
+	},
+	{
+		"Command": "I",
+		"TranslatedCommand": "I",
+		"Description": "Switches to the item in the specified slot of your inventory.",
+		"SyntaxString": "<slot id>"
+	},
+	{
+		"Command": "Item",
+		"TranslatedCommand": "Item",
+		"Description": "Switches to the item in the specified slot of your inventory.",
+		"SyntaxString": "<slot id>"
+	},
+	{
+		"Command": "AddGroundItem",
+		"TranslatedCommand": "AddGroundItem",
+		"Description": "Spawns a new item on the ground at your position.",
+		"SyntaxString": "<item name/id>"
+	},
+	{
+		"Command": "AddItem",
+		"TranslatedCommand": "AddItem",
+		"Description": "Spawns a new item in your hotbar inventory.",
+		"SyntaxString": "<item name/id>"
+	},
+	{
+		"Command": "AddCrateOfItems",
+		"TranslatedCommand": "AddCrateOfItems",
+		"Description": "Spawns a crate filled with items in your inventory.",
+		"SyntaxString": "<item name/id> <value> <amount>"
+	},
+	{
+		"Command": "DelGroundItem",
+		"TranslatedCommand": "DelGroundItem",
+		"Description": "Destroys the nearest item on the ground.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Pickup",
+		"TranslatedCommand": "Pickup",
+		"Description": "Picks up the nearest item.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Drop",
+		"TranslatedCommand": "Drop",
+		"Description": "Drops your currently equipped item or the item in the specified slot",
+		"SyntaxString": "[slot]"
+	},
+	{
+		"Command": "Put",
+		"TranslatedCommand": "Put",
+		"Description": "Puts an item from your inventory into the nearest item place (Vehicle trunk/dash, house, business, etc)",
+		"SyntaxString": "[slot]"
+	},
+	{
+		"Command": "Take",
+		"TranslatedCommand": "Take",
+		"Description": "Takes an item from the nearest item place (Vehicle trunk, dash, house, business, etc)",
+		"SyntaxString": "[slot]"
+	},
+	{
+		"Command": "Use",
+		"TranslatedCommand": "Use",
+		"Description": "Uses the currently equipped item",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Inv",
+		"TranslatedCommand": "Inv",
+		"Description": "Shows the items in your inventory",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Inventory",
+		"TranslatedCommand": "Inventory",
+		"Description": "Shows the items in your inventory",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ItemStorage",
+		"TranslatedCommand": "ItemStorage",
+		"Description": "Shows the items stored in a container item",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTrunk",
+		"TranslatedCommand": "VehTrunk",
+		"Description": "Shows the items in a vehicle's trunk",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehDash",
+		"TranslatedCommand": "VehDash",
+		"Description": "Shows the items in a vehicle's dash compartment (inside)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "HouseItems",
+		"TranslatedCommand": "HouseItems",
+		"Description": "Shows the items in the house's storage",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizStorage",
+		"TranslatedCommand": "BizStorage",
+		"Description": "Shows the items in the business's extra storage (not buyable)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizFloor",
+		"TranslatedCommand": "BizFloor",
+		"Description": "Shows the items that can be bought from the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BusinessStorage",
+		"TranslatedCommand": "BusinessStorage",
+		"Description": "Shows the items in the business's extra storage (not buyable)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BusinessFloor",
+		"TranslatedCommand": "BusinessFloor",
+		"Description": "Shows the items that can be bought from the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BuyList",
+		"TranslatedCommand": "BuyList",
+		"Description": "Shows the items that can be bought from the business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Power",
+		"TranslatedCommand": "Power",
+		"Description": "Turns on or off an item",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Radio",
+		"TranslatedCommand": "Radio",
+		"Description": "Chat over a radio (Vehicle radio or item)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "R",
+		"TranslatedCommand": "R",
+		"Description": "Chat over a radio (Vehicle radio or item)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ItemTypes",
+		"TranslatedCommand": "ItemTypes",
+		"Description": "Shows a list of all item types",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddItemType",
+		"TranslatedCommand": "AddItemType",
+		"Description": "Adds a new item type",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "ItemTypeInfo",
+		"TranslatedCommand": "ItemTypeInfo",
+		"Description": "Shows information about a type of item",
+		"SyntaxString": "<item type name/id>"
+	},
+	{
+		"Command": "ItemTypeName",
+		"TranslatedCommand": "ItemTypeName",
+		"Description": "Sets an item type's use-type (what kind of action is performed when using it)",
+		"SyntaxString": "<item type> <new name>"
+	},
+	{
+		"Command": "ItemTypeUseType",
+		"TranslatedCommand": "ItemTypeUseType",
+		"Description": "Sets an item type's use-type (what kind of action is performed when using it)",
+		"SyntaxString": "<item type> <use type>"
+	},
+	{
+		"Command": "ItemTypeUseID",
+		"TranslatedCommand": "ItemTypeUseID",
+		"Description": "Sets an item type's use-id. Used for needed numbers like weapon IDs or other item types",
+		"SyntaxString": "<item type> <use id>"
+	},
+	{
+		"Command": "ItemTypeUseValue",
+		"TranslatedCommand": "ItemTypeUseValue",
+		"Description": "Sets an item type's use-value (how much gets subtracted when using it)",
+		"SyntaxString": "<item type> <use value>"
+	},
+	{
+		"Command": "ItemTypeUseVal",
+		"TranslatedCommand": "ItemTypeUseVal",
+		"Description": "Sets an item type's use-value (how much gets subtracted when using it)",
+		"SyntaxString": "<item type> <use value>"
+	},
+	{
+		"Command": "ItemTypeOrderPrice",
+		"TranslatedCommand": "ItemTypeOrderPrice",
+		"Description": "Sets an item type's order price (base price when ordering for a business",
+		"SyntaxString": "<item type> <order price>"
+	},
+	{
+		"Command": "ItemTypeOrderValue",
+		"TranslatedCommand": "ItemTypeOrderValue",
+		"Description": "Sets an item type's default value when being ordered by a business",
+		"SyntaxString": "<item type> <default value>"
+	},
+	{
+		"Command": "ItemTypeOrderVal",
+		"TranslatedCommand": "ItemTypeOrderVal",
+		"Description": "Sets an item type's default value when being ordered by a business",
+		"SyntaxString": "<item type> <default value>"
+	},
+	{
+		"Command": "ItemTypeRiskMultiplier",
+		"TranslatedCommand": "ItemTypeRiskMultiplier",
+		"Description": "Sets an item type's risk multiplayer (higher value for more dangerous or rare illegal items)",
+		"SyntaxString": "<item type> <risk multiplier>"
+	},
+	{
+		"Command": "ItemTypeRiskMult",
+		"TranslatedCommand": "ItemTypeRiskMult",
+		"Description": "Sets an item type's risk multiplayer (higher value for more dangerous or rare illegal items)",
+		"SyntaxString": "<item type> <risk multiplier>"
+	},
+	{
+		"Command": "ItemTypeEnabled",
+		"TranslatedCommand": "ItemTypeEnabled",
+		"Description": "Toggles an item type on or off (if off, any items with that type can't be interacted with)",
+		"SyntaxString": "<item type>"
+	},
+	{
+		"Command": "ItemTypeDropType",
+		"TranslatedCommand": "ItemTypeDropType",
+		"Description": "Sets an item type's type of drop. When dropping the item, the server creates: none, object, pickup, or destroys the item",
+		"SyntaxString": "<item type> <object name/id>"
+	},
+	{
+		"Command": "ItemTypeDropModel",
+		"TranslatedCommand": "ItemTypeDropModel",
+		"Description": "Sets the drop model for the object of an item type when dropped",
+		"SyntaxString": "<item type> <object name/id>"
+	},
+	{
+		"Command": "ItemTypeDropPosition",
+		"TranslatedCommand": "ItemTypeDropPosition",
+		"Description": "Sets the offset position for the object of an item type when dropped",
+		"SyntaxString": "<item type> [x] [y] [z]"
+	},
+	{
+		"Command": "ItemTypeDropPos",
+		"TranslatedCommand": "ItemTypeDropPos",
+		"Description": "Sets the offset position for the object of an item type when dropped",
+		"SyntaxString": "<item type> [x] [y] [z]"
+	},
+	{
+		"Command": "ItemTypeDropRotation",
+		"TranslatedCommand": "ItemTypeDropRotation",
+		"Description": "Sets the rotation for the object of an item type when dropped",
+		"SyntaxString": "<item type> [x] [y] [z]"
+	},
+	{
+		"Command": "ItemTypeDropRot",
+		"TranslatedCommand": "ItemTypeDropRot",
+		"Description": "Sets the rotation for the object of an item type when dropped",
+		"SyntaxString": "<item type> [x] [y] [z]"
+	},
+	{
+		"Command": "ItemTypeDropScale",
+		"TranslatedCommand": "ItemTypeDropScale",
+		"Description": "Sets the scale for the object of an item type when dropped",
+		"SyntaxString": "<item type> [x] [y] [z]"
+	},
+	{
+		"Command": "ItemTypeDropFrontDistance",
+		"TranslatedCommand": "ItemTypeDropFrontDistance",
+		"Description": "Sets how far in front of a player an item type will be dropped",
+		"SyntaxString": "<item type> <distance>"
+	},
+	{
+		"Command": "ItemTypeDropFrontDist",
+		"TranslatedCommand": "ItemTypeDropFrontDist",
+		"Description": "Sets how far in front of a player an item type will be dropped",
+		"SyntaxString": "<item type> <distance>"
+	},
+	{
+		"Command": "ItemTypeMaxValue",
+		"TranslatedCommand": "ItemTypeMaxValue",
+		"Description": "Sets the maximum value an item type can have",
+		"SyntaxString": "<item type> <max value>"
+	},
+	{
+		"Command": "ItemTypeMaxVal",
+		"TranslatedCommand": "ItemTypeMaxVal",
+		"Description": "Sets the maximum value an item type can have",
+		"SyntaxString": "<item type> <max value>"
+	},
+	{
+		"Command": "ItemTypeMass",
+		"TranslatedCommand": "ItemTypeMass",
+		"Description": "Sets the item type's size",
+		"SyntaxString": "<item type> <mass>"
+	},
+	{
+		"Command": "ItemTypeCapacity",
+		"TranslatedCommand": "ItemTypeCapacity",
+		"Description": "Sets an item type's capacity (how much it can hold)",
+		"SyntaxString": "<item type> <capacity>"
+	},
+	{
+		"Command": "ItemTypeAnimUse",
+		"TranslatedCommand": "ItemTypeAnimUse",
+		"Description": "Sets which animation a player plays when using the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeAnimSwitch",
+		"TranslatedCommand": "ItemTypeAnimSwitch",
+		"Description": "Sets which animation a player plays when switching to the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeAnimPut",
+		"TranslatedCommand": "ItemTypeAnimPut",
+		"Description": "Sets which animation a player plays when putting the item into something",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeAnimTake",
+		"TranslatedCommand": "ItemTypeAnimTake",
+		"Description": "Sets which animation a player plays when taking the item out of something",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeAnimDrop",
+		"TranslatedCommand": "ItemTypeAnimDrop",
+		"Description": "Sets which animation a player plays when dropping the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeAnimPickup",
+		"TranslatedCommand": "ItemTypeAnimPickup",
+		"Description": "Sets which animation a player plays when picking up the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeTimeUse",
+		"TranslatedCommand": "ItemTypeTimeUse",
+		"Description": "Sets how much time to use the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeTimeSwitch",
+		"TranslatedCommand": "ItemTypeTimeSwitch",
+		"Description": "Sets how much time to switch to the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeTimePut",
+		"TranslatedCommand": "ItemTypeTimePut",
+		"Description": "Sets how much time to put the item into something",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeTimeTake",
+		"TranslatedCommand": "ItemTypeTimeTake",
+		"Description": "Sets how much time to take the item out of something",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeTimeDrop",
+		"TranslatedCommand": "ItemTypeTimeDrop",
+		"Description": "Sets how much time to drop the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeTimePickup",
+		"TranslatedCommand": "ItemTypeTimePickup",
+		"Description": "Sets how much time to pick up the item",
+		"SyntaxString": "<item type> <animation name/id>"
+	},
+	{
+		"Command": "ItemTypeAddIngredient",
+		"TranslatedCommand": "ItemTypeAddIngredient",
+		"Description": "Modifies the item type's recipe, adding a new ingredient required to craft the item",
+		"SyntaxString": "<item type> <ingredient item type name/id>"
+	},
+	{
+		"Command": "DelPlrItem",
+		"TranslatedCommand": "DelPlrItem",
+		"Description": "Removes an item by slot from a player's personal inventory",
+		"SyntaxString": "<player name/id> <item slot>"
+	},
+	{
+		"Command": "DelPlrItems",
+		"TranslatedCommand": "DelPlrItems",
+		"Description": "Removes all items from a player's personal inventory",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "TakeJob",
+		"TranslatedCommand": "TakeJob",
+		"Description": "Gives you the job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StartWork",
+		"TranslatedCommand": "StartWork",
+		"Description": "Start working at your job (use at a job location or near a job vehicle)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StopWork",
+		"TranslatedCommand": "StopWork",
+		"Description": "Stop working at your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StartJob",
+		"TranslatedCommand": "StartJob",
+		"Description": "Start working at your job (use at a job location or near a job vehicle)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StopJob",
+		"TranslatedCommand": "StopJob",
+		"Description": "Stop working at your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "QuitJob",
+		"TranslatedCommand": "QuitJob",
+		"Description": "Leave your job and be unemployed",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Uniform",
+		"TranslatedCommand": "Uniform",
+		"Description": "Use a job uniform",
+		"SyntaxString": "[uniform]"
+	},
+	{
+		"Command": "Equip",
+		"TranslatedCommand": "Equip",
+		"Description": "Get equipment for your job",
+		"SyntaxString": "[equipment]"
+	},
+	{
+		"Command": "Jobs",
+		"TranslatedCommand": "Jobs",
+		"Description": "Shows a list of all jobs",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobList",
+		"TranslatedCommand": "JobList",
+		"Description": "Shows a list of all jobs",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Department",
+		"TranslatedCommand": "Department",
+		"Description": "Communicate with all emergency services (radio must be on and able to transmit)",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "D",
+		"TranslatedCommand": "D",
+		"Description": "Communicate with all emergency services (radio must be on and able to transmit)",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Fine",
+		"TranslatedCommand": "Fine",
+		"Description": "Searches a person",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StartRoute",
+		"TranslatedCommand": "StartRoute",
+		"Description": "Starts a job route. A vehicle might be required.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StopRoute",
+		"TranslatedCommand": "StopRoute",
+		"Description": "Stops a job route.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddJob",
+		"TranslatedCommand": "AddJob",
+		"Description": "Creates a new job",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "AddJobLoc",
+		"TranslatedCommand": "AddJobLoc",
+		"Description": "Creates a new job location",
+		"SyntaxString": "<job name/id>"
+	},
+	{
+		"Command": "AddJobLocation",
+		"TranslatedCommand": "AddJobLocation",
+		"Description": "Creates a new job location",
+		"SyntaxString": "<job name/id>"
+	},
+	{
+		"Command": "AddJobuniform",
+		"TranslatedCommand": "AddJobuniform",
+		"Description": "Creates a new job uniform",
+		"SyntaxString": "<job name/id> <skin name/id>"
+	},
+	{
+		"Command": "DelJobLoc",
+		"TranslatedCommand": "DelJobLoc",
+		"Description": "Deletes a job location",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DelJobLocation",
+		"TranslatedCommand": "DelJobLocation",
+		"Description": "Deletes a job location",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DelJobUniform",
+		"TranslatedCommand": "DelJobUniform",
+		"Description": "Deletes a job uniform",
+		"SyntaxString": "<job name/id> <skin name/id>"
+	},
+	{
+		"Command": "AddJobRoute",
+		"TranslatedCommand": "AddJobRoute",
+		"Description": "Creates a new job route",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "AddJobRouteLoc",
+		"TranslatedCommand": "AddJobRouteLoc",
+		"Description": "Creates a new location on a job route",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "AddJobRouteLocation",
+		"TranslatedCommand": "AddJobRouteLocation",
+		"Description": "Creates a new location on a job route",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "DelJobRoute",
+		"TranslatedCommand": "DelJobRoute",
+		"Description": "Deletes a job route",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DelJobRouteLoc",
+		"TranslatedCommand": "DelJobRouteLoc",
+		"Description": "Deletes a location on a job route",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DelJobRouteLocation",
+		"TranslatedCommand": "DelJobRouteLocation",
+		"Description": "Deletes a location on a job route",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddJobEquip",
+		"TranslatedCommand": "AddJobEquip",
+		"Description": "Creates a new job equipment loadout",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "DelJobEquip",
+		"TranslatedCommand": "DelJobEquip",
+		"Description": "Deletes a job equipment loadout",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "AddJobEquipItem",
+		"TranslatedCommand": "AddJobEquipItem",
+		"Description": "Adds an item to a job equipment loadout",
+		"SyntaxString": "<item name>"
+	},
+	{
+		"Command": "DelJobEquipItem",
+		"TranslatedCommand": "DelJobEquipItem",
+		"Description": "Removes an item from a job equipment loadout",
+		"SyntaxString": "<item slot>"
+	},
+	{
+		"Command": "JobUniformName",
+		"TranslatedCommand": "JobUniformName",
+		"Description": "Sets a job uniform's name",
+		"SyntaxString": "<uniform id> <name>"
+	},
+	{
+		"Command": "JobUniformRank",
+		"TranslatedCommand": "JobUniformRank",
+		"Description": "Sets the minimum rank that can use the job uniform",
+		"SyntaxString": "<uniform id> <rank level>"
+	},
+	{
+		"Command": "JobColour",
+		"TranslatedCommand": "JobColour",
+		"Description": "Sets a job's colour (for coloured names in chat and player list)",
+		"SyntaxString": "<job id/name> <red> <green> <blue>"
+	},
+	{
+		"Command": "JobName",
+		"TranslatedCommand": "JobName",
+		"Description": "Sets a job's name",
+		"SyntaxString": "<new name>"
+	},
+	{
+		"Command": "JobBlip",
+		"TranslatedCommand": "JobBlip",
+		"Description": "Sets a job's map icon",
+		"SyntaxString": "<job id/name> <blip id/name>"
+	},
+	{
+		"Command": "JobPickup",
+		"TranslatedCommand": "JobPickup",
+		"Description": "Sets the type of world icon for a job",
+		"SyntaxString": "<job id/name> <pickup id/name>"
+	},
+	{
+		"Command": "JobWL",
+		"TranslatedCommand": "JobWL",
+		"Description": "Sets whether a job is whitelisted or not. Only players on the whitelist can use the job.",
+		"SyntaxString": "[job name/id]"
+	},
+	{
+		"Command": "JobWhiteList",
+		"TranslatedCommand": "JobWhiteList",
+		"Description": "Sets whether a job is whitelisted or not. Only players on the whitelist can use the job.",
+		"SyntaxString": "[job name/id]"
+	},
+	{
+		"Command": "JobBlackList",
+		"TranslatedCommand": "JobBlackList",
+		"Description": "Sets whether a job is blacklisted or not. Players on the blacklist can't use the job.",
+		"SyntaxString": "[job name/id]"
+	},
+	{
+		"Command": "JobBL",
+		"TranslatedCommand": "JobBL",
+		"Description": "Sets whether a job is blacklisted or not. Players on the blacklist can't use the job.",
+		"SyntaxString": "[job name/id]"
+	},
+	{
+		"Command": "JobEnabled",
+		"TranslatedCommand": "JobEnabled",
+		"Description": "Sets whether a job is enabled or not. If disabled, no players can use the job.",
+		"SyntaxString": "[job name/id]"
+	},
+	{
+		"Command": "JobAddPlayerWL",
+		"TranslatedCommand": "JobAddPlayerWL",
+		"Description": "Adds a player to a job's whitelist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobAddPlayerBL",
+		"TranslatedCommand": "JobAddPlayerBL",
+		"Description": "Adds a player to a job's blacklist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobDelPlayerBL",
+		"TranslatedCommand": "JobDelPlayerBL",
+		"Description": "Removes a player from a job's blacklist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobDelPlayerWL",
+		"TranslatedCommand": "JobDelPlayerWL",
+		"Description": "Removes a player from a job's whitelist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobAddPlrWL",
+		"TranslatedCommand": "JobAddPlrWL",
+		"Description": "Adds a player to a job's whitelist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobAddPlayerBL",
+		"TranslatedCommand": "JobAddPlayerBL",
+		"Description": "Adds a player to a job's blacklist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobDelPlrBL",
+		"TranslatedCommand": "JobDelPlrBL",
+		"Description": "Removes a player from a job's blacklist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobDelPlrWL",
+		"TranslatedCommand": "JobDelPlrWL",
+		"Description": "Removes a player from a job's whitelist",
+		"SyntaxString": "<player name/id> [job id]"
+	},
+	{
+		"Command": "JobReloadAll",
+		"TranslatedCommand": "JobReloadAll",
+		"Description": "Reloads all jobs",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobInfo",
+		"TranslatedCommand": "JobInfo",
+		"Description": "Get info for nearest or specified job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobLocInfo",
+		"TranslatedCommand": "JobLocInfo",
+		"Description": "Get info for nearest or specified job location",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobLocHidden",
+		"TranslatedCommand": "JobLocHidden",
+		"Description": "Sets whether a job location is hidden or not",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobRoutes",
+		"TranslatedCommand": "JobRoutes",
+		"Description": "Shows a list of job routes for the nearest job location",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobRouteInfo",
+		"TranslatedCommand": "JobRouteInfo",
+		"Description": "Shows info about a job route",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobRoutePay",
+		"TranslatedCommand": "JobRoutePay",
+		"Description": "Sets how much a job route pays",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "JobRankPublic",
+		"TranslatedCommand": "JobRankPublic",
+		"Description": "Toggles whether a job rank is available to public",
+		"SyntaxString": "<rank name/id>"
+	},
+	{
+		"Command": "JobRankFlags",
+		"TranslatedCommand": "JobRankFlags",
+		"Description": "Shows or sets a job rank's Flags",
+		"SyntaxString": "<rank name/id> [flag name/id]"
+	},
+	{
+		"Command": "JobRankPay",
+		"TranslatedCommand": "JobRankPay",
+		"Description": "Sets a job rank's wage",
+		"SyntaxString": "<rank name/id> <amount per payday>"
+	},
+	{
+		"Command": "JobRankName",
+		"TranslatedCommand": "JobRankName",
+		"Description": "Sets a job rank's name",
+		"SyntaxString": "<rank name/id> <new name>"
+	},
+	{
+		"Command": "JobRankLevel",
+		"TranslatedCommand": "JobRankLevel",
+		"Description": "Sets a job rank's level",
+		"SyntaxString": "<rank name/id> <level number>"
+	},
+	{
+		"Command": "JobRankRoutesForPromotion",
+		"TranslatedCommand": "JobRankRoutesForPromotion",
+		"Description": "Sets how many job routes need to be completed for a player to rank up.",
+		"SyntaxString": "<rank name/id> <amount of routes>"
+	},
+	{
+		"Command": "JobRankRoutePay",
+		"TranslatedCommand": "JobRankRoutePay",
+		"Description": "Sets the multiplier for route pay for a job Rank",
+		"SyntaxString": "<rank name/id> <pay multiplier>"
+	},
+	{
+		"Command": "AddJobRank",
+		"TranslatedCommand": "AddJobRank",
+		"Description": "Creates a job Rank",
+		"SyntaxString": "<level> <name>"
+	},
+	{
+		"Command": "DelJobRank",
+		"TranslatedCommand": "DelJobRank",
+		"Description": "Removes a job Rank",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "JobRank",
+		"TranslatedCommand": "JobRank",
+		"Description": "Sets a player's job Rank",
+		"SyntaxString": "<player name/id> <rank name/id>"
+	},
+	{
+		"Command": "JobSetRank",
+		"TranslatedCommand": "JobSetRank",
+		"Description": "Sets a player's job Rank",
+		"SyntaxString": "<player name/id> <rank name/id>"
+	},
+	{
+		"Command": "JobInvite",
+		"TranslatedCommand": "JobInvite",
+		"Description": "Invites a player to a job",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "JobHire",
+		"TranslatedCommand": "JobHire",
+		"Description": "Invites a player to a job",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "JobUninvite",
+		"TranslatedCommand": "JobUninvite",
+		"Description": "Removes a player from their job",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "JobFire",
+		"TranslatedCommand": "JobFire",
+		"Description": "Removes a player from their job",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "JobRanks",
+		"TranslatedCommand": "JobRanks",
+		"Description": "Shows a list of all ranks in your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobMembers",
+		"TranslatedCommand": "JobMembers",
+		"Description": "Shows a list of all members with your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobRouteLocAttach",
+		"TranslatedCommand": "JobRouteLocAttach",
+		"Description": "Attaches a job route location to another so they start at the same time",
+		"SyntaxString": "<job route location name/id> <job route location name/id>"
+	},
+	{
+		"Command": "JobRouteLocNexttype",
+		"TranslatedCommand": "JobRouteLocNexttype",
+		"Description": "Sets the location type for the next job route location",
+		"SyntaxString": "<type name/id>"
+	},
+	{
+		"Command": "JobRouteVehColours",
+		"TranslatedCommand": "JobRouteVehColours",
+		"Description": "Sets the colours for a job route's vehicle",
+		"SyntaxString": "<colour 1> <colour 2> [colour 3] [colour 4]"
+	},
+	{
+		"Command": "BindKey",
+		"TranslatedCommand": "BindKey",
+		"Description": "Binds a key to a command and optional parameters",
+		"SyntaxString": "<key id/name> <command> [params]"
+	},
+	{
+		"Command": "UnbindKey",
+		"TranslatedCommand": "UnbindKey",
+		"Description": "Removes an existing keybind from your account",
+		"SyntaxString": "<key id/name>"
+	},
+	{
+		"Command": "KeyBinds",
+		"TranslatedCommand": "KeyBinds",
+		"Description": "Shows a list of all your current keybinds",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Lang",
+		"TranslatedCommand": "Lang",
+		"Description": "Sets your language",
+		"SyntaxString": "<language name>"
+	},
+	{
+		"Command": "Language",
+		"TranslatedCommand": "Language",
+		"Description": "Sets your language",
+		"SyntaxString": "<language name>"
+	},
+	{
+		"Command": "Locale",
+		"TranslatedCommand": "Locale",
+		"Description": "Sets your language",
+		"SyntaxString": "<language name>"
+	},
+	{
+		"Command": "SetLang",
+		"TranslatedCommand": "SetLang",
+		"Description": "Sets your language",
+		"SyntaxString": "<language name>"
+	},
+	{
+		"Command": "Locales",
+		"TranslatedCommand": "Locales",
+		"Description": "Shows a list of available languages",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Languages",
+		"TranslatedCommand": "Languages",
+		"Description": "Shows a list of available languages",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddLoc",
+		"TranslatedCommand": "AddLoc",
+		"Description": "Creates a location",
+		"SyntaxString": "<location type> <distance> <name>"
+	},
+	{
+		"Command": "DelLoc",
+		"TranslatedCommand": "DelLoc",
+		"Description": "Deletes a location",
+		"SyntaxString": "<location name>"
+	},
+	{
+		"Command": "AddLocation",
+		"TranslatedCommand": "AddLocation",
+		"Description": "Creates a location",
+		"SyntaxString": "<location type> <distance> <name>"
+	},
+	{
+		"Command": "DelLocation",
+		"TranslatedCommand": "DelLocation",
+		"Description": "Deletes a location",
+		"SyntaxString": "<location name>"
+	},
+	{
+		"Command": "LocJob",
+		"TranslatedCommand": "LocJob",
+		"Description": "Sets a location's owner to a job",
+		"SyntaxString": "<location name/id> <job name/id>"
+	},
+	{
+		"Command": "LocClan",
+		"TranslatedCommand": "LocClan",
+		"Description": "Sets a location's owner to a clan",
+		"SyntaxString": "<location name/id> <clan name/id>"
+	},
+	{
+		"Command": "LocBiz",
+		"TranslatedCommand": "LocBiz",
+		"Description": "Sets a location's owner to a business",
+		"SyntaxString": "<location name/id> <business name/id>"
+	},
+	{
+		"Command": "LocHouse",
+		"TranslatedCommand": "LocHouse",
+		"Description": "Sets a location's owner to a house",
+		"SyntaxString": "<location name/id> <house name/id>"
+	},
+	{
+		"Command": "LocPlr",
+		"TranslatedCommand": "LocPlr",
+		"Description": "Sets a location's owner to a player (character)",
+		"SyntaxString": "<location name/id> <player name/id>"
+	},
+	{
+		"Command": "LocInfo",
+		"TranslatedCommand": "LocInfo",
+		"Description": "Shows information about a location",
+		"SyntaxString": "<location name/id>"
+	},
+	{
+		"Command": "NearLoc",
+		"TranslatedCommand": "NearLoc",
+		"Description": "Shows locations within specified distance of your position",
+		"SyntaxString": "[distance]"
+	},
+	{
+		"Command": "LocDistance",
+		"TranslatedCommand": "LocDistance",
+		"Description": "Sets a location's usable distance",
+		"SyntaxString": "<location name/id> [distance]"
+	},
+	{
+		"Command": "LocIconDistance",
+		"TranslatedCommand": "LocIconDistance",
+		"Description": "Sets a location's icon render distance",
+		"SyntaxString": "<location name/id> [icon distance]"
+	},
+	{
+		"Command": "LocLabelDistance",
+		"TranslatedCommand": "LocLabelDistance",
+		"Description": "Sets a location's label render distance",
+		"SyntaxString": "<location name/id> [label distance]"
+	},
+	{
+		"Command": "LocDetail",
+		"TranslatedCommand": "LocDetail",
+		"Description": "Sets a location's detail value",
+		"SyntaxString": "<location name/id> <detail/message> (use 'none' without quotes to remove)"
+	},
+	{
+		"Command": "LocTitle",
+		"TranslatedCommand": "LocTitle",
+		"Description": "Sets a location's label title",
+		"SyntaxString": "<location name/id> <title> (use 'none' without quotes to remove)"
+	},
+	{
+		"Command": "Pos",
+		"TranslatedCommand": "Pos",
+		"Description": "Shows your current coordinates",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Idea",
+		"TranslatedCommand": "Idea",
+		"Description": "Sends an suggestion/idea to the developers",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Bug",
+		"TranslatedCommand": "Bug",
+		"Description": "Submits a bug report",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Enter",
+		"TranslatedCommand": "Enter",
+		"Description": "Enters or exists a house/business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Exit",
+		"TranslatedCommand": "Exit",
+		"Description": "Enters or exists a house/business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Cursor",
+		"TranslatedCommand": "Cursor",
+		"Description": "Toggles cursor visibility",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "MouseCam",
+		"TranslatedCommand": "MouseCam",
+		"Description": "Toggles vehicle mouse camera for games that don't have it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Yes",
+		"TranslatedCommand": "Yes",
+		"Description": "Answers a prompt with YES",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "No",
+		"TranslatedCommand": "No",
+		"Description": "Answers a prompt with NO",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Admins",
+		"TranslatedCommand": "Admins",
+		"Description": "Shows a list of online admins",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Stuck",
+		"TranslatedCommand": "Stuck",
+		"Description": "Fixes your position and virtual world if bugged",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "GPS",
+		"TranslatedCommand": "GPS",
+		"Description": "Shows you locations for special places or where to buy items",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "Speak",
+		"TranslatedCommand": "Speak",
+		"Description": "Makes your ped say something in their game voice (IV only)",
+		"SyntaxString": "<speech name>"
+	},
+	{
+		"Command": "Lock",
+		"TranslatedCommand": "Lock",
+		"Description": "Locks and unlocks your vehicle, house, or business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Locks",
+		"TranslatedCommand": "Locks",
+		"Description": "Locks and unlocks your vehicle, house, or business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DoorLock",
+		"TranslatedCommand": "DoorLock",
+		"Description": "Locks and unlocks your vehicle, house, or business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "LockDoor",
+		"TranslatedCommand": "LockDoor",
+		"Description": "Locks and unlocks your vehicle, house, or business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Lights",
+		"TranslatedCommand": "Lights",
+		"Description": "Turns on and off the lights for your vehicle, house, or business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Light",
+		"TranslatedCommand": "Light",
+		"Description": "Turns on and off the lights for your vehicle, house, or business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Kill",
+		"TranslatedCommand": "Kill",
+		"Description": "Kills yourself",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Suicide",
+		"TranslatedCommand": "Suicide",
+		"Description": "Kills yourself",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Scoreboard",
+		"TranslatedCommand": "Scoreboard",
+		"Description": "Shows the scoreboard (key press only)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Map",
+		"TranslatedCommand": "Map",
+		"Description": "Shows the map (key press only)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Locate",
+		"TranslatedCommand": "Locate",
+		"Description": "Shows the distance and direction of another player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "Pay",
+		"TranslatedCommand": "Pay",
+		"Description": "Gives a player some of your money",
+		"SyntaxString": "<player name/id> <amount>"
+	},
+	{
+		"Command": "Detain",
+		"TranslatedCommand": "Detain",
+		"Description": "Puts a handcuffed person in the back of your police vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Drag",
+		"TranslatedCommand": "Drag",
+		"Description": "Drags a handcuffed person around",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Search",
+		"TranslatedCommand": "Search",
+		"Description": "Searches a person",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AFK",
+		"TranslatedCommand": "AFK",
+		"Description": "Sets your AFK status",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BRB",
+		"TranslatedCommand": "BRB",
+		"Description": "Sets your AFK status",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Away",
+		"TranslatedCommand": "Away",
+		"Description": "Sets your AFK status",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Faggio",
+		"TranslatedCommand": "Faggio",
+		"Description": "Creates a single use faggio rental",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Buy",
+		"TranslatedCommand": "Buy",
+		"Description": "Buys an item from a business or NPC",
+		"SyntaxString": "<slot id>"
+	},
+	{
+		"Command": "Stats",
+		"TranslatedCommand": "Stats",
+		"Description": "Shows basic info on your account and current character",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RobBiz",
+		"TranslatedCommand": "RobBiz",
+		"Description": "Robs a business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Arrest",
+		"TranslatedCommand": "Arrest",
+		"Description": "Puts a player in jail",
+		"SyntaxString": "<time in minutes>"
+	},
+	{
+		"Command": "Jail",
+		"TranslatedCommand": "Jail",
+		"Description": "Puts a player in jail",
+		"SyntaxString": "<time in minutes>"
+	},
+	{
+		"Command": "Random",
+		"TranslatedCommand": "Random",
+		"Description": "Chooses a random number and shows to nearby players",
+		"SyntaxString": "<minimum number> <maximum number>"
+	},
+	{
+		"Command": "ClearChat",
+		"TranslatedCommand": "ClearChat",
+		"Description": "Clears the chat",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Ad",
+		"TranslatedCommand": "Ad",
+		"Description": "Shows an advertisement",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Adv",
+		"TranslatedCommand": "Adv",
+		"Description": "Shows an advertisement",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Advertise",
+		"TranslatedCommand": "Advertise",
+		"Description": "Shows an advertisement",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Advertisement",
+		"TranslatedCommand": "Advertisement",
+		"Description": "Shows an advertisement",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Blip",
+		"TranslatedCommand": "Blip",
+		"Description": "Shows a temporary RP blip on the map",
+		"SyntaxString": "<blip name/id>"
+	},
+	{
+		"Command": "ServerStats",
+		"TranslatedCommand": "ServerStats",
+		"Description": "Shows server's statistics",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Sit",
+		"TranslatedCommand": "Sit",
+		"Description": "Sits at the closest registered seat",
+		"SyntaxString": "<animation name>"
+	},
+	{
+		"Command": "AddNPC",
+		"TranslatedCommand": "AddNPC",
+		"Description": "Creates an NPC with the specified skin",
+		"SyntaxString": "<skin id/name>"
+	},
+	{
+		"Command": "DelNPC",
+		"TranslatedCommand": "DelNPC",
+		"Description": "Deletes the nearest NPC",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NPCInfo",
+		"TranslatedCommand": "NPCInfo",
+		"Description": "Shows info about the nearest NPC",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NPCAnim",
+		"TranslatedCommand": "NPCAnim",
+		"Description": "Plays the specified animation on the nearest NPC",
+		"SyntaxString": "<animation name>"
+	},
+	{
+		"Command": "NPCName",
+		"TranslatedCommand": "NPCName",
+		"Description": "Sets the name of the nearest NPC",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "NPCLookatPlr",
+		"TranslatedCommand": "NPCLookatPlr",
+		"Description": "Makes the NPC look at the closest player",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "NPCScenario",
+		"TranslatedCommand": "NPCScenario",
+		"Description": "Sets an NPC to a scenario",
+		"SyntaxString": "<scenario>"
+	},
+	{
+		"Command": "NPCWeapon",
+		"TranslatedCommand": "NPCWeapon",
+		"Description": "Gives an NPC a weapon",
+		"SyntaxString": "<weapon ID>"
+	},
+	{
+		"Command": "NPCDealer",
+		"TranslatedCommand": "NPCDealer",
+		"Description": "Sets an NPC as a drug dealer",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NPCProduceItem",
+		"TranslatedCommand": "NPCProduceItem",
+		"Description": "Sets the drug the NPC produces (has more stock of and is cheaper to buy)",
+		"SyntaxString": "<drug item name/ID>"
+	},
+	{
+		"Command": "NPCDesiredItem",
+		"TranslatedCommand": "NPCDesiredItem",
+		"Description": "Sets the drug the NPC wants most (will have less stock of and is expensive to buy)",
+		"SyntaxString": "<drug item name/ID>"
+	},
+	{
+		"Command": "NPCSkin",
+		"TranslatedCommand": "NPCSkin",
+		"Description": "Sets the NPC skin and enters the skin customization if available",
+		"SyntaxString": "<skin name/ID>"
+	},
+	{
+		"Command": "AddPayphone",
+		"TranslatedCommand": "AddPayphone",
+		"Description": "Creates an payphone with optional number (random number if not added)",
+		"SyntaxString": "[number]"
+	},
+	{
+		"Command": "DelPayphone",
+		"TranslatedCommand": "DelPayphone",
+		"Description": "Deleted a payphone with number (optional, will use closest payphone if no number)",
+		"SyntaxString": "[number]"
+	},
+	{
+		"Command": "Call",
+		"TranslatedCommand": "Call",
+		"Description": "Calls the player (nearest payphone or their cellphone if applicable",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "Hangup",
+		"TranslatedCommand": "Hangup",
+		"Description": "Ends a payphone call",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Answer",
+		"TranslatedCommand": "Answer",
+		"Description": "Answer's a ringing phone",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "GivePhone",
+		"TranslatedCommand": "GivePhone",
+		"Description": "Gives a phone to another player to talk on the call",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "PayPhone",
+		"TranslatedCommand": "PayPhone",
+		"Description": "Shows a phone's number",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Number",
+		"TranslatedCommand": "Number",
+		"Description": "Shows a phone's number",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NearPayphone",
+		"TranslatedCommand": "NearPayphone",
+		"Description": "Shows a list of all nearby phones within certain range",
+		"SyntaxString": "[range]"
+	},
+	{
+		"Command": "NearPayphones",
+		"TranslatedCommand": "NearPayphones",
+		"Description": "Shows a list of all nearby phones within certain range",
+		"SyntaxString": "[range]"
+	},
+	{
+		"Command": "PayphoneInfo",
+		"TranslatedCommand": "PayphoneInfo",
+		"Description": "Shows info of nearest payphone (or of payphone with number)",
+		"SyntaxString": "[number]"
+	},
+	{
+		"Command": "ResetPayphones",
+		"TranslatedCommand": "ResetPayphones",
+		"Description": "Resets all payphone states",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "FixPayphones",
+		"TranslatedCommand": "FixPayphones",
+		"Description": "Resets all payphone states",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Countdown",
+		"TranslatedCommand": "Countdown",
+		"Description": "Starts a countdown for all players",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RadioStation",
+		"TranslatedCommand": "RadioStation",
+		"Description": "Plays a radio station in your vehicle, house, or business (depending on which one you're in)",
+		"SyntaxString": "<radio station id>"
+	},
+	{
+		"Command": "RadioStations",
+		"TranslatedCommand": "RadioStations",
+		"Description": "Shows a list of all available radio stations",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RadioVolume",
+		"TranslatedCommand": "RadioVolume",
+		"Description": "Sets the radio streaming volume (for your game only).",
+		"SyntaxString": "<volume level 0-100>"
+	},
+	{
+		"Command": "RadioVol",
+		"TranslatedCommand": "RadioVol",
+		"Description": "Sets the radio streaming volume (for your game only).",
+		"SyntaxString": "<volume level 0-100>"
+	},
+	{
+		"Command": "RadioReloadAll",
+		"TranslatedCommand": "RadioReloadAll",
+		"Description": "Reloads all radio stations from database (use after making changes)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "AddScenario",
+		"TranslatedCommand": "AddScenario",
+		"Description": "Creates a scenario",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "DelScenario",
+		"TranslatedCommand": "DelScenario",
+		"Description": "Deletes a scenario",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioEnable",
+		"TranslatedCommand": "ScenarioEnable",
+		"Description": "Enables a scenario",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioDisable",
+		"TranslatedCommand": "ScenarioDisable",
+		"Description": "Disables a scenario",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioEnableAll",
+		"TranslatedCommand": "ScenarioEnableAll",
+		"Description": "Enables all scenarios",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioDisableAll",
+		"TranslatedCommand": "ScenarioDisableAll",
+		"Description": "Disables all scenarios",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioChance",
+		"TranslatedCommand": "ScenarioChance",
+		"Description": "Sets the chance of a scenario being enabled when randomization is on",
+		"SyntaxString": "<scenario name> <0-100 percent>"
+	},
+	{
+		"Command": "ScenarioRandom",
+		"TranslatedCommand": "ScenarioRandom",
+		"Description": "Sets whether a scenarios can be randomly turned on or off",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioRandomAll",
+		"TranslatedCommand": "ScenarioRandomAll",
+		"Description": "Sets whether all scenarios can be randomly turned on or off",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "ScenarioInfo",
+		"TranslatedCommand": "ScenarioInfo",
+		"Description": "Shows the information for a scenario",
+		"SyntaxString": "<scenario name>"
+	},
+	{
+		"Command": "AdminChat",
+		"TranslatedCommand": "AdminChat",
+		"Description": "Sends an OOC chat message to other admins",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "A",
+		"TranslatedCommand": "A",
+		"Description": "Sends an OOC chat message to other admins",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Achat",
+		"TranslatedCommand": "Achat",
+		"Description": "Sends an OOC chat message to other admins",
+		"SyntaxString": "<message>"
+	},
+	{
+		"Command": "Kick",
+		"TranslatedCommand": "Kick",
+		"Description": "Kicks a player from the server",
+		"SyntaxString": "<player name/id> [reason]"
+	},
+	{
+		"Command": "Mute",
+		"TranslatedCommand": "Mute",
+		"Description": "Mutes a player, preventing them from using any chat.",
+		"SyntaxString": "<player name/id> [reason]"
+	},
+	{
+		"Command": "Freeze",
+		"TranslatedCommand": "Freeze",
+		"Description": "Freeze a player, preventing them from moving.",
+		"SyntaxString": "<player name/id> [reason]"
+	},
+	{
+		"Command": "UnMute",
+		"TranslatedCommand": "UnMute",
+		"Description": "Unmutes a player, allowing them to chat again.",
+		"SyntaxString": "<player name/id> [reason]"
+	},
+	{
+		"Command": "UnFreeze",
+		"TranslatedCommand": "UnFreeze",
+		"Description": "Unfreezes a player, allowing them to move again.",
+		"SyntaxString": "<player name/id> [reason]"
+	},
+	{
+		"Command": "Goto",
+		"TranslatedCommand": "Goto",
+		"Description": "Teleports you to a player.",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetHere",
+		"TranslatedCommand": "GetHere",
+		"Description": "Teleports a player to you.",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetVeh",
+		"TranslatedCommand": "GetVeh",
+		"Description": "Teleports a vehicle to you.",
+		"SyntaxString": "<Vehicle id>"
+	},
+	{
+		"Command": "GotoBizExit",
+		"TranslatedCommand": "GotoBizExit",
+		"Description": "Teleports you to the exit of the current interior.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "GotoHouseExit",
+		"TranslatedCommand": "GotoHouseExit",
+		"Description": "Teleports you to the exit of the current interior.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "WarpInVeh",
+		"TranslatedCommand": "WarpInVeh",
+		"SyntaxString": "[Vehicle id]"
+	},
+	{
+		"Command": "ReturnPlr",
+		"TranslatedCommand": "ReturnPlr",
+		"Description": "Returns a player to their previous position.",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "ReturnPlayer",
+		"TranslatedCommand": "ReturnPlayer",
+		"Description": "Returns a player to their previous position.",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GotoPos",
+		"TranslatedCommand": "GotoPos",
+		"Description": "Teleports you to specific coordinates with optional interior and dimension.",
+		"SyntaxString": "<x> <y> <z> [int] [vw]"
+	},
+	{
+		"Command": "GotoVeh",
+		"TranslatedCommand": "GotoVeh",
+		"Description": "Teleports you to a vehicle by ID.",
+		"SyntaxString": "<Vehicle id>"
+	},
+	{
+		"Command": "GotoVehicle",
+		"TranslatedCommand": "GotoVehicle",
+		"Description": "Teleports you to a vehicle by ID.",
+		"SyntaxString": "<Vehicle id>"
+	},
+	{
+		"Command": "GotoPayPhone",
+		"TranslatedCommand": "GotoPayPhone",
+		"Description": "Teleports you to a payphone by ID or phone number.",
+		"SyntaxString": "<business id/number>"
+	},
+	{
+		"Command": "VehVW",
+		"TranslatedCommand": "VehVW",
+		"Description": "Sets a vehicle's virtual world",
+		"SyntaxString": "<Vehicle id> <virtual world id>"
+	},
+	{
+		"Command": "VehDimension",
+		"TranslatedCommand": "VehDimension",
+		"Description": "Sets a vehicle's virtual world",
+		"SyntaxString": "<Vehicle id> <virtual world id>"
+	},
+	{
+		"Command": "VehInt",
+		"TranslatedCommand": "VehInt",
+		"Description": "Sets a vehicle's interior ID",
+		"SyntaxString": "<Vehicle id> <interior id>"
+	},
+	{
+		"Command": "VehInterior",
+		"TranslatedCommand": "VehInterior",
+		"Description": "Sets a vehicle's interior ID",
+		"SyntaxString": "<Vehicle id> <interior id>"
+	},
+	{
+		"Command": "GotoBiz",
+		"TranslatedCommand": "GotoBiz",
+		"Description": "Teleports you to a business by ID or name.",
+		"SyntaxString": "<business id/name>"
+	},
+	{
+		"Command": "GotoBusiness",
+		"TranslatedCommand": "GotoBusiness",
+		"Description": "Teleports you to a business by ID or name.",
+		"SyntaxString": "<business id/name>"
+	},
+	{
+		"Command": "GotoHouse",
+		"TranslatedCommand": "GotoHouse",
+		"Description": "Teleports you to a house by ID or description.",
+		"SyntaxString": "<house id/name>"
+	},
+	{
+		"Command": "GotoJob",
+		"TranslatedCommand": "GotoJob",
+		"Description": "Teleports you to a job location by name and location ID.",
+		"SyntaxString": "<job id/name> <location id>"
+	},
+	{
+		"Command": "GotoLoc",
+		"TranslatedCommand": "GotoLoc",
+		"Description": "Teleports you to a game location by name.",
+		"SyntaxString": "<location name>"
+	},
+	{
+		"Command": "GotoSpawn",
+		"TranslatedCommand": "GotoSpawn",
+		"Description": "Teleports you to the new player spawn location",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Front",
+		"TranslatedCommand": "Front",
+		"Description": "Teleports you forward a certain distance in meters.",
+		"SyntaxString": "[distance in meters]"
+	},
+	{
+		"Command": "Back",
+		"TranslatedCommand": "Back",
+		"Description": "Teleports you backward a certain distance in meters.",
+		"SyntaxString": "[distance in meters]"
+	},
+	{
+		"Command": "Left",
+		"TranslatedCommand": "Left",
+		"Description": "Teleports you to the left a certain distance in meters.",
+		"SyntaxString": "[distance in meters]"
+	},
+	{
+		"Command": "Right",
+		"TranslatedCommand": "Right",
+		"Description": "Teleports you to the right a certain distance in meters.",
+		"SyntaxString": "[distance in meters]"
+	},
+	{
+		"Command": "Up",
+		"TranslatedCommand": "Up",
+		"Description": "Teleports you upward a certain distance in meters.",
+		"SyntaxString": "[distance in meters]"
+	},
+	{
+		"Command": "Down",
+		"TranslatedCommand": "Down",
+		"Description": "Teleports you downward a certain distance in meters.",
+		"SyntaxString": "[distance in meters]"
+	},
+	{
+		"Command": "Int",
+		"TranslatedCommand": "Int",
+		"Description": "Gets or sets a player's game interior.",
+		"SyntaxString": "<player name/id> [interior id]"
+	},
+	{
+		"Command": "VW",
+		"TranslatedCommand": "VW",
+		"Description": "Gets or sets a player's virtual world/dimension.",
+		"SyntaxString": "<player name/id> [virtual world id]"
+	},
+	{
+		"Command": "AddPlrStaffFlag",
+		"TranslatedCommand": "AddPlrStaffFlag",
+		"Description": "Gives a player a staff flag by name (this server only).",
+		"SyntaxString": "<player name/id> <flag name>"
+	},
+	{
+		"Command": "AddPlayerStaffFlag",
+		"TranslatedCommand": "AddPlayerStaffFlag",
+		"Description": "Gives a player a staff flag by name (this server only).",
+		"SyntaxString": "<player name/id> <flag name>"
+	},
+	{
+		"Command": "AddStaffFlag",
+		"TranslatedCommand": "AddStaffFlag",
+		"Description": "Gives a player a staff flag by name (this server only).",
+		"SyntaxString": "<player name/id> <flag name>"
+	},
+	{
+		"Command": "DelPlrStaffFlag",
+		"TranslatedCommand": "DelPlrStaffFlag",
+		"Description": "Takes a player's staff flag by name (this server only).",
+		"SyntaxString": "<player name/id> <flag name>"
+	},
+	{
+		"Command": "DelStaffFlag",
+		"TranslatedCommand": "DelStaffFlag",
+		"Description": "Takes a player's staff flag by name (this server only).",
+		"SyntaxString": "<player name/id> <flag name>"
+	},
+	{
+		"Command": "GetPlrStaffFlags",
+		"TranslatedCommand": "GetPlrStaffFlags",
+		"Description": "Shows a list of all staff flags a player has (this server only).",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "DelPlrStaffFlags",
+		"TranslatedCommand": "DelPlrStaffFlags",
+		"Description": "Removes all staff flags for a player (this server only).",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "DelStaffFlags",
+		"TranslatedCommand": "DelStaffFlags",
+		"Description": "Removes all staff flags for a player (this server only).",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "AllStaffFlags",
+		"TranslatedCommand": "AllStaffFlags",
+		"Description": "Shows a list of all valid staff flag names.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StaffFlags",
+		"TranslatedCommand": "StaffFlags",
+		"Description": "Shows a list of all valid staff flag names.",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "PlrStaffTitle",
+		"TranslatedCommand": "PlrStaffTitle",
+		"Description": "Sets a player's staff title.",
+		"SyntaxString": "<player name/id> <new title>"
+	},
+	{
+		"Command": "PlayerStaffTitle",
+		"TranslatedCommand": "PlayerStaffTitle",
+		"Description": "Sets a player's staff title.",
+		"SyntaxString": "<player name/id> <new title>"
+	},
+	{
+		"Command": "StaffTitle",
+		"TranslatedCommand": "StaffTitle",
+		"Description": "Sets a player's staff title.",
+		"SyntaxString": "<player name/id> <new title>"
+	},
+	{
+		"Command": "GiveMoney",
+		"TranslatedCommand": "GiveMoney",
+		"SyntaxString": "<player name/id> <amount>"
+	},
+	{
+		"Command": "NonRPName",
+		"TranslatedCommand": "NonRPName",
+		"Description": "Forces a player to change their current character's name.",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "SetName",
+		"TranslatedCommand": "SetName",
+		"Description": "Changes a character's name directly.",
+		"SyntaxString": "<player name/id> <first name> <last name>"
+	},
+	{
+		"Command": "SetSkin",
+		"TranslatedCommand": "SetSkin",
+		"Description": "Changes a character's skin.",
+		"SyntaxString": "<player name/id> <skin id/name>"
+	},
+	{
+		"Command": "SetAccent",
+		"TranslatedCommand": "SetAccent",
+		"Description": "Changes a character's accent.",
+		"SyntaxString": "<player name/id> <accent name>"
+	},
+	{
+		"Command": "SetFightStyle",
+		"TranslatedCommand": "SetFightStyle",
+		"Description": "Changes a character's fight style.",
+		"SyntaxString": "<player name/id> <fight style name>"
+	},
+	{
+		"Command": "SetStars",
+		"TranslatedCommand": "SetStars",
+		"Description": "Forces a player to have a wanted level",
+		"SyntaxString": "<player name/id> <wanted level>"
+	},
+	{
+		"Command": "PlrInfo",
+		"TranslatedCommand": "PlrInfo",
+		"Description": "Shows basic info about the specified player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "PlayerInfo",
+		"TranslatedCommand": "PlayerInfo",
+		"Description": "Shows basic info about the specified player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlrHouses",
+		"TranslatedCommand": "GetPlrHouses",
+		"Description": "Shows a list of all houses owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlrBizs",
+		"TranslatedCommand": "GetPlrBizs",
+		"Description": "Shows a list of all businesses owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlrBusinesses",
+		"TranslatedCommand": "GetPlrBusinesses",
+		"Description": "Shows a list of all businesses owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlrVehs",
+		"TranslatedCommand": "GetPlrVehs",
+		"Description": "Shows a list of all vehicles owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlrVehicles",
+		"TranslatedCommand": "GetPlrVehicles",
+		"Description": "Shows a list of all vehicles owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlayerHouses",
+		"TranslatedCommand": "GetPlayerHouses",
+		"Description": "Shows a list of all houses owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlayerBizs",
+		"TranslatedCommand": "GetPlayerBizs",
+		"Description": "Shows a list of all businesses owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlayerBusinesses",
+		"TranslatedCommand": "GetPlayerBusinesses",
+		"Description": "Shows a list of all businesses owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlayerVehs",
+		"TranslatedCommand": "GetPlayerVehs",
+		"Description": "Shows a list of all vehicles owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetPlayerVehicles",
+		"TranslatedCommand": "GetPlayerVehicles",
+		"Description": "Shows a list of all vehicles owned by the player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GeoIP",
+		"TranslatedCommand": "GeoIP",
+		"Description": "Retrieves GeoIP information on a player (country & city)",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "IP",
+		"TranslatedCommand": "IP",
+		"Description": "Retrieves IP information on a player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetGeoIP",
+		"TranslatedCommand": "GetGeoIP",
+		"Description": "Retrieves GeoIP information on a player (country & city)",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "GetIP",
+		"TranslatedCommand": "GetIP",
+		"Description": "Retrieves IP information on a player",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "PlrSync",
+		"TranslatedCommand": "PlrSync",
+		"Description": "Sets whether elements spawned by a player are synced (traffic, peds, etc)",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "Health",
+		"TranslatedCommand": "Health",
+		"Description": "Sets a player's health",
+		"SyntaxString": "<player name/id> <health"
+	},
+	{
+		"Command": "Armour",
+		"TranslatedCommand": "Armour",
+		"Description": "Sets a player's armour",
+		"SyntaxString": "<player name/id> <armour>"
+	},
+	{
+		"Command": "SetHealth",
+		"TranslatedCommand": "SetHealth",
+		"Description": "Sets a player's health",
+		"SyntaxString": "<player name/id> <health"
+	},
+	{
+		"Command": "SetArmour",
+		"TranslatedCommand": "SetArmour",
+		"Description": "Sets a player's armour",
+		"SyntaxString": "<player name/id> <armour>"
+	},
+	{
+		"Command": "InfiniteRun",
+		"TranslatedCommand": "InfiniteRun",
+		"Description": "Toggles a player's infinite sprint",
+		"SyntaxString": "<player name/id> <state>"
+	},
+	{
+		"Command": "AtBiz",
+		"TranslatedCommand": "AtBiz",
+		"Description": "Gets which business a player is at/in",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "AtBusiness",
+		"TranslatedCommand": "AtBusiness",
+		"Description": "Gets which business a player is at/in",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "AtHouse",
+		"TranslatedCommand": "AtHouse",
+		"Description": "Gets which house a player is at/in",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "Biz",
+		"TranslatedCommand": "Biz",
+		"Description": "Gets which business a player is at/in",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "Business",
+		"TranslatedCommand": "Business",
+		"Description": "Gets which business a player is at/in",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "House",
+		"TranslatedCommand": "House",
+		"Description": "Gets which house a player is at/in",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "ForceResetPass",
+		"TranslatedCommand": "ForceResetPass",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "ChatType",
+		"TranslatedCommand": "ChatType",
+		"Description": "Sets the normal chat type for the server",
+		"SyntaxString": "<chat type name>"
+	},
+	{
+		"Command": "VehEngineAll",
+		"TranslatedCommand": "VehEngineAll",
+		"Description": "Sets the normal chat type for the server",
+		"SyntaxString": "<state 0/1/2>"
+	},
+	{
+		"Command": "GodMode",
+		"TranslatedCommand": "GodMode",
+		"Description": "Toggles god-mode on/off for a player",
+		"SyntaxString": "<player id/name>"
+	},
+	{
+		"Command": "GetNPC",
+		"TranslatedCommand": "GetNPC",
+		"Description": "Moves an NPC to your position",
+		"SyntaxString": "<npc name/id>"
+	},
+	{
+		"Command": "PlrAlias",
+		"TranslatedCommand": "PlrAlias",
+		"Description": "Sets an account as an alias of a player",
+		"SyntaxString": "<player name/id> <account name>"
+	},
+	{
+		"Command": "AcctAlias",
+		"TranslatedCommand": "AcctAlias",
+		"Description": "Sets an account as an alias of another account",
+		"SyntaxString": "<account name> <alias>"
+	},
+	{
+		"Command": "ModFlags",
+		"TranslatedCommand": "ModFlags",
+		"Description": "Shows or sets the moderation flags for a player",
+		"SyntaxString": "<player name/id> <flag name>"
+	},
+	{
+		"Command": "ClearPlrChat",
+		"TranslatedCommand": "ClearPlrChat",
+		"Description": "Clears another player's chat (leave blank to clear all players chat)",
+		"SyntaxString": "[player name/id]"
+	},
+	{
+		"Command": "GlobalOOC",
+		"TranslatedCommand": "GlobalOOC",
+		"Description": "Turns global OOC chat on or off",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SwitchChar",
+		"TranslatedCommand": "SwitchChar",
+		"Description": "Switches to another character",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NewChar",
+		"TranslatedCommand": "NewChar",
+		"Description": "Creates a new character",
+		"SyntaxString": "<first name> <last name>"
+	},
+	{
+		"Command": "UseChar",
+		"TranslatedCommand": "UseChar",
+		"Description": "Uses a character",
+		"SyntaxString": "<character id>"
+	},
+	{
+		"Command": "CharDesc",
+		"TranslatedCommand": "CharDesc",
+		"Description": "Sets a character's description",
+		"SyntaxString": "<description>"
+	},
+	{
+		"Command": "ViewChar",
+		"TranslatedCommand": "ViewChar",
+		"Description": "Views a character's description",
+		"SyntaxString": "<player name/id>"
+	},
+	{
+		"Command": "AddTask",
+		"TranslatedCommand": "AddTask",
+		"Description": "Creates a new task",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "AddTaskStep",
+		"TranslatedCommand": "AddTaskStep",
+		"Description": "Creates a new task step",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "DelTask",
+		"TranslatedCommand": "DelTask",
+		"Description": "Deletes a task",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DelTaskStep",
+		"TranslatedCommand": "DelTaskStep",
+		"Description": "Deletes a task step",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TaskStepAttach",
+		"TranslatedCommand": "TaskStepAttach",
+		"Description": "Attaches a task step to another so they start at the same time",
+		"SyntaxString": "<task step name/id> <task step name/id>"
+	},
+	{
+		"Command": "TaskInfo",
+		"TranslatedCommand": "TaskInfo",
+		"Description": "Shows info about a task",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TaskStepPos",
+		"TranslatedCommand": "TaskStepPos",
+		"Description": "Sets the position of a task step",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TaskName",
+		"TranslatedCommand": "TaskName",
+		"Description": "Sets the name of a task",
+		"SyntaxString": "<name>"
+	},
+	{
+		"Command": "TaskRespawnVeh",
+		"TranslatedCommand": "TaskRespawnVeh",
+		"Description": "Toggles whether a task vehicle respawns when destroyed",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TaskPay",
+		"TranslatedCommand": "TaskPay",
+		"Description": "Sets the pay for a task",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "TaskStartMsg",
+		"TranslatedCommand": "TaskStartMsg",
+		"Description": "Sets the message shown when a task is started",
+		"SyntaxString": "<new message>"
+	},
+	{
+		"Command": "TaskFinishMsg",
+		"TranslatedCommand": "TaskFinishMsg",
+		"Description": "Sets the message shown when a task is finished",
+		"SyntaxString": "<new message>"
+	},
+	{
+		"Command": "TaskArriveMsg",
+		"TranslatedCommand": "TaskArriveMsg",
+		"Description": "Sets the message shown when a task step is arrived at",
+		"SyntaxString": "<new message>"
+	},
+	{
+		"Command": "TaskNextMsg",
+		"TranslatedCommand": "TaskNextMsg",
+		"Description": "Sets the message shown when a task step is next",
+		"SyntaxString": "<new message>"
+	},
+	{
+		"Command": "TaskStepStartMsg",
+		"TranslatedCommand": "TaskStepStartMsg",
+		"Description": "Sets the message shown when a task step is started",
+		"SyntaxString": "<new message>"
+	},
+	{
+		"Command": "TaskStepFinishMsg",
+		"TranslatedCommand": "TaskStepFinishMsg",
+		"Description": "Sets the message shown when a task step is finished",
+		"SyntaxString": "<new message>"
+	},
+	{
+		"Command": "TaskEnabled",
+		"TranslatedCommand": "TaskEnabled",
+		"Description": "Toggles whether a task is enabled or not",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "TaskVehColours",
+		"TranslatedCommand": "TaskVehColours",
+		"Description": "Sets the vehicle colours for a task",
+		"SyntaxString": "<colour 1> <colour 2>"
+	},
+	{
+		"Command": "TaskDelays",
+		"TranslatedCommand": "TaskDelays",
+		"Description": "Sets the delay for all task steps",
+		"SyntaxString": "<time in milliseconds>"
+	},
+	{
+		"Command": "TaskStepDelay",
+		"TranslatedCommand": "TaskStepDelay",
+		"Description": "Sets the delay for a task step",
+		"SyntaxString": "<time in milliseconds>"
+	},
+	{
+		"Command": "TaskStepType",
+		"TranslatedCommand": "TaskStepType",
+		"Description": "Sets the type of a task step",
+		"SyntaxString": "<type name>"
+	},
+	{
+		"Command": "TaskJob",
+		"TranslatedCommand": "TaskJob",
+		"Description": "Sets a task to be owned by a job",
+		"SyntaxString": "<task name/id> <job name/id>"
+	},
+	{
+		"Command": "AddVeh",
+		"TranslatedCommand": "AddVeh",
+		"Description": "Creates a permanent vehicle (saves to database)",
+		"SyntaxString": "<model id/name>"
+	},
+	{
+		"Command": "TempVeh",
+		"TranslatedCommand": "TempVeh",
+		"Description": "Creates a temporary vehicle (does not save to database)",
+		"SyntaxString": "<model id/name>"
+	},
+	{
+		"Command": "DelVeh",
+		"TranslatedCommand": "DelVeh",
+		"Description": "Deletes a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "NearVeh",
+		"TranslatedCommand": "NearVeh",
+		"Description": "Shows a list of all vehicles within a distance",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "OldVeh",
+		"TranslatedCommand": "OldVeh",
+		"Description": "Shows information for the last vehicle you were in",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "LastVeh",
+		"TranslatedCommand": "LastVeh",
+		"Description": "Shows information for last vehicle you were in",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "OldCar",
+		"TranslatedCommand": "OldCar",
+		"Description": "Shows information for the last vehicle you were in",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "LastCar",
+		"TranslatedCommand": "LastCar",
+		"Description": "Shows information for last vehicle you were in",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Engine",
+		"TranslatedCommand": "Engine",
+		"Description": "Toggle the engine of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Siren",
+		"TranslatedCommand": "Siren",
+		"Description": "Toggle the siren of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehInteriorLight",
+		"TranslatedCommand": "VehInteriorLight",
+		"Description": "Toggle the interior light of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehInsideLight",
+		"TranslatedCommand": "VehInsideLight",
+		"Description": "Toggle the interior light of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRoofLight",
+		"TranslatedCommand": "VehRoofLight",
+		"Description": "Toggle the interior light of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehHazards",
+		"TranslatedCommand": "VehHazards",
+		"Description": "Toggle the hazard lights of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehHazardLight",
+		"TranslatedCommand": "VehHazardLight",
+		"Description": "Toggle the hazard lights of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehHazardLights",
+		"TranslatedCommand": "VehHazardLights",
+		"Description": "Toggle the hazard lights of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehOwner",
+		"TranslatedCommand": "VehOwner",
+		"Description": "Sets a vehicle to be owned by a player",
+		"SyntaxString": "<player id/name>"
+	},
+	{
+		"Command": "VehPublic",
+		"TranslatedCommand": "VehPublic",
+		"Description": "Sets a vehicle to be public",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehClan",
+		"TranslatedCommand": "VehClan",
+		"Description": "Sets a vehicle to be owned by a clan",
+		"SyntaxString": "<clan id/name>"
+	},
+	{
+		"Command": "VehBiz",
+		"TranslatedCommand": "VehBiz",
+		"Description": "Sets a vehicle to be owned by a business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehJob",
+		"TranslatedCommand": "VehJob",
+		"Description": "Sets a vehicle to be owned by a job",
+		"SyntaxString": "[job id/name]"
+	},
+	{
+		"Command": "VehDelOwner",
+		"TranslatedCommand": "VehDelOwner",
+		"Description": "Removes the owner of a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRank",
+		"TranslatedCommand": "VehRank",
+		"Description": "Sets the minimum job/clan rank required to use a vehicle",
+		"SyntaxString": "<rank id/name>"
+	},
+	{
+		"Command": "VehicleRank",
+		"TranslatedCommand": "VehicleRank",
+		"Description": "Sets the minimum job/clan rank required to use a vehicle",
+		"SyntaxString": "<rank id/name>"
+	},
+	{
+		"Command": "VehInfo",
+		"TranslatedCommand": "VehInfo",
+		"Description": "Shows information about a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleInfo",
+		"TranslatedCommand": "VehicleInfo",
+		"Description": "Shows information about a vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehPark",
+		"TranslatedCommand": "VehPark",
+		"Description": "Sets whether a vehicle will spawn at its current location or wherever a player leaves it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ParkVeh",
+		"TranslatedCommand": "ParkVeh",
+		"Description": "Sets whether a vehicle will spawn at its current location or wherever a player leaves it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehiclePark",
+		"TranslatedCommand": "VehiclePark",
+		"Description": "Sets whether a vehicle will spawn at its current location or wherever a player leaves it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ParkVehicle",
+		"TranslatedCommand": "ParkVehicle",
+		"Description": "Sets whether a vehicle will spawn at its current location or wherever a player leaves it",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnAll",
+		"TranslatedCommand": "VehRespawnAll",
+		"Description": "Respawns all vehicles (also respawns all traffic vehicles)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnEmpty",
+		"TranslatedCommand": "VehRespawnEmpty",
+		"Description": "Respawns all empty/unoccupied vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnJob",
+		"TranslatedCommand": "VehRespawnJob",
+		"Description": "Respawns all job vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnPlr",
+		"TranslatedCommand": "VehRespawnPlr",
+		"Description": "Respawns all player-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnClan",
+		"TranslatedCommand": "VehRespawnClan",
+		"Description": "Respawns all clan-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnPublic",
+		"TranslatedCommand": "VehRespawnPublic",
+		"Description": "Respawns all public vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawnBiz",
+		"TranslatedCommand": "VehRespawnBiz",
+		"Description": "Respawns all business-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRespawn",
+		"TranslatedCommand": "VehRespawn",
+		"Description": "Respawns your current vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehReloadAll",
+		"TranslatedCommand": "VehReloadAll",
+		"Description": "Deletes and reloads all vehicles from database",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnAll",
+		"TranslatedCommand": "CarRespawnAll",
+		"Description": "Respawns all vehicles (also respawns all traffic vehicles)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnEmpty",
+		"TranslatedCommand": "CarRespawnEmpty",
+		"Description": "Respawns all empty/unoccupied vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnJob",
+		"TranslatedCommand": "CarRespawnJob",
+		"Description": "Respawns all job vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnPlr",
+		"TranslatedCommand": "CarRespawnPlr",
+		"Description": "Respawns all player-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnClan",
+		"TranslatedCommand": "CarRespawnClan",
+		"Description": "Respawns all clan-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnPublic",
+		"TranslatedCommand": "CarRespawnPublic",
+		"Description": "Respawns all public vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawnBiz",
+		"TranslatedCommand": "CarRespawnBiz",
+		"Description": "Respawns all business-owned vehicles",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarRespawn",
+		"TranslatedCommand": "CarRespawn",
+		"Description": "Respawns your current vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "CarReloadAll",
+		"TranslatedCommand": "CarReloadAll",
+		"Description": "Deletes and reloads all vehicles from database",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRent",
+		"TranslatedCommand": "VehRent",
+		"Description": "Starts renting your current vehicle (if rentable)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RentVeh",
+		"TranslatedCommand": "RentVeh",
+		"Description": "Starts renting your current vehicle (if rentable)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleRent",
+		"TranslatedCommand": "VehicleRent",
+		"Description": "Starts renting your current vehicle (if rentable)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RentVehicle",
+		"TranslatedCommand": "RentVehicle",
+		"Description": "Starts renting your current vehicle (if rentable)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehRentprice",
+		"TranslatedCommand": "VehRentprice",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehBuyprice",
+		"TranslatedCommand": "VehBuyprice",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleBuyprice",
+		"TranslatedCommand": "VehicleBuyprice",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehPrice",
+		"TranslatedCommand": "VehPrice",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehiclePrice",
+		"TranslatedCommand": "VehiclePrice",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RentPriceVeh",
+		"TranslatedCommand": "RentPriceVeh",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BuyPriceVeh",
+		"TranslatedCommand": "BuyPriceVeh",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "StopRentVeh",
+		"TranslatedCommand": "StopRentVeh",
+		"Description": "Stops renting your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehStopRent",
+		"TranslatedCommand": "VehStopRent",
+		"Description": "Stops renting your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleRentPrice",
+		"TranslatedCommand": "VehicleRentPrice",
+		"Description": "Sets your vehicle's rent price",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleStopRent",
+		"TranslatedCommand": "VehicleStopRent",
+		"Description": "Stops renting your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehBuy",
+		"TranslatedCommand": "VehBuy",
+		"Description": "Purchases your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleBuy",
+		"TranslatedCommand": "VehicleBuy",
+		"Description": "Purchases your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BuyVeh",
+		"TranslatedCommand": "BuyVeh",
+		"Description": "Purchases your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BuyVehicle",
+		"TranslatedCommand": "BuyVehicle",
+		"Description": "Purchases your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehColour",
+		"TranslatedCommand": "VehColour",
+		"Description": "Sets a vehicle's colour",
+		"SyntaxString": "<colour1> <colour2>"
+	},
+	{
+		"Command": "VehicleColour",
+		"TranslatedCommand": "VehicleColour",
+		"Description": "Sets a vehicle's colour",
+		"SyntaxString": "<colour1> <colour2>"
+	},
+	{
+		"Command": "VehicleUpgrade",
+		"TranslatedCommand": "VehicleUpgrade",
+		"Description": "Sets a vehicle's upgrades",
+		"SyntaxString": "<slot 0-13> <upgrade 0-2>"
+	},
+	{
+		"Command": "VehUpgrade",
+		"TranslatedCommand": "VehUpgrade",
+		"Description": "Sets a vehicle's upgrades",
+		"SyntaxString": "<slot 0-13> <upgrade 0-2>"
+	},
+	{
+		"Command": "VehLivery",
+		"TranslatedCommand": "VehLivery",
+		"Description": "Sets your vehicle's livery/paintjob",
+		"SyntaxString": "<livery id>"
+	},
+	{
+		"Command": "VehicleLivery",
+		"TranslatedCommand": "VehicleLivery",
+		"Description": "Sets your vehicle's livery/paintjob",
+		"SyntaxString": "<livery id>"
+	},
+	{
+		"Command": "VehRepair",
+		"TranslatedCommand": "VehRepair",
+		"Description": "Repairs your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehicleRepair",
+		"TranslatedCommand": "VehicleRepair",
+		"Description": "Repairs your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RepairVeh",
+		"TranslatedCommand": "RepairVeh",
+		"Description": "Repairs your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "RepairVehicle",
+		"TranslatedCommand": "RepairVehicle",
+		"Description": "Repairs your vehicle",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Passenger",
+		"TranslatedCommand": "Passenger",
+		"Description": "Enters a vehicle as passenger",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "MyVehicles",
+		"TranslatedCommand": "MyVehicles",
+		"Description": "Shows all vehicles owned by you",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "MyVeh",
+		"TranslatedCommand": "MyVeh",
+		"Description": "Shows all vehicles owned by you",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "MyVehicle",
+		"TranslatedCommand": "MyVehicle",
+		"Description": "Shows all vehicles owned by you",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanVehicles",
+		"TranslatedCommand": "ClanVehicles",
+		"Description": "Shows all vehicles owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanVeh",
+		"TranslatedCommand": "ClanVeh",
+		"Description": "Shows all vehicles owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ClanVehicle",
+		"TranslatedCommand": "ClanVehicle",
+		"Description": "Shows all vehicles owned by your clan",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobVehicles",
+		"TranslatedCommand": "JobVehicles",
+		"Description": "Shows all vehicles owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobVeh",
+		"TranslatedCommand": "JobVeh",
+		"Description": "Shows all vehicles owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "JobVehicle",
+		"TranslatedCommand": "JobVehicle",
+		"Description": "Shows all vehicles owned by your job",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizVehicle",
+		"TranslatedCommand": "BizVehicle",
+		"Description": "Shows all vehicles owned by your business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "BizVeh",
+		"TranslatedCommand": "BizVeh",
+		"Description": "Shows all vehicles owned by your business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehScenario",
+		"TranslatedCommand": "VehScenario",
+		"Description": "Sets your vehicle to a scenario",
+		"SyntaxString": "<scenario name/id>"
+	},
+	{
+		"Command": "VehExport",
+		"TranslatedCommand": "VehExport",
+		"Description": "Sells your vehicle to export service",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "ExportVeh",
+		"TranslatedCommand": "ExportVeh",
+		"Description": "Sells your vehicle to export service",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "Trunk",
+		"TranslatedCommand": "Trunk",
+		"Description": "Opens/closes your vehicle's trunk",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SellVehicle",
+		"TranslatedCommand": "SellVehicle",
+		"Description": "Sells your vehicle to another player",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "SellVeh",
+		"TranslatedCommand": "SellVeh",
+		"Description": "Sells your vehicle to another player",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DriveToBiz",
+		"TranslatedCommand": "DriveToBiz",
+		"Description": "Drives your vehicle to a business",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "DriveToLoc",
+		"TranslatedCommand": "DriveToLoc",
+		"Description": "Drives your vehicle to a location",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeMass",
+		"TranslatedCommand": "VehTypeMass",
+		"Description": "Sets the mass of a vehicle (used for towing)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeHorsePower",
+		"TranslatedCommand": "VehTypeHorsePower",
+		"Description": "Sets the horsepower of a vehicle (used for towing)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeTrunkDistance",
+		"TranslatedCommand": "VehTypeTrunkDistance",
+		"Description": "Sets the distance to use a vehicle's trunk",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeTrunkCapacity",
+		"TranslatedCommand": "VehTypeTrunkCapacity",
+		"Description": "Sets the capacity of a vehicle's trunk (in kilograms)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeDashCapacity",
+		"TranslatedCommand": "VehTypeDashCapacity",
+		"Description": "Sets the capacity of a vehicle's dash compartment (in kilograms)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeFuelCapacity",
+		"TranslatedCommand": "VehTypeFuelCapacity",
+		"Description": "Sets the fuel capacity of a vehicle (in liters)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeFuelConsumption",
+		"TranslatedCommand": "VehTypeFuelConsumption",
+		"Description": "Sets the fuel consumption of a vehicle (in liters per 100km)",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "VehTypeLockable",
+		"TranslatedCommand": "VehTypeLockable",
+		"Description": "Sets whether a vehicle type can be locked (usually disabled for motorcycles)",
+		"SyntaxString": ""
+	}
+]
