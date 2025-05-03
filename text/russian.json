@@ -1039,5 +1039,41 @@
 	"RoleplayBlipCooldown": "You must wait {1} minutes before creating another roleplay blip!",
 	"HeaderServerStats": "Server Stats",
 	"HeaderJobRankPromotionList": "Job Rank Promotion Chart ({1})",
-	"LocalChatNobodyNearby": "Normal chat is only visible to players nearby, and nobody was in range to see your message."
+	"LocalChatNobodyNearby": "Normal chat is only visible to players nearby, and nobody was in range to see your message.",
+	"RandomTipsGlobal": [
+		"Look for yellow dots on your map for job locations.",
+		"You can set custom key binds. Use '/Info Keys' for details.",
+		"Use '/Settings NoRandomTips' if you don't want to see random tips",
+		"Press I to see your inventory, number keys to select an item, and U to use an item",
+		"Use /Buy at a business to purchase items.",
+		"Found a bug? Report it with /Bug",
+		"Have an idea or suggestion for the server? Let the devs know using /Idea",
+		"Want to buy a business? Use /BizBuy at one for sale",
+		"Want to buy a house? Use /HouseBuy at one for sale",
+		"Want to buy a vehicle? Visit a dealership and enter one for info on how to buy it!",
+		"Switch to any of your characters with /SwitchChar",
+		"Use /IPLogin to automatically login when connecting with the same IP",
+		"Use /HouseLights or /BizLights to turn on/off the lights in your house or business",
+		"Use /RadioStation to play an internet radio station in your car, house, or business",
+		"Want to advertise your business? Visit the news station and place an /ad today!",
+		"Want to make a clan? Use '/Info Clans' for details.",
+		"Win big in the lottery! Buy a lottery ticket item and use it to scratch for a number",
+		"Looking to make some quick cash? Rob a business with /RobBiz !"
+	],
+	"RandomTipsGTAIII": [
+	],
+	"RandomTipsGTAVC": [
+	],
+	"RandomTipsGTASA": [
+	],
+	"RandomTipsGTAIV": [
+	],
+	"RandomTipsMAFIA1": [
+		"You can visit the countryside from any exit out of the city!",
+		"Visit the Lost Heaven Autodrome for some racing fun!"
+	],
+	"RandomTipsMAFIA2": [
+	],
+	"RandomTipsMAFIADE": [
+	]
 }
