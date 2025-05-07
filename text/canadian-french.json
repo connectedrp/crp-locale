@@ -1060,5 +1060,22 @@
 	"RandomTipsMAFIA2": [
 	],
 	"RandomTipsMAFIADE": [
+	],
+	"NoVehicleImpoundSpawnLocation": "There is no space to spawn the vehicle! Try another police station or contact an admin",
+	"VehicleNotImpounded": "This vehicle is not impounded!",
+	"VehicleImpoundRetrieveSuccess": "The {1} has been un-impounded for {2}. It is spawned nearby.",
+	"VehicleImpoundSuccess": "The {1} has been impounded for {2}.",
+	"ImpoundedVehiclesListHeader": "Impounded Vehicles ({1})",
+	"ImpoundKioskTitleLabel": "Impound Kiosk",
+	"ImpoundKioskInfoLabel": "Use {1} to access the vehicle impound",
+	"ImpoundedVehicles": "You have {1} impounded vehicle(s). Use {2} for more information.",
+	"InvalidImpoundKiosk": "You need to be at an impound kiosk (purple marker) to claim a vehicle! They are located at police stations",
+	"NoImpoundedVehicles": "You don't have any impounded vehicles!",
+	"ImpoundHelpHeader": "Vehicle Impound Information",
+	"ImpoundHelp": [
+		"Vehicles may be impounded by police for criminal activity, abandoned, or parked illegally",
+		"You can use {1} to claim an impounded vehicle at any police station. Look for a purple marker",
+		"You will need to pay the fee to claim an impounded vehicle. The amount depends on why it was impounded",
+		"Claimed vehicles will be spawned nearby if there is space. If not, you will need to go to another police station"
 	]
 }
