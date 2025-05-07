@@ -15,6 +15,9 @@ let resourceStarted = false;
 let resourceReady = false;
 let resourceInit = false;
 
+let localeCommandStrings = [];
+let localeStrings = [];
+
 // ===========================================================================
 
 exportFunction("getLocaleString", getLocaleString);
@@ -23,6 +26,8 @@ exportFunction("getGroupedLocaleString", getLocaleString);
 // ===========================================================================
 
 bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
+    localeStrings = loadAllLocaleStrings();
+    localeCommandStrings = loadAllLocaleCommandStrings();
 });
 
 // ===========================================================================
@@ -92,7 +97,22 @@ function loadAllLocaleStrings() {
     let locales = globalConfig.locale.locales;
     for (let i in locales) {
         let localeData = locales[i];
-        let localeFile = JSON.parse(loadTextFile(`locale/${localeData.stringsFile}`));
+        let localeFile = JSON.parse(loadTextFile(`text/${localeData.stringsFile}`));
+        tempLocaleStrings[i] = localeFile;
+    }
+
+    return tempLocaleStrings;
+}
+
+// ===========================================================================
+
+function loadAllLocaleStrings() {
+    let tempLocaleStrings = {};
+
+    let locales = globalConfig.locale.locales;
+    for (let i in locales) {
+        let localeData = locales[i];
+        let localeFile = JSON.parse(loadTextFile(`commands/${localeData.stringsFile}`));
         tempLocaleStrings[i] = localeFile;
     }
 
@@ -148,6 +168,36 @@ function getLocaleFromCountryISO(isoCode = "US") {
             if (toLowerCase(getLocales()[i].countries[j]) == toLowerCase(isoCode)) {
                 return getLocales()[i].id;
             }
+        }
+    }
+}
+
+// ===========================================================================
+
+function getLocaleCommandStrings(localeId = -1) {
+    if (localeId != -1) {
+        return serverData.localeCommandStrings[localeId];
+    }
+    return serverData.localeCommandStrings;
+}
+
+// ===========================================================================
+
+function checkCommandLocaleStrings(commands) {
+    for (let i in commands) {
+        let found = localeCommandStrings.some(lcs => {
+            if (lcs.Command.toLowerCase().indexOf(commands[i].toLowerCase()) != -1) {
+                return true;
+            }
+        });
+
+        if (!found) {
+            localeCommandStrings.push({
+                Command: commands[i].Command,
+                TranslatedCommand: commands[i].Command,
+                Description: commands[i].Description,
+                Parameters: commands[i].Parameters,
+            });
         }
     }
 }
