@@ -1077,5 +1077,13 @@
 		"You can use {1} to claim an impounded vehicle at any police station. Look for a purple marker",
 		"You will need to pay the fee to claim an impounded vehicle. The amount depends on why it was impounded",
 		"Claimed vehicles will be spawned nearby if there is space. If not, you will need to go to another police station"
-	]
+	],
+	"FromRadioMessage": "(From Radio)",
+	"ToRadioMessage": "(To Radio)",
+	"FromPhoneMessage": "(From Phone)",
+	"ToPhoneMessage": "(To Phone)",
+	"AdvertisementCostMessage": "This advertisement will cost ${1}. Continue?",
+	"AdvertisementCostTitle": "Advertisement Cost",
+	"PrivateMessageFrom": "📤 DM from {1}: {2}",
+	"PrivateMessageTo": "📤 DM to {1}: {2}"
 }
