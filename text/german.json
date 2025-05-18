@@ -1079,8 +1079,12 @@
 	"ToRadioMessage": "(To Radio)",
 	"FromPhoneMessage": "(From Phone)",
 	"ToPhoneMessage": "(To Phone)",
-	"AdvertisementCostMessage": "This advertisement will cost ${1}. Continue?",
+	"AdvertisementCostMessage": "This advertisement will cost {1}. Continue?",
 	"AdvertisementCostTitle": "Advertisement Cost",
 	"PrivateMessageFrom": "📤 DM from {1}: {2}",
-	"PrivateMessageTo": "📤 DM to {1}: {2}"
+	"PrivateMessageTo": "📤 DM to {1}: {2}",
+	"YouHaveBeenFrozen": "You have been frozen by an admin for: {1}",
+	"YouHaveBeenUnrozen": "You have been unfrozen by an admin for: {1}",
+	"YouHaveBeenMuted": "You have been muted by an admin for: {1}",
+	"YouHaveBeenUnmuted": "You have been unmuted by an admin for: {1}"
 }
