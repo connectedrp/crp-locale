@@ -22,6 +22,7 @@ let localeStrings = [];
 
 exportFunction("getLocaleString", getLocaleString);
 exportFunction("getGroupedLocaleString", getLocaleString);
+exportFunction("checkCommandLocaleStrings", checkCommandLocaleStrings);
 
 // ===========================================================================
 
@@ -98,7 +99,7 @@ function loadAllLocaleStrings() {
     for (let i in locales) {
         let localeData = locales[i];
         let localeFile = JSON.parse(loadTextFile(`text/${localeData.stringsFile}`));
-        tempLocaleStrings[i] = localeFile;
+        tempLocaleStrings[localeData.id] = localeFile;
     }
 
     return tempLocaleStrings;
@@ -106,17 +107,17 @@ function loadAllLocaleStrings() {
 
 // ===========================================================================
 
-function loadAllLocaleStrings() {
-    let tempLocaleStrings = {};
+function loadAllCommandLocaleStrings() {
+    let tempLocaleCommandStrings = {};
 
     let locales = globalConfig.locale.locales;
     for (let i in locales) {
         let localeData = locales[i];
         let localeFile = JSON.parse(loadTextFile(`commands/${localeData.stringsFile}`));
-        tempLocaleStrings[i] = localeFile;
+        tempLocaleCommandStrings[localeData.id] = localeFile;
     }
 
-    return tempLocaleStrings;
+    return tempLocaleCommandStrings;
 }
 
 // ===========================================================================
@@ -200,6 +201,31 @@ function checkCommandLocaleStrings(commands) {
             });
         }
     }
+
+    // Remove locale command strings that are not in the commands list
+    // This is to ensure that we only keep the commands that are currently available
+    for (let i in localeCommandStrings) {
+        let notFound = commands.some(cmd => {
+            if (cmd.Command.toLowerCase().indexOf(localeCommandStrings[i].Command.toLowerCase()) == -1) {
+                return true;
+            }
+        });
+
+        if (notFound) {
+            localeCommandStrings.splice(i, 1);
+        }
+    }
+
+    // Save the updated locale command strings
+    saveCommandLocaleStrings(localeCommandStrings);
+    serverData.localeCommandStrings = localeCommandStrings;
 }
 
 // ===========================================================================
+
+function saveCommandLocaleStrings(localeCommandStrings) {
+    for (let i in localeCommandStrings) {
+        let lcs = localeCommandStrings[i];
+        saveTextFile(`locale/command/${lcs.Locale}.json`, JSON.stringify(lcs));
+    }
+}
