@@ -1094,5 +1094,14 @@
 	"ItemDoesNotHavePowerState": "This item can't be powered/enabled",
 	"TurfIncomeCurrent": "The {1} turf is currently generating {2} every payday ({3} base income x {4} multiplier)",
 	"TurfIncomeMultiplierCurrent": "The {1} turf income is multiplied by {2}%",
-	"WalkieTalkieOff": "Your handheld radio is turned off! You can't use it until you turn it on"
+	"WalkieTalkieOff": "Your handheld radio is turned off! You can't use it until you turn it on",
+	"VehicleRadioTurnedOffAction": "turns off the vehicle radio",
+	"HouseRadioTurnedOffAction": "turns off the house radio",
+	"BusinessRadioTurnedOffAction": "turns off the business radio",
+	"ElevatorPointTitleLabel": "Elevator",
+	"ElevatorPointInfoLabel": "Use {1} to use the elevator",
+	"HeaderLocationsInRangeList": "Locations within {1}",
+	"HeaderLocationInfo": "Location Information ({1})",
+	"PromptResetSpawn": "Reset this character's location to the default spawn?",
+	"PromptResetSpawnTitle": "Reset Spawn"
 }
