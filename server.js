@@ -26,10 +26,7 @@ exportFunction("checkCommandLocaleStrings", checkCommandLocaleStrings);
 
 // ===========================================================================
 
-bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
-    localeStrings = loadAllLocaleStrings();
-    localeCommandStrings = loadAllLocaleCommandStrings();
-});
+
 
 // ===========================================================================
 
