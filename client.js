@@ -23,19 +23,19 @@ exportFunction("getGroupedLocaleString", getLocaleString);
 // ===========================================================================
 
 bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
-    resourceReady = true;
-    if (resourceStarted && !resourceInit) {
-        initResource();
-    }
+	resourceReady = true;
+	if (resourceStarted && !resourceInit) {
+		initResource();
+	}
 });
 
 // ===========================================================================
 
 bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
-    resourceStarted = true;
-    if (resourceReady && !resourceInit) {
-        initResource();
-    }
+	resourceStarted = true;
+	if (resourceReady && !resourceInit) {
+		initResource();
+	}
 });
 
 // ===========================================================================
@@ -46,7 +46,7 @@ bindEventHandler("OnResourceStop", thisResource, function (event, resource) {
 // ===========================================================================
 
 function initResource() {
-    resourceInit = true;
+	resourceInit = true;
 }
 
 // ===========================================================================
