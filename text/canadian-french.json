@@ -1046,8 +1046,10 @@
 		"Looking to make some quick cash? Rob a business with /RobBiz !"
 	],
 	"RandomTipsGTAIII": [
+		"Press M to use the mouse camera in a vehicle"
 	],
 	"RandomTipsGTAVC": [
+		"Press M to use the mouse camera in a vehicle"
 	],
 	"RandomTipsGTASA": [
 	],
@@ -1103,5 +1105,11 @@
 	"HeaderLocationsInRangeList": "Locations within {1}",
 	"HeaderLocationInfo": "Location Information ({1})",
 	"PromptResetSpawn": "Reset this character's location to the default spawn?",
-	"PromptResetSpawnTitle": "Reset Spawn"
+	"PromptResetSpawnTitle": "Reset Spawn",
+	"BankHelp": [
+		"Players and clans can store their money in bank accounts",
+		"Bank accounts earn interest of {1}% every payday while you are in game",
+		"Use {1} to withdraw money, {2} to deposit money, and {3} to see your balance",
+		"Clan leaders can use {1}, {2}, and {3} for their clan's bank account"
+	]
 }
