@@ -2,14 +2,15 @@
 	<info author="Vortrex" version="1.0" description="Connected Roleplay: Locale Script" />
 
 	<!-- Scripts -->
+	<script src="shared.js" type="client" language="javascript" />
+    <script src="shared.js" type="server" language="javascript" />
 	<script src="client.js" type="client" language="javascript" />
     <script src="server.js" type="server" language="javascript" />
 
 	<!-- Client Config -->
-	<script src="config/client.json" type="client" language="javascript" />
+	<file src="config/config.json" type="client" />
 
-	<!-- Locale Files -->
-	<file type="client" src="config/client.json" />
+	<!-- Locale Text Files -->
 	<file type="client" src="text/english.json" />
 	<file type="client" src="text/russian.json" />
 	<file type="client" src="text/polish.json" />
@@ -21,4 +22,32 @@
 	<file type="client" src="text/finnish.json" />
 	<file type="client" src="text/chinese.json" />
 	<file type="client" src="text/arabic.json" />
+
+	<!-- Locale Command Files -->
+	<file type="client" src="command/english.json" />
+	<file type="client" src="command/russian.json" />
+	<file type="client" src="command/polish.json" />
+	<file type="client" src="command/spanish.json" />
+	<file type="client" src="command/french.json" />
+	<file type="client" src="command/japanese.json" />
+	<file type="client" src="command/german.json" />
+	<file type="client" src="command/slovak.json" />
+	<file type="client" src="command/finnish.json" />
+	<file type="client" src="command/chinese.json" />
+	<file type="client" src="command/arabic.json" />
+
+	<file type="client" src="files/images/flags/uk.png" />
+	<file type="client" src="files/images/flags/de.png" />
+	<file type="client" src="files/images/flags/fr.png" />
+	<file type="client" src="files/images/flags/pl.png" />
+	<file type="client" src="files/images/flags/es.png" />
+	<file type="client" src="files/images/flags/jp.png" />
+	<file type="client" src="files/images/flags/sk.png" />
+	<file type="client" src="files/images/flags/sa.png" />
+	<file type="client" src="files/images/flags/cn.png" />
+	<file type="client" src="files/images/flags/fi.png" />
+	<file type="client" src="files/images/flags/ru.png" />
+	<file type="client" src="files/images/flags/lv.png" />
+	<file type="client" src="files/images/flags/lt.png" />
+	<file type="client" src="files/images/flags/tw.png" />
 </meta>

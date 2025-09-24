@@ -10,7 +10,6 @@
 class LocaleData {
 	constructor() {
 		this.id = 0;
-		this.name = "";
 		this.englishName = "";
 		this.stringsFile = "";
 		this.flagImagePath = "";
@@ -22,54 +21,36 @@ class LocaleData {
 
 // ===========================================================================
 
-let englishLocale = 0;
-let cachedTranslations = [];
+let scriptConfig = null;
+let localeStrings = [];
+let localeCommandStrings = [];
 let mainResource = null;
 
-// ===========================================================================
-
-bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
-	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
-	if (thisResource.isReady) {
-		localeStrings = loadAllLocaleStrings();
-		localeCommandStrings = loadAllLocaleCommandStrings();
-	}
-
-	exportFunction("getLocaleString", getLocaleString);
-	exportFunction("getRawLocaleString", getRawLocaleString);
-	exportFunction("getRawGroupedLocaleString", getRawGroupedLocaleString);
-	exportFunction("getLocaleData", getLocaleData);
-	exportFunction("getLocaleStrings", getLocaleStrings);
-	exportFunction("getLocaleCommandStrings", getLocaleCommandStrings);
-	exportFunction("getLocaleName", getLocaleName);
-	exportFunction("getLocaleISO", getLocaleISO);
-	exportFunction("loadAllLocaleStrings", loadAllLocaleStrings);
-	exportFunction("loadAllLocaleCommandStrings", loadAllLocaleCommandStrings);
-	exportFunction("getLocaleFromParams", getLocaleFromParams);
-	exportFunction("getLocaleList", getLocaleList);
-	exportFunction("getLocaleFromCountryISO", getLocaleFromCountryISO);
-	exportFunction("isTranslationCached", isTranslationCached);
-	exportFunction("getAmountOfLocaleStringsInGroup", getAmountOfLocaleStringsInGroup);
-	exportFunction("getLocaleStringsInGroup", getLocaleStringsInGroup);
-	exportFunction("getLocaleCommandName", getLocaleCommandName);
-});
-
-// ===========================================================================
-
-bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
-	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
-	if (thisResource.isStarted) {
-		localeStrings = loadAllLocaleStrings();
-		localeCommandStrings = loadAllLocaleCommandStrings();
-	}
-});
+exportFunction("getLocaleString", getLocaleString);
+exportFunction("getRawLocaleString", getRawLocaleString);
+exportFunction("getRawGroupedLocaleString", getRawGroupedLocaleString);
+exportFunction("getLocaleData", getLocaleData);
+exportFunction("getLocaleStrings", getLocaleStrings);
+exportFunction("getLocaleCommandStrings", getLocaleCommandStrings);
+exportFunction("getLocaleName", getLocaleName);
+exportFunction("getLocaleISO", getLocaleISO);
+exportFunction("loadAllLocaleStrings", loadAllLocaleStrings);
+exportFunction("loadAllLocaleCommandStrings", loadAllLocaleCommandStrings);
+exportFunction("getLocaleFromParams", getLocaleFromParams);
+exportFunction("getLocaleList", getLocaleList);
+exportFunction("getLocaleFromCountryISO", getLocaleFromCountryISO);
+exportFunction("getAmountOfLocaleStringsInGroup", getAmountOfLocaleStringsInGroup);
+exportFunction("getLocaleStringsInGroup", getLocaleStringsInGroup);
+exportFunction("getLocaleCommandName", getLocaleCommandName);
+exportFunction("getLocales", getLocales);
+exportFunction("getDefaultLanguageId", getDefaultLanguageId);
 
 // ===========================================================================
 
 function getLocaleString(localeId, stringName, ...args) {
 	let tempString = getRawLocaleString(localeId, stringName);
 	if (tempString == "" || tempString == null || typeof tempString == "undefined") {
-		mainResource.exports.logToConsole(LOG_WARN, `[V.RP.Locale] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
+		mainResource.exports.logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string "${stringName}" is missing for "${getLocaleData(localeId).englishName}"`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
@@ -86,7 +67,7 @@ function getLocaleString(localeId, stringName, ...args) {
 function getGroupedLocaleString(localeId, stringName, index, ...args) {
 	let tempString = getRawGroupedLocaleString(localeId, stringName, index);
 	if (tempString == "" || tempString == null || typeof tempString == "undefined") {
-		mainResource.exports.logToConsole(LOG_WARN, `[V.RP.Locale] Locale string missing for index ${index} of "${stringName}" on language ${getLocaleData(localeId).englishName}`);
+		mainResource.exports.logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for index ${index} of "${stringName}" on language ${getLocaleData(localeId).englishName}`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string index ${index} of "${stringName}" is missing for "${getLocaleData(localeId).englishName}"`);
 		return `${getLocaleData(localeId).englishName} locale message missing for index "${index}" of "${stringName}" (reported to developer)`;
 	}
@@ -102,8 +83,8 @@ function getGroupedLocaleString(localeId, stringName, index, ...args) {
 
 function getRawLocaleString(localeId, stringName) {
 	if (typeof getLocaleStrings()[localeId][stringName] == "undefined") {
-		logToConsole(LOG_WARN, `[V.RP.Locale] Locale string missing for ${getLocaleStrings()[localeId][stringName]} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-		submitBugReport(null, `(AUTOMATED REPORT) Locale string is missing for "${getLocaleStrings()[localeId][stringName]}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for ${getLocaleStrings()[localeId][stringName]} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string is missing for "${getLocaleStrings()[localeId][stringName]}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
 
@@ -114,13 +95,13 @@ function getRawLocaleString(localeId, stringName) {
 
 function getRawGroupedLocaleString(localeId, stringName, index) {
 	if (typeof getLocaleStrings()[localeId][stringName] == "undefined") {
-		logToConsole(LOG_ERROR, `[V.RP.Locale] Grouped locale string missing for string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-		submitBugReport(null, `(AUTOMATED REPORT) Grouped locale string is missing for string "${stringName}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		logToConsole(LOG_ERROR, `[${thisResource.name}] Grouped locale string missing for string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Grouped locale string is missing for string "${stringName}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 	}
 
 	if (typeof getLocaleStrings()[localeId][stringName][index] == "undefined") {
-		logToConsole(LOG_ERROR, `[V.RP.Locale] Grouped locale string missing for index ${index} of string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-		submitBugReport(null, `(AUTOMATED REPORT) Grouped locale string is missing for index ${index} of string "${stringName}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		logToConsole(LOG_ERROR, `[${thisResource.name}] Grouped locale string missing for index ${index} of string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Grouped locale string is missing for index ${index} of string "${stringName}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
 
@@ -137,8 +118,8 @@ function getLocaleName(localeId) {
 
 function getLocaleISO(localeId) {
 	if (typeof getLocales()[localeId] == "undefined") {
-		logToConsole(LOG_ERROR, `[V.RP.Locale] Locale ID ${localeId} does not exist!`);
-		return getLocales()[globalConfig.locale.defaultLanguageId].isoCode;
+		logToConsole(LOG_ERROR, `[${thisResource.name}] Locale ID ${localeId} does not exist!`);
+		return getLocales()[scriptConfig.defaultLanguageId].isoCode;
 	}
 
 	return getLocales()[localeId].isoCode;
@@ -149,11 +130,16 @@ function getLocaleISO(localeId) {
 function loadAllLocaleStrings() {
 	let tempLocaleStrings = {};
 
-	let locales = globalConfig.locale.locales;
+	let locales = getLocales();
 	for (let i in locales) {
 		let localeData = locales[i];
-		let localeFile = JSON.parse(loadTextFile(`locale/text/${localeData.stringsFile}`));
-		tempLocaleStrings[i] = localeFile;
+		let textFile = loadTextFile(`text/${localeData.stringsFile}`);
+		if (textFile == "") {
+			throw Error(`${thisResource.name} File for text strings for ${localeData.englishName} missing`);
+			continue;
+		}
+		let localeFile = JSON.parse(textFile);
+		tempLocaleStrings[localeData.id] = localeFile;
 	}
 
 	return tempLocaleStrings;
@@ -164,11 +150,16 @@ function loadAllLocaleStrings() {
 function loadAllLocaleCommandStrings() {
 	let tempLocaleStrings = {};
 
-	let locales = globalConfig.locale.locales;
+	let locales = getLocales();
 	for (let i in locales) {
 		let localeData = locales[i];
-		let localeFile = JSON.parse(loadTextFile(`locale/commands/${localeData.stringsFile}`));
-		tempLocaleStrings[i] = localeFile;
+		let textFile = loadTextFile(`command/${localeData.stringsFile}`);
+		if (textFile == "") {
+			throw Error(`${thisResource.name} File for command strings for ${localeData.englishName} missing`);
+			continue;
+		}
+		let localeFile = JSON.parse(textFile);
+		tempLocaleStrings[localeData.id] = localeFile;
 	}
 
 	return tempLocaleStrings;
@@ -178,18 +169,18 @@ function loadAllLocaleCommandStrings() {
 
 function getLocaleStrings(localeId = -1) {
 	if (localeId != -1) {
-		return serverData.localeStrings[localeId];
+		return localeStrings.find(locale => locale.id == localeId);
 	}
-	return serverData.localeStrings;
+	return localeStrings;
 }
 
 // ===========================================================================
 
 function getLocaleCommandStrings(localeId = -1) {
 	if (localeId != -1) {
-		return serverData.localeCommandStrings[localeId];
+		return localeCommandStrings.find(locale => locale.id == localeId);
 	}
-	return serverData.localeCommandStrings;
+	return localeCommandStrings;
 }
 
 // ===========================================================================
@@ -198,12 +189,12 @@ function getLocaleFromParams(params) {
 	let locales = getLocales();
 	if (isNaN(params)) {
 		for (let i in locales) {
-			if (toLowerCase(locales[i].isoCode).indexOf(toLowerCase(params)) != -1) {
-				return i;
+			if (locales[i].isoCode.toLowerCase().indexOf(toLowerCase(params)) != -1) {
+				return locales[i].id;
 			}
 
-			if (toLowerCase(locales[i].englishName).indexOf(toLowerCase(params)) != -1) {
-				return i;
+			if (locales[i].englishName.toLowerCase().indexOf(toLowerCase(params)) != -1) {
+				return locales[i].id;
 			}
 		}
 	}
@@ -217,98 +208,32 @@ function getLocaleFromParams(params) {
  * @return {Array.<LocaleData>} An array of locale data objects
  */
 function getLocales() {
-	return globalConfig.locale.locales;
+	return scriptConfig;
 }
 
 // ===========================================================================
 
 function getLocaleList() {
-	return getLocales().map(function (x) { return x[0]; });
+	return getLocales().map(function (x) { return x.englishName; });
 }
 
 // ===========================================================================
 
 function getLocaleData(localeId) {
-	if (typeof getLocales()[localeId] != "undefined") {
-		return getLocales()[localeId];
-	}
-
-	return false;
-}
-
-// ===========================================================================
-
-async function translateMessage(messageText, translateFrom = "en", translateTo = "en") {
-	return new Promise(resolve => {
-		if (translateFrom == translateTo) {
-			resolve(messageText);
-			return;
-		}
-
-		if (typeof cachedTranslations[translateFrom] == "undefined") {
-			cachedTranslations[translateFrom] = {};
-		}
-
-		if (typeof cachedTranslations[translateFrom][translateTo] == "undefined") {
-			cachedTranslations[translateFrom][translateTo] = [];
-		}
-
-		for (let i in cachedTranslations[translateFrom][translateTo]) {
-			if (cachedTranslations[translateFrom][translateTo][i][0] == messageText) {
-				logToConsole(LOG_DEBUG, `[V.RP.Locale] Using existing translation for ${translateFrom} to ${translateTo}: ${messageText} (${cachedTranslations[translateFrom][translateTo][i][1]}`);
-				resolve(cachedTranslations[translateFrom][translateTo][i][1]);
-				return;
-			}
-		}
-
-		let thisTranslationURL = globalConfig.locale.translateURL.format(encodeURI(messageText), translateFrom, translateTo, globalConfig.locale.apiEmail);
-		httpGet(
-			thisTranslationURL,
-			"",
-			function (data) {
-				data = arrayBufferToString(data);
-				//tdata = data.substr(0, data.lastIndexOf("}")+1);
-				let translationData = null;
-				try {
-					translationData = JSON.parse(data);
-				} catch (e) {
-					logToConsole(LOG_ERROR, `[V.RP.Locale] Error parsing translation data (From: ${translateFrom}, To: ${translateTo}, Message: ${messageText}, URL: ${thisTranslationURL}). Error: ${e} in ${e.stack}`);
-					resolve(messageText);
-					return;
-				}
-
-				cachedTranslations[translateFrom][translateTo].push([messageText, translationData.responseData.translatedText]);
-				resolve(translationData.responseData.translatedText == messageText ? null : translationData.responseData.translatedText);
-				return;
-			},
-			function (data) {
-			}
-		);
-	});
+	return getLocales().find(locale => locale.id == localeId) || null;
 }
 
 // ===========================================================================
 
 function getLocaleFromCountryISO(isoCode = "US") {
-	for (let i in getLocales()) {
-		for (let j in getLocales()[i].countries) {
-			if (toLowerCase(getLocales()[i].countries[j]) == toLowerCase(isoCode)) {
-				return getLocales()[i].id;
+	let locales = getLocales();
+	for (let i in locales) {
+		for (let j in locales[i].countries) {
+			if (locales[i].countries[j].toLowerCase() == isoCode.toLowerCase()) {
+				return locales[i].id;
 			}
 		}
 	}
-}
-
-// ===========================================================================
-
-function isTranslationCached(messageText, translateFrom, translateTo) {
-	for (let i in cachedTranslations[translateFrom][translateTo]) {
-		if (cachedTranslations[translateFrom][translateTo][i][0] == messageText) {
-			return true;
-		}
-	}
-
-	return false;
 }
 
 // ===========================================================================
@@ -328,7 +253,7 @@ function getAmountOfLocaleStringsInGroup(localeId, groupName) {
 // ===========================================================================
 
 function getLocaleStringsInGroup(localeId, groupName) {
-	return getLocaleStrings()[localeId][groupName]
+	return getLocaleStrings(localeId)[groupName];
 }
 
 // ===========================================================================
@@ -340,6 +265,12 @@ function getLocaleCommandName(commandName, localeId = 0) {
 	}
 
 	return commandName;
+}
+
+// ===========================================================================
+
+function getDefaultLanguageId() {
+	return scriptConfig.defaultLanguageId;
 }
 
 // ===========================================================================

@@ -9,38 +9,49 @@
 
 "use strict";
 
-// ===========================================================================
-
-let resourceStarted = false;
-let resourceReady = false;
-let resourceInit = false;
-
-// ===========================================================================
-
-exportFunction("getLocaleString", getLocaleString);
-exportFunction("getGroupedLocaleString", getLocaleString);
-
-// ===========================================================================
-
-bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
-	resourceReady = true;
-	if (resourceStarted && !resourceInit) {
-		initResource();
-	}
-});
+exportFunction("getFlagImage", getFlagImage);
 
 // ===========================================================================
 
 bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
-	resourceStarted = true;
-	if (resourceReady && !resourceInit) {
-		initResource();
+	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
+	/*
+	if (thisResource.isReady && localeStrings.length != 0) {
+		let configFile = loadTextFile("config/config.json");
+		scriptConfig = JSON.parse(configFile);
+		if (scriptConfig == null) {
+			console.log(`[${thisResource.name}] Could not load config/config.json. Resource stopping ...`);
+			thisResource.stop();
+			return false;
+		}
+
+		localeStrings = loadAllLocaleStrings();
+		localeCommandStrings = loadAllLocaleCommandStrings();
+		loadFlagImages();
 	}
+	*/
 });
 
 // ===========================================================================
 
-bindEventHandler("OnResourceStop", thisResource, function (event, resource) {
+bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
+	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
+
+	if (thisResource.isStarted && localeStrings.length != 0) {
+		let configFile = loadTextFile("config/config.json");
+		scriptConfig = JSON.parse(configFile);
+		console.log(scriptConfig);
+		if (scriptConfig == null) {
+			console.log(`[${thisResource.name}] Could not load config/config.json. Resource stopping ...`);
+			thisResource.stop();
+			return false;
+		}
+
+		localeStrings = loadAllLocaleStrings();
+		localeCommandStrings = loadAllLocaleCommandStrings();
+		loadFlagImages();
+	}
+
 });
 
 // ===========================================================================
@@ -51,124 +62,30 @@ function initResource() {
 
 // ===========================================================================
 
-function getLocaleString(localeId, stringName, ...args) {
-	let tempString = getRawLocaleString(localeId, stringName);
-	if (tempString == "" || tempString == null || typeof tempString == "undefined") {
-		logToConsole(LOG_WARN, `[V.RP.Locale] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
-		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
-	}
-
-	for (let i = 1; i <= args.length; i++) {
-		tempString = tempString.replace(`{${i}}`, args[i - 1]);
-	}
-
-	return tempString;
+function getFlagImage(localeId) {
+	return getLocales()[localeId].flagImage;
 }
 
 // ===========================================================================
 
-function getGroupedLocaleString(localeId, stringName, index, ...args) {
-	let tempString = getRawGroupedLocaleString(localeId, stringName, index);
-
-	for (let i = 1; i <= args.length; i++) {
-		tempString = tempString.replace(`{${i}}`, args[i - 1]);
-	}
-
-	return tempString;
-}
-
-// ===========================================================================
-
-function getRawLocaleString(localeId, stringName) {
-	if (typeof getLocaleStrings()[localeId][stringName] == "undefined") {
-		logToConsole(LOG_WARN, `[V.RP.Locale] Locale string missing for ${getLocaleStrings()[localeId][stringName]} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
-	}
-
-	return getLocaleStrings()[localeId][stringName];
-}
-
-// ===========================================================================
-
-function getRawGroupedLocaleString(localeId, stringName, index) {
-	if (typeof getLocaleStrings()[localeId][stringName] == "undefined") {
-		logToConsole(LOG_ERROR, `[V.RP.Locale] Grouped locale string missing for string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-	}
-
-	if (typeof getLocaleStrings()[localeId][stringName][index] == "undefined") {
-		logToConsole(LOG_ERROR, `[V.RP.Locale] Grouped locale string missing for index ${index} of string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
-	}
-
-	return getLocaleStrings()[localeId][stringName][index];
-}
-
-// ===========================================================================
-
-function loadAllLocaleStrings() {
-	let tempLocaleStrings = {};
-
-	let locales = globalConfig.locale.locales;
-	for (let i in locales) {
-		let localeData = locales[i];
-		let localeFile = JSON.parse(loadTextFile(`locale/${localeData.stringsFile}`));
-		tempLocaleStrings[i] = localeFile;
-	}
-
-	return tempLocaleStrings;
-}
-
-// ===========================================================================
-
-function getLocaleStrings() {
-	return serverData.localeStrings;
-}
-
-// ===========================================================================
-
-function getLocaleFromParams(params) {
+function loadFlagImages() {
 	let locales = getLocales();
-	if (isNaN(params)) {
-		for (let i in locales) {
-			if (toLowerCase(locales[i].isoCode).indexOf(toLowerCase(params)) != -1) {
-				return i;
-			}
-
-			if (toLowerCase(locales[i].englishName).indexOf(toLowerCase(params)) != -1) {
-				return i;
-			}
-		}
+	for (let i in locales) {
+		locales[i].flagImage = loadImageFile(locales[i].flagImageFile);
 	}
-
-	return -1;
 }
 
 // ===========================================================================
 
-function getLocales() {
-	return localeData.locales;
-}
-
-// ===========================================================================
-
-function getLocaleData(localeId) {
-	if (typeof getLocales()[localeId] != "undefined") {
-		return getLocales()[localeId];
+function loadImageFile(filePath) {
+	let imageFile = openFile(filePath);
+	let imageObject = null;
+	if (imageFile != null) {
+		imageObject = graphics.loadPNG(imageFile);
+		imageFile.close();
 	}
 
-	return false;
-}
-
-// ===========================================================================
-
-function getLocaleFromCountryISO(isoCode = "US") {
-	for (let i in getLocales()) {
-		for (let j in getLocales()[i].countries) {
-			if (toLowerCase(getLocales()[i].countries[j]) == toLowerCase(isoCode)) {
-				return getLocales()[i].id;
-			}
-		}
-	}
+	return imageObject;
 }
 
 // ===========================================================================
