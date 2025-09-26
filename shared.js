@@ -19,6 +19,20 @@ class LocaleData {
 	}
 }
 
+/*
+exportFunction("code", function (code) {
+	let returnValue = "Nothing";
+	try {
+		returnValue = eval("(" + code + ")");
+	} catch (error) {
+		message(`[CRP.HUD] The code could not be executed! Error: ${error.message} in ${error.stack}`);
+		return false;
+	}
+
+	return returnValue;
+});
+*/
+
 // ===========================================================================
 
 let scriptConfig = null;

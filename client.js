@@ -15,8 +15,7 @@ exportFunction("getFlagImage", getFlagImage);
 
 bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
 	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
-	/*
-	if (thisResource.isReady && localeStrings.length != 0) {
+	if (thisResource.isReady && localeStrings.length == 0) {
 		let configFile = loadTextFile("config/config.json");
 		scriptConfig = JSON.parse(configFile);
 		if (scriptConfig == null) {
@@ -29,7 +28,6 @@ bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
 		localeCommandStrings = loadAllLocaleCommandStrings();
 		loadFlagImages();
 	}
-	*/
 });
 
 // ===========================================================================
@@ -37,7 +35,7 @@ bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
 bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
 	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
 
-	if (thisResource.isStarted && localeStrings.length != 0) {
+	if (thisResource.isStarted && localeStrings.length == 0) {
 		let configFile = loadTextFile("config/config.json");
 		scriptConfig = JSON.parse(configFile);
 		console.log(scriptConfig);
