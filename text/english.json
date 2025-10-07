@@ -1121,5 +1121,11 @@
 		"Bank accounts earn interest of {1}% every payday while you are in game",
 		"Use {1} to withdraw money, {2} to deposit money, and {3} to see your balance",
 		"Clan leaders can use {1}, {2}, and {3} for their clan's bank account"
+	],
+	"LotteryHelp": [
+		"Enter the lottery by buying and scratching (using) a lottery ticket item!",
+		"Use /GPS to find a store that sells them. They are usually sold at gas stations.",
+		"You can only have one number. Scratching more tickets will change your number.",
+		"The winning number is chosen every payday. The person with the winning number wins!"
 	]
 }
