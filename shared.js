@@ -16,6 +16,7 @@ class LocaleData {
 		this.contributors = "";
 		this.countries = [];
 		this.requiresUnicode = false;
+		this.enabled = true;
 	}
 }
 
@@ -36,12 +37,13 @@ exportFunction("code", function (code) {
 // ===========================================================================
 
 let scriptConfig = null;
-let localeStrings = [];
-let localeCommandStrings = [];
+let localeStrings = {};
+let localeCommandStrings = {};
 let mainResource = null;
 
 exportFunction("getLocaleString", getLocaleString);
 exportFunction("getRawLocaleString", getRawLocaleString);
+exportFunction("getGroupedLocaleString", getGroupedLocaleString);
 exportFunction("getRawGroupedLocaleString", getRawGroupedLocaleString);
 exportFunction("getLocaleData", getLocaleData);
 exportFunction("getLocaleStrings", getLocaleStrings);
@@ -61,16 +63,18 @@ exportFunction("getDefaultLanguageId", getDefaultLanguageId);
 
 // ===========================================================================
 
-function getLocaleString(localeId, stringName, ...args) {
+function getLocaleString(localeId, stringName, args) {
 	let tempString = getRawLocaleString(localeId, stringName);
 	if (tempString == "" || tempString == null || typeof tempString == "undefined") {
-		mainResource.exports.logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
+		mainResource.exports.logToConsole(mainResource.exports.getLogLevels().Warn, `[${thisResource.name}] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string "${stringName}" is missing for "${getLocaleData(localeId).englishName}"`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
 
-	for (let i = 1; i <= args.length; i++) {
-		tempString = tempString.replace(`{${i}}`, args[i - 1]);
+	if (typeof tempString == "string" && typeof args != "undefined") {
+		for (let i = 1; i <= args.length; i++) {
+			tempString = tempString.replace(`{${i}}`, args[i - 1]);
+		}
 	}
 
 	return tempString;
@@ -78,10 +82,10 @@ function getLocaleString(localeId, stringName, ...args) {
 
 // ===========================================================================
 
-function getGroupedLocaleString(localeId, stringName, index, ...args) {
+function getGroupedLocaleString(localeId, stringName, index, args) {
 	let tempString = getRawGroupedLocaleString(localeId, stringName, index);
 	if (tempString == "" || tempString == null || typeof tempString == "undefined") {
-		mainResource.exports.logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for index ${index} of "${stringName}" on language ${getLocaleData(localeId).englishName}`);
+		mainResource.exports.logToConsole(mainResource.exports.getLogLevels().Warn, `[${thisResource.name}] Locale string missing for index ${index} of "${stringName}" on language ${getLocaleData(localeId).englishName}`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string index ${index} of "${stringName}" is missing for "${getLocaleData(localeId).englishName}"`);
 		return `${getLocaleData(localeId).englishName} locale message missing for index "${index}" of "${stringName}" (reported to developer)`;
 	}
@@ -95,44 +99,69 @@ function getGroupedLocaleString(localeId, stringName, index, ...args) {
 
 // ===========================================================================
 
+/**
+ *
+ * @param {Number} localeId
+ * @param {String} stringName
+ * @returns {String} stringText
+ */
 function getRawLocaleString(localeId, stringName) {
-	if (typeof getLocaleStrings()[localeId][stringName] == "undefined") {
-		logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for ${getLocaleStrings()[localeId][stringName]} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
-		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string is missing for "${getLocaleStrings()[localeId][stringName]}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+	if (typeof getLocaleStrings(localeId)[stringName] == "undefined") {
+		mainResource.exports.logToConsole(mainResource.exports.getLogLevels().Warn, `[${thisResource.name}] Locale string missing for ${getLocaleStrings(localeId)[stringName]} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string is missing for "${getLocaleStrings(localeId)[stringName]}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
 
-	return getLocaleStrings()[localeId][stringName];
+	return getLocaleStrings(localeId)[stringName];
 }
 
 // ===========================================================================
 
+/**
+ *
+ * @param {Number} localeId
+ * @param {String} stringName
+ * @param {Number} localeId
+ * @returns {String} stringText
+ */
+// ===========================================================================
+
 function getRawGroupedLocaleString(localeId, stringName, index) {
-	if (typeof getLocaleStrings()[localeId][stringName] == "undefined") {
-		logToConsole(LOG_ERROR, `[${thisResource.name}] Grouped locale string missing for string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+	if (typeof getLocaleStrings(localeId)[stringName] == "undefined") {
+		mainResource.exports.logToConsole(LOG_ERROR, `[${thisResource.name}] Grouped locale string missing for string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Grouped locale string is missing for string "${stringName}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 	}
 
-	if (typeof getLocaleStrings()[localeId][stringName][index] == "undefined") {
-		logToConsole(LOG_ERROR, `[${thisResource.name}] Grouped locale string missing for index ${index} of string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
+	if (typeof getLocaleStrings(localeId)[stringName][index] == "undefined") {
+		mainResource.exports.logToConsole(LOG_ERROR, `[${thisResource.name}] Grouped locale string missing for index ${index} of string ${stringName} on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Grouped locale string is missing for index ${index} of string "${stringName}" on language ${getLocaleData(localeId).englishName}[${localeId}]`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
 
-	return getLocaleStrings()[localeId][stringName][index];
+	return getLocaleStrings(localeId)[stringName][index];
 }
 
 // ===========================================================================
 
+/**
+ *
+ * @param {Number} localeId
+ * @returns {String} localeName
+ */
 function getLocaleName(localeId) {
 	return getLocales()[localeId].englishName;
 }
 
 // ===========================================================================
 
+/**
+ *
+ * @param {Number} localeId
+ * @returns {String} localeISO
+ */
 function getLocaleISO(localeId) {
 	if (typeof getLocales()[localeId] == "undefined") {
-		logToConsole(LOG_ERROR, `[${thisResource.name}] Locale ID ${localeId} does not exist!`);
+		mainResource.exports.logToConsole(LOG_ERROR, `[${thisResource.name}] Locale ID ${localeId} does not exist!`);
 		return getLocales()[scriptConfig.defaultLanguageId].isoCode;
 	}
 
@@ -144,16 +173,22 @@ function getLocaleISO(localeId) {
 function loadAllLocaleStrings() {
 	let tempLocaleStrings = {};
 
-	let locales = getLocales();
+	let locales = getLocales().filter(locale => locale.enabled == true && locale.requiresUnicode == false);
 	for (let i in locales) {
-		let localeData = locales[i];
-		let textFile = loadTextFile(`text/${localeData.stringsFile}`);
-		if (textFile == "") {
-			throw Error(`${thisResource.name} File for text strings for ${localeData.englishName} missing`);
-			continue;
+		try {
+			let localeData = locales[i];
+			console.log(`[${thisResource.name}] Loading strings for ${localeData.englishName} from text/${localeData.stringsFile}`);
+			let textFile = loadTextFile(`text/${localeData.stringsFile}`);
+			if (textFile == "") {
+				console.error(`[${thisResource.name}] File for text strings for ${localeData.englishName} missing`);
+				continue;
+			}
+			let tempStrings = JSON.parse(textFile);
+			tempLocaleStrings[localeData.id] = tempStrings;
+			console.log(`[${thisResource.name}] ${Object.keys(tempStrings).length} text strings loaded for ${localeData.englishName}!`);
+		} catch (err) {
+			console.error(`[${thisResource.name}] Error loading strings for ${localeData.englishName}: ${err.message} in ${err.stack}`);
 		}
-		let localeFile = JSON.parse(textFile);
-		tempLocaleStrings[localeData.id] = localeFile;
 	}
 
 	return tempLocaleStrings;
@@ -167,13 +202,19 @@ function loadAllLocaleCommandStrings() {
 	let locales = getLocales();
 	for (let i in locales) {
 		let localeData = locales[i];
+		console.log(`[${thisResource.name}] Loading command strings for ${localeData.englishName} from command/${localeData.stringsFile}`);
 		let textFile = loadTextFile(`command/${localeData.stringsFile}`);
 		if (textFile == "") {
-			throw Error(`${thisResource.name} File for command strings for ${localeData.englishName} missing`);
+			console.error(`[${thisResource.name}] File for command strings for ${localeData.englishName} missing`);
 			continue;
 		}
-		let localeFile = JSON.parse(textFile);
-		tempLocaleStrings[localeData.id] = localeFile;
+		let tempStrings = JSON.parse(textFile);
+		tempLocaleStrings[localeData.id] = tempStrings;
+		let count = 0;
+		if (tempStrings != null) {
+			count = Object.keys(tempStrings).length;
+		}
+		console.log(`[${thisResource.name}] ${count} command strings loaded for ${localeData.englishName}!`);
 	}
 
 	return tempLocaleStrings;
@@ -182,19 +223,19 @@ function loadAllLocaleCommandStrings() {
 // ===========================================================================
 
 function getLocaleStrings(localeId = -1) {
-	if (localeId != -1) {
-		return localeStrings.find(locale => locale.id == localeId);
+	if (typeof localeStrings[localeId] == "undefined") {
+		return null;
 	}
-	return localeStrings;
+	return localeStrings[localeId];
 }
 
 // ===========================================================================
 
 function getLocaleCommandStrings(localeId = -1) {
-	if (localeId != -1) {
-		return localeCommandStrings.find(locale => locale.id == localeId);
+	if (typeof localeCommandStrings[localeId] == "undefined") {
+		return null;
 	}
-	return localeCommandStrings;
+	return localeCommandStrings[localeId];
 }
 
 // ===========================================================================
@@ -203,11 +244,11 @@ function getLocaleFromParams(params) {
 	let locales = getLocales();
 	if (isNaN(params)) {
 		for (let i in locales) {
-			if (locales[i].isoCode.toLowerCase().indexOf(toLowerCase(params)) != -1) {
+			if (locales[i].isoCode.toLowerCase().indexOf(params.toLowerCase()) != -1) {
 				return locales[i].id;
 			}
 
-			if (locales[i].englishName.toLowerCase().indexOf(toLowerCase(params)) != -1) {
+			if (locales[i].englishName.toLowerCase().indexOf(params.toLowerCase()) != -1) {
 				return locales[i].id;
 			}
 		}

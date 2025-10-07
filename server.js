@@ -13,7 +13,9 @@ let translatorConfig = null;
 let cachedTranslations = [];
 
 exportFunction("isTranslationCached", isTranslationCached);
-exportFunction("translateMessage", translateMessage);
+exportFunction("translateMessage", function (fromLocale, toLocale, messageText) {
+	translateMessage(messageText, fromLocale, toLocale).then(translatedMessage => { return translatedMessage });
+});
 
 // ===========================================================================
 
@@ -37,6 +39,7 @@ bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
 
 		localeStrings = loadAllLocaleStrings();
 		localeCommandStrings = loadAllLocaleCommandStrings();
+		console.log(`[${thisResource.name}] All locale text and command strings loaded!`);
 	} catch (e) {
 		console.error(`${e.message} in ${e.stack}`);
 	}
@@ -88,57 +91,6 @@ function saveCommandLocaleStrings(localeCommandStrings) {
 		let lcs = localeCommandStrings[i];
 		saveTextFile(`locale / command / ${lcs.Locale}.json`, JSON.stringify(lcs));
 	}
-}
-
-// ===========================================================================
-
-async function translateMessage(messageText, translateFrom = "en", translateTo = "en") {
-	return new Promise(resolve => {
-		if (translateFrom == translateTo) {
-			resolve(messageText);
-			return;
-		}
-
-		if (typeof cachedTranslations[translateFrom] == "undefined") {
-			cachedTranslations[translateFrom] = {};
-		}
-
-		if (typeof cachedTranslations[translateFrom][translateTo] == "undefined") {
-			cachedTranslations[translateFrom][translateTo] = [];
-		}
-
-		for (let i in cachedTranslations[translateFrom][translateTo]) {
-			if (cachedTranslations[translateFrom][translateTo][i][0] == messageText) {
-				logToConsole(LOG_DEBUG, `[V.RP.Locale] Using existing translation for ${translateFrom} to ${translateTo}: ${messageText} (${cachedTranslations[translateFrom][translateTo][i][1]} `);
-				resolve(cachedTranslations[translateFrom][translateTo][i][1]);
-				return;
-			}
-		}
-
-		let thisTranslationURL = translatorConfig.translateURL.format(encodeURI(messageText), translateFrom, translateTo, translatorConfig.apiEmail);
-		httpGet(
-			thisTranslationURL,
-			"",
-			function (data) {
-				data = arrayBufferToString(data);
-				//tdata = data.substr(0, data.lastIndexOf("}")+1);
-				let translationData = null;
-				try {
-					translationData = JSON.parse(data);
-				} catch (e) {
-					logToConsole(LOG_ERROR, `[V.RP.Locale] Error parsing translation data(From: ${translateFrom}, To: ${translateTo}, Message: ${messageText}, URL: ${thisTranslationURL}).Error: ${e} in ${e.stack} `);
-					resolve(messageText);
-					return;
-				}
-
-				cachedTranslations[translateFrom][translateTo].push([messageText, translationData.responseData.translatedText]);
-				resolve(translationData.responseData.translatedText == messageText ? null : translationData.responseData.translatedText);
-				return;
-			},
-			function (data) {
-			}
-		);
-	});
 }
 
 // ===========================================================================

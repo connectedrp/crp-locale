@@ -10,24 +10,12 @@
 "use strict";
 
 exportFunction("getFlagImage", getFlagImage);
+exportFunction("loadFlagImages", loadFlagImages);
+exportFunction("getFlagImageFilePath", getFlagImageFilePath);
 
 // ===========================================================================
 
 bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
-	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
-	if (thisResource.isReady && localeStrings.length == 0) {
-		let configFile = loadTextFile("config/config.json");
-		scriptConfig = JSON.parse(configFile);
-		if (scriptConfig == null) {
-			console.log(`[${thisResource.name}] Could not load config/config.json. Resource stopping ...`);
-			thisResource.stop();
-			return false;
-		}
-
-		localeStrings = loadAllLocaleStrings();
-		localeCommandStrings = loadAllLocaleCommandStrings();
-		loadFlagImages();
-	}
 });
 
 // ===========================================================================
@@ -35,42 +23,38 @@ bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
 bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
 	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
 
-	if (thisResource.isStarted && localeStrings.length == 0) {
-		let configFile = loadTextFile("config/config.json");
-		scriptConfig = JSON.parse(configFile);
-		console.log(scriptConfig);
-		if (scriptConfig == null) {
-			console.log(`[${thisResource.name}] Could not load config/config.json. Resource stopping ...`);
-			thisResource.stop();
-			return false;
-		}
-
-		localeStrings = loadAllLocaleStrings();
-		localeCommandStrings = loadAllLocaleCommandStrings();
-		loadFlagImages();
+	console.log(`[${thisResource.name}] Resource ready. Loading config/config.json ...`);
+	let configFile = loadTextFile("config/config.json");
+	scriptConfig = JSON.parse(configFile);
+	if (scriptConfig == null) {
+		console.log(`[${thisResource.name}] Could not load config/config.json. Resource stopping ...`);
+		thisResource.stop();
+		return false;
 	}
 
+	console.log(`[${thisResource.name}] Config loaded! Loading all text and command strings ...`);
+	localeStrings = loadAllLocaleStrings();
+	localeCommandStrings = loadAllLocaleCommandStrings();
+
+	console.log(`[${thisResource.name}] All text and command strings loaded! Loading flag images ...`);
+	loadFlagImages();
+	console.log(`[${thisResource.name}] Flag images loaded! Locale script is fully loaded and ready!`);
 });
 
 // ===========================================================================
 
-function initResource() {
-	resourceInit = true;
-}
-
-// ===========================================================================
-
 function getFlagImage(localeId) {
-	return getLocales()[localeId].flagImage;
+	return getLocaleData(localeId).flagImage;
 }
 
 // ===========================================================================
 
 function loadFlagImages() {
-	let locales = getLocales();
-	for (let i in locales) {
-		locales[i].flagImage = loadImageFile(locales[i].flagImageFile);
-	}
+	console.warn(`[${thisResource.name}] Loading flag images`);
+	getLocales().forEach((locale) => {
+		console.warn(`[${thisResource.name}] Loading flag image ${locale.flagImageFile} for ${locale.englishName}`);
+		locale.flagImage = loadImageFile(`files/images/flags/${locale.flagImageFile}`);
+	});
 }
 
 // ===========================================================================
@@ -87,3 +71,7 @@ function loadImageFile(filePath) {
 }
 
 // ===========================================================================
+
+function getFlagImageFilePath(localeId) {
+	return getLocaleData(localeId).flagImageFile;
+}
