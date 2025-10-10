@@ -1114,5 +1114,11 @@
 		"Use /GPS to find a store that sells them. They are usually sold at gas stations.",
 		"You can only have one number. Scratching more tickets will change your number.",
 		"The winning number is chosen every payday. The person with the winning number wins!"
-	]
+	],
+	"HeaderTrainStationsList": "Train Stations",
+	"TraveledToTrainStation": "You traveled to the {1} train station",
+	"InvalidTrainStation": "Train station not found!",
+	"NeedToBeAtTrainStation": "You need to be at a train station!",
+	"TrainStationTitleLabel": "Train Station",
+	"TrainStationInfoLabel": "Use {1} to travel to another train station"
 }
