@@ -1,4 +1,4 @@
-{
+﻿{
 	"TranslationProvidedBy": "SIMBA_MEOW",
 	"LocaleEnglishName": "Finnish",
 	"LocaleNativeName": "Finnish",
@@ -229,7 +229,7 @@
 	],
 	"SkinHelp": [
 		"Käytä vaatekaupassa {1} vaatteiden ostamiseen",
-		"Kun sinulla on vaate, varusta ja käytä sitä kuten mitä tahansa muuta esinettä näyttääksesi Skinivalikoiman (katso {1} saadaksesi lisätietoja vaatteiden käytöstä)",
+		"Kun sia on vaate, varusta ja käytä sitä kuten mitä tahansa muuta esinettä näyttääksesi Skinivalikoiman (katso {1} saadaksesi lisätietoja vaatteiden käytöstä)",
 		"Jotkin skinit on rajoitettu töihin, klaaneihin tai muista syistä."
 	],
 	"KeyBindHelp": [
@@ -672,7 +672,7 @@
 	"DidNotCreateCharacter": "Sinulla ei ole hahmoa pelattavana. Moikka!",
 	"BusinessOrderNotEnoughMoney": "Tällä yrityksellä ei ole tarpeeksi rahaa tilata sitä! Talleta vähän käyttämällä {1}",
 	"ADDED-12OCT2022": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
-  "BusinessOrderSuccessInfo": "Tilasit {1} {2} Maksoit {4}!",
+	"BusinessOrderSuccessInfo": "Tilasit {1} {2} Maksoit {4}!",
 	"SaveSettings": "Tallenna Asetukset",
 	"Cancel": "Peruuta",
 	"AlreadyOwnVehicle": "Sinä jo OMISTAT Tämän Ajoneuvon!",
@@ -751,7 +751,7 @@
 	"GUINewCharacterRandomNameButton": "Satunnainen nimi",
 	"AccentsHelpTip": "Käytä {1} Nähdääksesi listan saatavilla olevissa aksenteista",
 	"COMMENT1-22MAR2022": "DO NOT TRANSLATE. Example of line below: Somebody is calling you. Go to the payphone at 50 meters north-west and use /answer to answer it",
-  "PayPhoneIncomingCall": "Joku soittaa sinulle. Mene puheluautomaatille  {1} {2} {3} ja käytä {4} vastaaksesi siihen.",
+	"PayPhoneIncomingCall": "Joku soittaa sinulle. Mene puheluautomaatille  {1} {2} {3} ja käytä {4} vastaaksesi siihen.",
 	"TimeMeasurements": {
 		"Seconds": "{1} sekuntia",
 		"Minutes": "{1} minuuttia",
@@ -783,7 +783,7 @@
 		"VehiclePartItemUsage": "Seiso ajoneuvon vieressä ja käytä {1} tuunatakseen  {2}",
 		"AmmoClipItemUsage": "Varusta ase ja käytä {1} ladataaksesi panoksia",
 		"GenericItemUsage": "Käytä {1} käyttääksesi {2}",
-    "EnterJobVehicleForRoute": "Mene Työ-ajoneuvoon lähdellä aloittaaksesi työ-reitin",
+		"EnterJobVehicleForRoute": "Mene Työ-ajoneuvoon lähdellä aloittaaksesi työ-reitin",
 		"JobLocations": "Vieraile työpaikalla saadaksesi töitä. Käytä {1} löytääkseen työpaikan",
 		"JobRouteStart": "Käytä {1} aloittaaksesi työreitin tällä ajoneuvolla",
 		"PayPhoneFirstUse": "Käytä {1} lopettaaksesi puhelun, ja {2} antaa puhelimen läheiselle",
@@ -876,7 +876,7 @@
 		"ToggleBusinessLights": "{1} vaihtaa yrityksen valot {2}",
 		"ToggleHouseLights": "{1} switches the house lights {2}"
 	},
-  "BusinessVehicleOrderSuccessInfo": "Tilasit {1} Ajoneuvon  maksoit : {2}!",
+	"BusinessVehicleOrderSuccessInfo": "Tilasit {1} Ajoneuvon  maksoit : {2}!",
 	"ADDED-12JUL2023": "DO NOT TRANSLATE. Example of line below: You ordered 50 Pistol for $5000!",
 	"BusinessItemOrderSuccessInfo": "Sinä Tilasit {1} {2} {4}!",
 	"NoFireCloseEnough": "Et ole tarpeeksi lähellä tulta!",
@@ -1048,18 +1048,14 @@
 	"RandomTipsGTAVC": [
 		"Press M to use the mouse camera in a vehicle"
 	],
-	"RandomTipsGTASA": [
-	],
-	"RandomTipsGTAIV": [
-	],
+	"RandomTipsGTASA": [],
+	"RandomTipsGTAIV": [],
 	"RandomTipsMAFIA1": [
 		"You can visit the countryside from any exit out of the city!",
 		"Visit the Lost Heaven Autodrome for some racing fun!"
 	],
-	"RandomTipsMAFIA2": [
-	],
-	"RandomTipsMAFIADE": [
-	],
+	"RandomTipsMAFIA2": [],
+	"RandomTipsMAFIADE": [],
 	"NoVehicleImpoundSpawnLocation": "There is no space to spawn the vehicle! Try another police station or contact an admin",
 	"VehicleNotImpounded": "This vehicle is not impounded!",
 	"VehicleImpoundRetrieveSuccess": "The {1} has been un-impounded for {2}. It is spawned nearby.",

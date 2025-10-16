@@ -1,4 +1,4 @@
-{
+﻿{
 	"TranslationProvidedBy": "Sladernimo",
 	"LocaleEnglishName": "German",
 	"LocaleNativeName": "German",
@@ -1048,18 +1048,14 @@
 	"RandomTipsGTAVC": [
 		"Press M to use the mouse camera in a vehicle"
 	],
-	"RandomTipsGTASA": [
-	],
-	"RandomTipsGTAIV": [
-	],
+	"RandomTipsGTASA": [],
+	"RandomTipsGTAIV": [],
 	"RandomTipsMAFIA1": [
 		"You can visit the countryside from any exit out of the city!",
 		"Visit the Lost Heaven Autodrome for some racing fun!"
 	],
-	"RandomTipsMAFIA2": [
-	],
-	"RandomTipsMAFIADE": [
-	],
+	"RandomTipsMAFIA2": [],
+	"RandomTipsMAFIADE": [],
 	"NoVehicleImpoundSpawnLocation": "There is no space to spawn the vehicle! Try another police station or contact an admin",
 	"VehicleNotImpounded": "This vehicle is not impounded!",
 	"VehicleImpoundRetrieveSuccess": "The {1} has been un-impounded for {2}. It is spawned nearby.",

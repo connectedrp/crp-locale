@@ -1,4 +1,4 @@
-{
+﻿{
 	"TranslationProvidedBy": "Vortrex",
 	"LocaleEnglishName": "English",
 	"LocaleNativeName": "English",
@@ -1073,10 +1073,8 @@
 		"Visit the Lost Heaven Autodrome for some racing fun!",
 		"Use /train at any train station to travel quickly"
 	],
-	"RandomTipsMAFIA2": [
-	],
-	"RandomTipsMAFIADE": [
-	],
+	"RandomTipsMAFIA2": [],
+	"RandomTipsMAFIADE": [],
 	"NoVehicleImpoundSpawnLocation": "There is no space to spawn the vehicle! Try another police station or contact an admin",
 	"VehicleNotImpounded": "This vehicle is not impounded!",
 	"VehicleImpoundRetrieveSuccess": "The {1} has been un-impounded for {2}. It is spawned nearby.",
