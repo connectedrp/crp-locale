@@ -1121,5 +1121,12 @@
 	"InvalidTrainStation": "Train station not found!",
 	"NeedToBeAtTrainStation": "You need to be at a train station!",
 	"TrainStationTitleLabel": "Train Station",
-	"TrainStationInfoLabel": "Use {1} to travel to another train station"
+	"TrainStationInfoLabel": "Use {1} to travel to another train station",
+	"RadioHelp": [
+		"You can use {1} to listen to custom radio in your house, business, vehicle, or radio item",
+		"Use {1} to see a list of all available radio stations",
+		"Change the max volume of the radio with {1}",
+		"For business radio, use {1} and {2} to set the radio position and audible distance",
+		"Same for houses using {1} and {2}"
+	]
 }
