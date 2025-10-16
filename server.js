@@ -145,11 +145,9 @@ function translateMissingTextStrings() {
 // ===========================================================================
 
 function saveMissingTranslations() {
-	setTimeout(function () {
-		getLocales().forEach((locale) => {
-			saveTextFile(`text/${locale.stringsFile}`, JSON.stringify(getLocaleStrings(locale.id), null, '\t'));
-		});
-	}, 5000);
+	getLocales().forEach((locale) => {
+		saveTextFile(`text/${locale.stringsFile}`, JSON.stringify(getLocaleStrings(locale.id), null, '\t'));
+	});
 }
 
 // ===========================================================================
