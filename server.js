@@ -124,16 +124,24 @@ function translateMissingTextStrings() {
 			if (typeof getLocaleStrings(locale.id)[key] == "string") {
 				if (getLocaleStrings(locale.id)[key] === getLocaleStrings(getDefaultLanguageId())[key] && getLocaleStrings(getDefaultLanguageId())[key].toUpperCase().indexOf("DO NOT TRANSLATE") == -1) {
 					translateMessage(getLocaleStrings(getDefaultLanguageId())[key], getLocaleData(getDefaultLanguageId()).isoCode, locale.isoCode).then((translatedText) => {
-						console.log(`[${thisResource.name}] Locale ${locale.name} string '${key}' is still in English. Translated to '${translatedText}'`);
-						getLocaleStrings(locale.id)[key] = translatedText;
+						if (translatedMessage == null) {
+							console.error(`[${thisResource.name}] Locale ${locale.name} string ${key} is still in English. Attempted translation returned NULL!`);
+						} else {
+							console.log(`[${thisResource.name}] Locale ${locale.name} string ${key} is still in English. Translated to '${translatedText}'`);
+							getLocaleStrings(locale.id)[key] = translatedText;
+						}
 					});
 				}
 			} else if (typeof getLocaleStrings(locale.id)[key] == "object") {
 				Object.keys(getLocaleStrings(locale.id)[key]).forEach(key2 => {
 					if (getLocaleStrings(locale.id)[key][key2] === getLocaleStrings(getDefaultLanguageId())[key][key2] && getLocaleStrings(getDefaultLanguageId())[key][key2].toUpperCase().indexOf("DO NOT TRANSLATE") == -1) {
 						translateMessage(getLocaleStrings(getDefaultLanguageId())[key][key2], getLocaleData(getDefaultLanguageId()).isoCode, locale.isoCode).then((translatedText) => {
-							console.log(`[${thisResource.name}] Locale ${locale.name} string '${key}/${key2}' is still in English. Translated to '${translatedText}'`);
-							getLocaleStrings(locale.id)[key][key2] = translatedText;
+							if (translatedMessage == null) {
+								console.error(`[${thisResource.name}] Locale ${locale.name} string ${key}/${key2} is still in English. Attempted translation returned NULL!`);
+							} else {
+								console.log(`[${thisResource.name}] Locale ${locale.name} string ${key}/${key2} is still in English. Translated to '${translatedText}'`);
+								getLocaleStrings(locale.id)[key][key2] = translatedText;
+							}
 						});
 					}
 				});
