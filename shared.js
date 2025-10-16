@@ -20,7 +20,6 @@ class LocaleData {
 	}
 }
 
-/*
 exportFunction("code", function (code) {
 	let returnValue = "Nothing";
 	try {
@@ -32,7 +31,6 @@ exportFunction("code", function (code) {
 
 	return returnValue;
 });
-*/
 
 // ===========================================================================
 
@@ -146,10 +144,14 @@ function getRawGroupedLocaleString(localeId, stringName, index) {
 /**
  *
  * @param {Number} localeId
- * @returns {String} localeName
+ * @returns {String} locale name
  */
 function getLocaleName(localeId) {
-	return getLocales()[localeId].englishName;
+	if (getLocaleData(localeId) == null) {
+		//mainResource.exports.logToConsole(["Errpr"], `[${thisResource.name}] Locale ID ${localeId} does not exist!`);
+		return "";
+	}
+	return getLocaleData(localeId).englishName;
 }
 
 // ===========================================================================
@@ -157,15 +159,15 @@ function getLocaleName(localeId) {
 /**
  *
  * @param {Number} localeId
- * @returns {String} localeISO
+ * @returns {String} locale ISO code
  */
 function getLocaleISO(localeId) {
-	if (typeof getLocales()[localeId] == "undefined") {
-		mainResource.exports.logToConsole(LOG_ERROR, `[${thisResource.name}] Locale ID ${localeId} does not exist!`);
-		return getLocales()[scriptConfig.defaultLanguageId].isoCode;
+	if (getLocaleData(localeId) == null) {
+		//mainResource.exports.logToConsole(["Errpr"], `[${thisResource.name}] Locale ID ${localeId} does not exist!`);
+		return getLocaleData(scriptConfig.defaultLanguageId).isoCode;
 	}
 
-	return getLocales()[localeId].isoCode;
+	return getLocaleData(localeId).isoCode;
 }
 
 // ===========================================================================
@@ -325,7 +327,21 @@ function getLocaleCommandName(commandName, localeId = 0) {
 // ===========================================================================
 
 function getDefaultLanguageId() {
-	return scriptConfig.defaultLanguageId;
+	return 0;
 }
 
 // ===========================================================================
+
+String.prototype.format = function () {
+	let a = this;
+	for (let i in arguments) {
+		a = a.replace("{" + String(i) + "}", arguments[i]);
+	}
+	return a;
+}
+
+// ===========================================================================
+
+function arrayBufferToString(arrayBuffer) {
+	return String.fromCharCode.apply(null, new Uint8Array(arrayBuffer));
+}
