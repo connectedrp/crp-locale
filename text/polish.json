@@ -1124,5 +1124,11 @@
 		"Zmień maksymalną głośność radia za pomocą {1}",
 		"W przypadku radia biznesowego użyj przycisków {1} i {2}, aby ustawić pozycję radia i słyszalną odległość",
 		"To samo dotyczy domów korzystających z {1} i {2}"
-	]
+	],
+	"MustBeAtFuelPump": "Must be at a fuel station pump!",
+	"TooFarFromFuelPump": "You are too far from the fuel pump!",
+	"VehicleTooFarFromFuelPump": "The vehicle is too far from the fuel pump!",
+	"MustBeOutOfVehicle": "You must be standing outside of the vehicle!",
+	"FuelPumpTitleLabel": "Fuel Pump",
+	"FuelPumpInfoLabel": "Use {1} to refuel a vehicle, or equip a fuel can to fill it up"
 }
