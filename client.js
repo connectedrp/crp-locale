@@ -12,6 +12,7 @@
 exportFunction("getFlagImage", getFlagImage);
 exportFunction("loadFlagImages", loadFlagImages);
 exportFunction("getFlagImageFilePath", getFlagImageFilePath);
+exportFunction("isReady", function () { return thisResource.isReady; });
 
 // ===========================================================================
 
@@ -39,6 +40,8 @@ bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
 	console.log(`[${thisResource.name}] All text and command strings loaded! Loading flag images ...`);
 	loadFlagImages();
 	console.log(`[${thisResource.name}] Flag images loaded! Locale script is fully loaded and ready!`);
+
+	mainResource.exports.localeResourceReady();
 });
 
 // ===========================================================================
