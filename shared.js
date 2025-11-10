@@ -44,6 +44,7 @@ exportFunction("getRawLocaleString", getRawLocaleString);
 exportFunction("getGroupedLocaleString", getGroupedLocaleString);
 exportFunction("getRawGroupedLocaleString", getRawGroupedLocaleString);
 exportFunction("getLocaleData", getLocaleData);
+exportFunction("getLocaleEnglishName", function (localeId) { return getLocaleData(localeId).englishName });
 exportFunction("getLocaleStrings", getLocaleStrings);
 exportFunction("getLocaleCommandStrings", getLocaleCommandStrings);
 exportFunction("getLocaleName", getLocaleName);
