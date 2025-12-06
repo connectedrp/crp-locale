@@ -1147,5 +1147,6 @@
 	"VehicleTooFarFromFuelPump": "The vehicle is too far from the fuel pump!",
 	"MustBeOutOfVehicle": "You must be standing outside of the vehicle!",
 	"FuelPumpTitleLabel": "Fuel Pump",
-	"FuelPumpInfoLabel": "Use {1} to refuel a vehicle, or equip a fuel can to fill it up"
+	"FuelPumpInfoLabel": "Use {1} to refuel a vehicle, or equip a fuel can to fill it up",
+	"GUICharacterSelectNeverPlayedLabel": "Last Played: Never"
 }
