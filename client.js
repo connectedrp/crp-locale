@@ -22,8 +22,6 @@ bindEventHandler("OnResourceStart", thisResource, function (event, resource) {
 // ===========================================================================
 
 bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
-	mainResource = findResourceByName("crp-gamemode") || findResourceByName("crp-gamemode-test");
-
 	console.log(`[${thisResource.name}] Resource ready. Loading config/config.json ...`);
 	let configFile = loadTextFile("config/config.json");
 	scriptConfig = JSON.parse(configFile);
@@ -41,7 +39,7 @@ bindEventHandler("OnResourceReady", thisResource, function (event, resource) {
 	loadFlagImages();
 	console.log(`[${thisResource.name}] Flag images loaded! Locale script is fully loaded and ready!`);
 
-	mainResource.exports.localeResourceReady();
+	findResourceByName("crp-gamemode").exports.localeResourceReady();
 });
 
 // ===========================================================================
