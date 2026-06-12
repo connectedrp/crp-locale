@@ -14,7 +14,7 @@ let cachedTranslations = [];
 
 exportFunction("isTranslationCached", isTranslationCached);
 exportFunction("translateMessage", function (fromLocale, toLocale, messageText) {
-	translateMessage(messageText, fromLocale, toLocale).then(translatedMessage => { return translatedMessage });
+	translateMessage(messageText, fromLocale, toLocale, doNotTranslate).then(translatedMessage => { return translatedMessage });
 });
 exportFunction("getTranslateURL", function () { return translatorConfig.translateURL; });
 exportFunction("getTranslateAPIEmail", function () { return translatorConfig.apiEmail; });
@@ -160,7 +160,7 @@ function saveMissingTranslations() {
 
 // ===========================================================================
 
-async function translateMessage(messageText, translateFrom = "en", translateTo = "en") {
+async function translateMessage(messageText, translateFrom = "en", translateTo = "en", doNotTranslate = false) {
 	return new Promise(resolve => {
 		if (translateFrom == translateTo) {
 			resolve(messageText);
