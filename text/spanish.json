@@ -1016,7 +1016,8 @@
 		"HideMiniMap": "Ocultar el minimapa",
 		"NoAutoAFK": "No establezca el estado AFK automáticamente al presionar ALT+TAB",
 		"ChatBoxAME": "Mostrar mensajes de /ame en el cuadro de chat en lugar de sobre las cabezas de los personajes",
-		"NoConnectMessages": "No mostrar mensajes de conexión en el chat"
+		"NoConnectMessages": "No mostrar mensajes de conexión en el chat",
+		"NoAutoTranslateChat": "Don't automatically translate other player's chat messages"
 	},
 	"HeaderJobRanksList": "Rangos de trabajo ({1})",
 	"ClanChatDisabled": "¡El chat del clan OOC está deshabilitado!",
@@ -1140,5 +1141,13 @@
 	"FuelPumpTitleLabel": "Fuel Pump",
 	"FuelPumpInfoLabel": "Use {1} to refuel a vehicle, or equip a fuel can to fill it up",
 	"GUICharacterSelectNeverPlayedLabel": "Last Played: Never",
-	"VehicleCantEnterExitProperty": "Vehicles can't enter or exit this location!"
+	"VehicleCantEnterExitProperty": "Vehicles can't enter or exit this location!",
+	"Mafia1NewPlayerTip": "If this is your first time playing, you should turn down the city music volume and change controls in singleplayer settings",
+	"HeaderBusStopsList": "Bus Stops",
+	"TraveledToBusStop": "You traveled to the {1} bus stop",
+	"InvalidBusStop": "Bus stop not found!",
+	"NeedToBeAtBusStop": "You need to be at a bus stop!",
+	"BusStopTitleLabel": "Bus Stop",
+	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
 }

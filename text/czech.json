@@ -1018,7 +1018,8 @@
 		"HideMiniMap": "Skrýt minimapu",
 		"NoAutoAFK": "Nenastavovat stav AFK automaticky při ALT+TAB",
 		"ChatBoxAME": "Zobrazit zprávy /ame v chatboxu místo nad hlavami postav",
-		"NoConnectMessages": "Nezobrazovat zprávy o připojení v chatu"
+		"NoConnectMessages": "Nezobrazovat zprávy o připojení v chatu",
+		"NoAutoTranslateChat": "Don't automatically translate other player's chat messages"
 	},
 	"HeaderJobRanksList": "Pořadí pracovních míst ({1})",
 	"ClanChatDisabled": "Klanový chat OOC je zakázán!",
@@ -1146,5 +1147,13 @@
 	"FuelPumpTitleLabel": "Fuel Pump",
 	"FuelPumpInfoLabel": "Use {1} to refuel a vehicle, or equip a fuel can to fill it up",
 	"GUICharacterSelectNeverPlayedLabel": "Last Played: Never",
-	"VehicleCantEnterExitProperty": "Vehicles can't enter or exit this location!"
+	"VehicleCantEnterExitProperty": "Vehicles can't enter or exit this location!",
+	"Mafia1NewPlayerTip": "If this is your first time playing, you should turn down the city music volume and change controls in singleplayer settings",
+	"HeaderBusStopsList": "Bus Stops",
+	"TraveledToBusStop": "You traveled to the {1} bus stop",
+	"InvalidBusStop": "Bus stop not found!",
+	"NeedToBeAtBusStop": "You need to be at a bus stop!",
+	"BusStopTitleLabel": "Bus Stop",
+	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
 }
