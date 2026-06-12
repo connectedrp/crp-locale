@@ -196,11 +196,12 @@ function loadAllLocaleStrings() {
 				console.error(`[${thisResource.name}] File for text strings for ${localeData.englishName} missing`);
 				continue;
 			}
+			
 			let tempStrings = JSON.parse(textFile);
 			tempLocaleStrings[localeData.id] = tempStrings;
 			console.log(`[${thisResource.name}] ${Object.keys(tempStrings).length} text strings loaded for ${localeData.englishName}!`);
 		} catch (err) {
-			console.error(`[${thisResource.name}] Error loading strings for ${localeData.englishName}: ${err.message} in ${err.stack}`);
+			console.error(`[${thisResource.name}] Error loading strings for ${locales[i].englishName}: ${err.message} in ${err.stack}`);
 		}
 	}
 
@@ -227,7 +228,7 @@ function loadAllLocaleCommandStrings() {
 		if (tempStrings != null) {
 			count = Object.keys(tempStrings).length;
 		}
-		console.log(`[${thisResource.name}] ${count} command strings loaded for ${localeData.englishName}!`);
+		console.log(`[${thisResource.name}] ${count} command strings loaded for ${locales[i].englishName}!`);
 	}
 
 	return tempLocaleStrings;
