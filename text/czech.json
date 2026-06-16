@@ -166,12 +166,6 @@
 		"West": "Západ",
 		"Northwest": "Severozápad"
 	},
-	"NewPlayerReadyToPlay": [
-		"Dostal jsi nějakou hotovost. Pomocí {1} najděte místa, kde si můžete koupit předměty..",
-		"Pokud potřebuješ peníze, pracovní místa jsou žluté tečky na radaru..",
-		"Pokud si chceš koupit auto, navštiv autosalon. Můžeš také využít půjčovnu vozidel v blízkosti spawnu nebo jet vlakem.",
-		"Nezapomeň si přečíst {1} a pro informace použijte {2}.."
-	],
 	"YourCurrentVehicleDeleted": "Vozidlo bylo smázáno.",
 	"Distance": "Vzdálenost",
 	"Meters": "Metrů",
