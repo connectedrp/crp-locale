@@ -169,12 +169,6 @@
 		"West": "Запад",
 		"Northwest": "Северо-запад"
 	},
-	"NewPlayerReadyToPlay": [
-		"Вам было надано немного денег. Используйте {1} чтобы найти места в которых можно купить предметы.",
-		"Если вам нужны деньги, желтые точки это места работы на карте.",
-		"Если вам нужен транспорт, посетите автосалон. Вы также можете использовать арендовочный транспорт возле начальной зоны или сесть на поезд",
-		"Не забудьте ознакомиться с {1} и использовать {2} для информации."
-	],
 	"YourCurrentVehicleDeleted": "Транспорт в котором вы находились было удалено.",
 	"Distance": "Дистанция",
 	"Meters": "Метров",
@@ -729,7 +723,6 @@
 	"PlayerRemovedFromJob": "Вы уволили {1} с работы",
 	"RemovedFromJob": "Вы были уволены с работы {1}",
 	"UnableToCallPlayer": "До {1} сейчас нельзя дозвониться",
-	"NoRadioToUse": "Вы должны иметь радио, или быть в транспортном средстве с радио!",
 	"FrequencyMustBeNumber": "Радиоканал должен иметь номер!",
 	"FrequencyMustBeBetween": "Радиоканал должен находиться между {1} и {2}!",
 	"HeaderVehicleTrunkItemList": "Инвентарь автомобиля (Багажник)",
@@ -1158,5 +1151,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }

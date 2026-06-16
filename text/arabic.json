@@ -167,12 +167,6 @@
 		"West": "غرب",
 		"Northwest": "الشمال الغربي"
 	},
-	"NewPlayerReadyToPlay": [
-		"لقد حصلت على بعض من المال. استخدم {1} للبحث عن أماكن لشراء العناصر.",
-		"إذا كنت بحاجة إلى المال،الوظائف هي النقاط الصفراء على الخريطة.",
-		"للحصول على سيارة ، قم بزيارة وكالة السيارات. يمكنك أيضًا استخدام سيارة مستأجرة بالقرب من السباون أو ركوب القطار",
-		"تأكد من قراءة {1} واستخدم {2} للحصول على معلومات."
-	],
 	"YourCurrentVehicleDeleted": "تم حذف السيارة التي كنت بداخلها.",
 	"Distance": "مسافة",
 	"Meters": "أمتار",
@@ -721,7 +715,6 @@
 	"PlayerRemovedFromJob": "You removed {1} from the job",
 	"RemovedFromJob": "You were removed from the job by {1}",
 	"UnableToCallPlayer": "{1} can't be called right now",
-	"NoRadioToUse": "You must have a radio, or be in a vehicle with a radio!",
 	"FrequencyMustBeNumber": "The radio channel must be a number!",
 	"FrequencyMustBeBetween": "The radio channel must be between {1} and {2}!",
 	"HeaderVehicleTrunkItemList": "Vehicle Inventory (Trunk)",
@@ -1151,5 +1144,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }

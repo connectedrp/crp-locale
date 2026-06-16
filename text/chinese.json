@@ -167,12 +167,6 @@
 		"West": "西",
 		"Northwest": "西北"
 	},
-	"NewPlayerReadyToPlay": [
-		"你得到了一些现金，使用 {1} 以找到买东西的地方。",
-		"赚钱靠劳动，求职请前往雷达上的小黄点。",
-		"买车可以到汽车经销店，你也可以在出生点附近租车或者直接乘火车。",
-		"确保已阅读 {1}，使用 {2} 以获取相关信息。"
-	],
 	"YourCurrentVehicleDeleted": "当前乘坐的车辆已被删除。",
 	"Distance": "距离",
 	"Meters": "米",
@@ -718,7 +712,6 @@
 	"PlayerRemovedFromJob": "You removed {1} from the job",
 	"RemovedFromJob": "You were removed from the job by {1}",
 	"UnableToCallPlayer": "{1} can't be called right now",
-	"NoRadioToUse": "You must have a radio, or be in a vehicle with a radio!",
 	"FrequencyMustBeNumber": "The radio channel must be a number!",
 	"FrequencyMustBeBetween": "The radio channel must be between {1} and {2}!",
 	"HeaderVehicleTrunkItemList": "Vehicle Inventory (Trunk)",
@@ -1147,5 +1140,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }

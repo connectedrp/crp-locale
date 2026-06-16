@@ -166,12 +166,6 @@
 		"West": "Länsi",
 		"Northwest": "Luonteinen"
 	},
-	"NewPlayerReadyToPlay": [
-		"Sinulle on annettu rahaa. Käyttää {1} löytää ostopaikkoja.",
-		"Jos tarvitset rahaa, työpaikat ovat keltaisia pisteitä tutkassa.",
-		"Autoa varten käy autoliikkeessä. Voit myös käyttää vuokra-ajoneuvoa spawnin lähellä tai matkustaa junalla",
-		"Muista lukea tämä{1} Ja käyttää {2} tiedoksi"
-	],
 	"YourCurrentVehicleDeleted": "Ajoneuvo, jossa olit, poistettiin.",
 	"Distance": "Etäisyys",
 	"Meters": "Metrejä",
@@ -714,7 +708,6 @@
 	"PlayerRemovedFromJob": "Sinä Poistit {1} Työstä",
 	"RemovedFromJob": "Sinut poistettiin työstä {1}",
 	"UnableToCallPlayer": "{1} ei voi soittaa juuri nyt.",
-	"NoRadioToUse": "Sinulla on oltava radio tai oltava radiolla varustetussa ajoneuvossa!",
 	"FrequencyMustBeNumber": "Radiokanavan on oltava numero!",
 	"FrequencyMustBeBetween": "Radiokanavan on oltava välillä {1} ja {2}!",
 	"HeaderVehicleTrunkItemList": "Ajoneuvon Tavaratila (takakontti)",
@@ -1140,5 +1133,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }

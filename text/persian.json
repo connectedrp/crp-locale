@@ -166,12 +166,6 @@
 		"West": "West",
 		"Northwest": "Northwest"
 	},
-	"NewPlayerReadyToPlay": [
-		"You have been given some cash. Use {1} to find places to buy items.",
-		"If you need money, jobs are the yellow dots on the radar.",
-		"For a car, visit the car dealership. You can also use a rental vehicle near spawn or take the train",
-		"Be sure to read the {1} and use {2} for info."
-	],
 	"YourCurrentVehicleDeleted": "The vehicle you were in was deleted.",
 	"Distance": "Distance",
 	"Meters": "Meters",
@@ -715,7 +709,6 @@
 	"PlayerRemovedFromJob": "You removed {1} from the job",
 	"RemovedFromJob": "You were removed from the job by {1}",
 	"UnableToCallPlayer": "{1} can't be called right now",
-	"NoRadioToUse": "You must have a radio, or be in a vehicle with a radio!",
 	"FrequencyMustBeNumber": "The radio channel must be a number!",
 	"FrequencyMustBeBetween": "The radio channel must be between {1} and {2}!",
 	"HeaderVehicleTrunkItemList": "Vehicle Inventory (Trunk)",
@@ -1145,5 +1138,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }

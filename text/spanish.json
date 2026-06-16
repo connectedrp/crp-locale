@@ -172,12 +172,6 @@
 		"West": "Oeste",
 		"Northwest": "Noroeste"
 	},
-	"NewPlayerReadyToPlay": [
-		"Te han dado algo de dinero. Usa {1} para encontrar lugares donde comprar artículos",
-		"Si necesitas dinero, los trabajos son los puntos amarillos del radar",
-		"Para conseguir un coche, visita el concesionario de coches. También puedes utilizar un vehículo de alquiler cerca del punto de aparición o tomar el tren",
-		"Asegúrese de leer el {1} y utilizar el {2} para obtener información"
-	],
 	"YourCurrentVehicleDeleted": "El vehículo en el que estabas fue eliminado",
 	"Distance": "Distancia",
 	"Meters": "Metros",
@@ -721,7 +715,6 @@
 	"PlayerRemovedFromJob": "Tú eliminaste {1} del trabajo",
 	"RemovedFromJob": "Usted fue expulado del trabajo por {1}",
 	"UnableToCallPlayer": "{1} No se puede llamar en este momento",
-	"NoRadioToUse": "¡Debes tener una radio o estar en un vehículo con radio!",
 	"FrequencyMustBeNumber": "¡El canal de radio debe ser un número!",
 	"FrequencyMustBeBetween": "El canal de radio debe estar entre {1} y {2}!",
 	"HeaderVehicleTrunkItemList": "Inventario del Maletero",
@@ -1149,5 +1142,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }

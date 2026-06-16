@@ -722,7 +722,6 @@
 	"PlayerRemovedFromJob": "Odstranili jste uživatele {1} z úlohy",
 	"RemovedFromJob": "Byli jste odstraněni z úlohy uživatelem {1}",
 	"UnableToCallPlayer": "{1} nyní nelze zavolat",
-	"NoRadioToUse": "Musíte mít rádio nebo být ve vozidle s rádiem!",
 	"FrequencyMustBeNumber": "Rádiový kanál musí být číslo!",
 	"FrequencyMustBeBetween": "Rozhlasový kanál musí být mezi {1} a {2}!",
 	"HeaderVehicleTrunkItemList": "Inventář vozidel (kufr)",
@@ -1155,5 +1154,12 @@
 	"NeedToBeAtBusStop": "You need to be at a bus stop!",
 	"BusStopTitleLabel": "Bus Stop",
 	"BusStopInfoLabel": "Use {1} to travel to another bus stop",
-	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used"
+	"LotteryTicketAlreadyUsed": "The lottery ticket has already been used",
+	"NoRadioToUse": "You must have a radio, be in or near a vehicle with a radio, or near a gamewell!",
+	"NewPlayerReadyToPlay": [
+		"You have been given some cash. Use {1} to find places to buy items.",
+		"If you need money, jobs are the yellow dots on the radar.",
+		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
+		"Be sure to read the {1} and use {2} for info."
+	]
 }
