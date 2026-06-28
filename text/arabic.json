@@ -521,7 +521,6 @@
 	"EmailVerified": "تم التحقق من بريدك الالكتروني",
 	"EmailVerifiedTip": "يمكنك الآن استخدام بريدك الإلكتروني لإعادة تعيين كلمة المرور والمصادقة ذات العاملين وتنبيهات تسجيل الدخول",
 	"CommandRequiresLogin": "يجب أن تقوم بتسجيل الدخول لاستخدام الأمر {1}",
-	"CommandDisabled": "تم تعطيل الأمر {1}",
 	"CommandDisabledOnDiscord": "الأمر {1} غير متاح في الدسكورد",
 	"CommandNotFoundHelpTip": "الأمر {1} غير موجود! استخدم {2} للأوامر والمعلومات.",
 	"CommandNotFoundPossibleMatchTip": "الأمر {1} غير موجود! هل تقصد {2}؟",
@@ -951,7 +950,7 @@
 	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}.",
 	"WordOnTheStreet": "📰 Word on the street: {1}",
 	"PlayerNotInYourJob": "That player has a different job!",
-	"AutomaticDepositPercentageSet": "{1}% of your paycheck will be automatically deposited into your bank account",
+	"AutomaticDepositPercentage": "{1} of your paycheck will be automatically deposited into your bank account",
 	"VehicleExported": "The {1} has been exported for {2}",
 	"MustBeAtVehicleExportLocation": "You must be at the port/docks to export a vehicle!",
 	"PromptSellVehicle": "{1} would like to sell you a {2} for {3}. Do you accept?",
@@ -1151,5 +1150,12 @@
 		"If you need money, jobs are the yellow dots on the radar.",
 		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
 		"Be sure to read the {1} and use {2} for info."
-	]
+	],
+	"SellBizConfirmPromptMessage": "Are you sure you want to sell {1} for {2}?",
+	"SellBizConfirmPromptTitle": "Sell Business",
+	"BusinessSellSuccess": "Business {1} sold for {2}",
+	"HouseSellSuccess": "House {1} sold for {2}",
+	"PaydayAutoDeposit": "{1} of your paycheck has been automatically deposited to your bank account",
+	"BusinessMustBeOwnedByClanOrJob": "The business must be owned by a clan or job",
+	"CommandDisabled": "The {1} command is disabled. Reason: {2}"
 }

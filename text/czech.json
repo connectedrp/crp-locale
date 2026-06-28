@@ -518,7 +518,6 @@
 	"EmailVerified": "Váš e-mail byl ověřen",
 	"EmailVerifiedTip": "Nyní můžete používat svůj e-mail pro resetování hesla, dvoufaktorové ověřování, upozornění na přihlášení a další",
 	"CommandRequiresLogin": "Pro použití příkazu {1} musíte být přihlášeni",
-	"CommandDisabled": "Příkaz {1} je zakázán",
 	"CommandDisabledOnDiscord": "Příkaz {1} není na discordu dostupný",
 	"CommandNotFoundHelpTip": "Příkaz {1} neexistuje! Pro příkazy a informace použijte {2}.",
 	"CommandNotFoundPossibleMatchTip": "Příkaz {1} neexistuje! Měli jste na mysli {2}?",
@@ -955,7 +954,7 @@
 	"TooEarlyToGiveUp": "Zatím se nemůžete respawnovat! Musíte počkat {1}.",
 	"WordOnTheStreet": "📰 Slovo na ulici: {1}",
 	"PlayerNotInYourJob": "Ten hráč má jinou práci!",
-	"AutomaticDepositPercentageSet": "{1} % z vaší výplaty bude automaticky vloženo na váš bankovní účet",
+	"AutomaticDepositPercentage": "{1} z vaší výplaty bude automaticky vloženo na váš bankovní účet",
 	"VehicleExported": "{1} bylo exportováno pro {2}",
 	"MustBeAtVehicleExportLocation": "Pro vývoz vozidla musíte být v přístavu/docích!",
 	"PromptSellVehicle": "{1} by vám rád prodal {2} za {3}. Přijímáte?",
@@ -1155,5 +1154,12 @@
 		"If you need money, jobs are the yellow dots on the radar.",
 		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
 		"Be sure to read the {1} and use {2} for info."
-	]
+	],
+	"SellBizConfirmPromptMessage": "Are you sure you want to sell {1} for {2}?",
+	"SellBizConfirmPromptTitle": "Sell Business",
+	"BusinessSellSuccess": "Business {1} sold for {2}",
+	"HouseSellSuccess": "House {1} sold for {2}",
+	"PaydayAutoDeposit": "{1} of your paycheck has been automatically deposited to your bank account",
+	"BusinessMustBeOwnedByClanOrJob": "The business must be owned by a clan or job",
+	"CommandDisabled": "The {1} command is disabled. Reason: {2}"
 }

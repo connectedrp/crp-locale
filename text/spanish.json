@@ -524,7 +524,6 @@
 	"EmailVerified": "Tu correo electrónico ha sido verificado",
 	"EmailVerifiedTip": "Ahora puedes usar tu correo electrónico para restablecer contraseñas, autenticación de dos factores, alertas de inicio de sesión y más",
 	"CommandRequiresLogin": "Debe iniciar sesión para utilizar el commando {1}",
-	"CommandDisabled": "El comando {1} está deshabilitado",
 	"CommandDisabledOnDiscord": "El comando {1} no esta disponible en discord",
 	"CommandNotFoundHelpTip": "¡El comando {1} no existe! Usa {2} para ver comandos e información.",
 	"CommandNotFoundPossibleMatchTip": "¡El comando {1} no existe! Querrás decir {2}?",
@@ -953,7 +952,7 @@
 	"TooEarlyToGiveUp": "¡Aún no puedes reaparecer! Debes esperar. {1}.",
 	"WordOnTheStreet": "📰 Se dice en la calle: {1}",
 	"PlayerNotInYourJob": "Este jugador tiene un trabajo diferente!",
-	"AutomaticDepositPercentageSet": "El {1}% de su cheque de pago se depositará automáticamente en su cuenta bancaria",
+	"AutomaticDepositPercentage": "El {1} de su cheque de pago se depositará automáticamente en su cuenta bancaria",
 	"VehicleExported": "El {1} Se ha exportado para {2}",
 	"MustBeAtVehicleExportLocation": "¡Debes estar en el puerto o muelle para exportar un vehículo!",
 	"PromptSellVehicle": "{1} te quiere venderte un {2} por {3}. ¿Aceptas?",
@@ -1149,5 +1148,12 @@
 		"If you need money, jobs are the yellow dots on the radar.",
 		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
 		"Be sure to read the {1} and use {2} for info."
-	]
+	],
+	"SellBizConfirmPromptMessage": "Are you sure you want to sell {1} for {2}?",
+	"SellBizConfirmPromptTitle": "Sell Business",
+	"BusinessSellSuccess": "Business {1} sold for {2}",
+	"HouseSellSuccess": "House {1} sold for {2}",
+	"PaydayAutoDeposit": "{1} of your paycheck has been automatically deposited to your bank account",
+	"BusinessMustBeOwnedByClanOrJob": "The business must be owned by a clan or job",
+	"CommandDisabled": "The {1} command is disabled. Reason: {2}"
 }

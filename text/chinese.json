@@ -519,7 +519,6 @@
 	"EmailVerified": "电子邮件已成功验证",
 	"EmailVerifiedTip": "你现在可以使用你的电子邮件进行密码重置、双重验证、登录提醒等",
 	"CommandRequiresLogin": "登录以使用 {1} 指令",
-	"CommandDisabled": "{1} 指令被禁用",
 	"CommandDisabledOnDiscord": "{1} 指令在 Discord 上不可用",
 	"CommandNotFoundHelpTip": "指令 {1} 不存在！使用 {2} 了解可用指令与相关信息。",
 	"CommandNotFoundPossibleMatchTip": "指令 {1} 不存在！你是否要查找 {2}？",
@@ -947,7 +946,7 @@
 	"ClanBankNotEnoughMoneyForWages": "The clan does not have enough money to pay you ${1} for wages!",
 	"TooEarlyToGiveUp": "You can't respawn yet! You must wait {1}.",
 	"WordOnTheStreet": "📰 Word on the street: {1}",
-	"AutomaticDepositPercentageSet": "{1}% of your paycheck will be automatically deposited into your bank account",
+	"AutomaticDepositPercentage": "{1} of your paycheck will be automatically deposited into your bank account",
 	"VehicleExported": "The {1} has been exported for {2}",
 	"MustBeAtVehicleExportLocation": "You must be at the port/docks to export a vehicle!",
 	"PromptSellVehicle": "{1} would like to sell you a {2} for {3}. Do you accept?",
@@ -1147,5 +1146,12 @@
 		"If you need money, jobs are the yellow dots on the radar.",
 		"For a car, visit a car dealership. You can also use a rental vehicle near spawn or take the {3}",
 		"Be sure to read the {1} and use {2} for info."
-	]
+	],
+	"SellBizConfirmPromptMessage": "Are you sure you want to sell {1} for {2}?",
+	"SellBizConfirmPromptTitle": "Sell Business",
+	"BusinessSellSuccess": "Business {1} sold for {2}",
+	"HouseSellSuccess": "House {1} sold for {2}",
+	"PaydayAutoDeposit": "{1} of your paycheck has been automatically deposited to your bank account",
+	"BusinessMustBeOwnedByClanOrJob": "The business must be owned by a clan or job",
+	"CommandDisabled": "The {1} command is disabled. Reason: {2}"
 }

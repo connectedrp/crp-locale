@@ -75,7 +75,7 @@ exportFunction("getDefaultLanguageId", getDefaultLanguageId);
 function getLocaleString(localeId, stringName, args) {
 	let tempString = getRawLocaleString(localeId, stringName);
 	if (tempString == "" || tempString == null || typeof tempString == "undefined") {
-		mainResource.exports.logToConsole(LOG_WARN, `[${thisResource.name}] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
+		mainResource.exports.logToConsole(LOG_ERROR, `[${thisResource.name}] Locale string missing for ${stringName} on language ${getLocaleData(localeId).englishName}`);
 		mainResource.exports.submitBugReport(null, `(AUTOMATED REPORT) Locale string "${stringName}" is missing for "${getLocaleData(localeId).englishName}"`);
 		return `${getLocaleData(localeId).englishName} locale message missing for "${stringName}" (reported to developer)`;
 	}
