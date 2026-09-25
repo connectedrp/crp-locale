@@ -16,6 +16,7 @@
 	"AnimationStopCommandTip": "使用 {1} 以停止当前动作",
 	"CantBanClient": "你无法封禁该玩家",
 	"PlayerAccountBanned": "{1} 的账户已被封禁",
+	"PlayerAccountUnbanned": "{1} 的账户已被解封",
 	"ClanNameTaken": "该帮派名称已被占用",
 	"ClanCantRemoveRanks": "无法清除帮派等级",
 	"ClanCantAddRanks": "无法增加帮派等级",

@@ -16,6 +16,7 @@
 	"AnimationStopCommandTip": "استخدم {1} لإيقاف الرسوم المتحركة",
 	"CantBanClient": "لا يمكنك حظر هذا الإعب",
 	"PlayerAccountBanned": "تم حظر حساب {1}",
+	"PlayerAccountUnbanned": "تم رفع الحظر عن حساب {1}",
 	"ClanNameTaken": "توجد مجموعة بهذا الاسم بالفعل",
 	"ClanCantRemoveRanks": "لا يمكنك إزالة رتب المجموعة",
 	"ClanCantAddRanks": "لأ يمكنك إضافة رتب",

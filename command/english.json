@@ -3279,6 +3279,18 @@
 		"SyntaxString": ""
 	},
 	{
+		"Command": "Operator",
+		"TranslatedCommand": "Operator",
+		"Description": "Calls the switchboard operator from the nearest payphone, who can connect you to emergency services or a player/business by name",
+		"SyntaxString": ""
+	},
+	{
+		"Command": "911",
+		"TranslatedCommand": "911",
+		"Description": "Directly dials emergency services from the nearest payphone (only available in eras with direct emergency dialing)",
+		"SyntaxString": ""
+	},
+	{
 		"Command": "Countdown",
 		"TranslatedCommand": "Countdown",
 		"Description": "Starts a countdown for all players",

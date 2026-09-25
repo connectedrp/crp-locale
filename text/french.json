@@ -15,6 +15,7 @@
 	"InvalidAnimationDistance": "La distance doit être entre 0 et 3",
 	"CantBanClient": "Vous ne pouvez pas bannir cette personne",
 	"PlayerAccountBanned": "le compte {1} a été banni",
+	"PlayerAccountUnbanned": "le compte {1} a été débanni",
 	"ClanNameTaken": "Un clan avec ce nom existe déjà",
 	"ClanCantRemoveRanks": "Vous ne pouvez pas retirer le rang du clan",
 	"ClanCantAddRanks": "Vous ne pouvez pas ajouter de rang au clan",

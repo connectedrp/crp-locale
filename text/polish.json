@@ -15,6 +15,7 @@
 	"AnimationInvalidDistance": "Dystans musi być między 0 i 3",
 	"CantBanClient": "Nie możesz zbanować tej osoby",
 	"PlayerAccountBanned": "{1} został zbanowany",
+	"PlayerAccountUnbanned": "{1} został odbanowany",
 	"ClanNameTaken": "Klan z taką nazwą już istnieje",
 	"ClanCantRemoveRanks": "Nie możesz usuwać rang klanu",
 	"ClanCantAddRanks": "Nie możesz dodawać rang klanu",

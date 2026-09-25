@@ -14,6 +14,7 @@
 	"InvalidAnimationDistance": "Vzdálenost musí být v rozmezí 0 až 3",
 	"CantBanClient": "Tuto osobu nelze zakázat",
 	"PlayerAccountBanned": "{1} has been account banned",
+	"PlayerAccountUnbanned": "{1} has been account unbanned",
 	"ClanNameTaken": "Klan s tímto jménem již existuje",
 	"ClanCantRemoveRanks": "Nelze odebrat hodnosti klanu",
 	"ClanCantAddRanks": "Nelze přidávat hodnosti klanu",

@@ -21,6 +21,7 @@
 	"InvalidAnimationDistance": "La distancia debe ser un numero entre el 0 y el 3",
 	"CantBanClient": "No se puede vetar a esta persona",
 	"PlayerAccountBanned": "El usuario {1} ha sido baneado del servidor",
+	"PlayerAccountUnbanned": "El usuario {1} ha sido desbaneado del servidor",
 	"ClanNameTaken": "Ya existe un clan con ese nombre",
 	"ClanCantRemoveRanks": "No puedes eliminar rangos del clan",
 	"ClanCantAddRanks": "No puedes añadir rangos del clan",

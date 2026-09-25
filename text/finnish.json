@@ -15,6 +15,7 @@
 	"InvalidAnimationDistance": "Etäisyyden pitää olla 0 ja 3 välissä.",
 	"CantBanClient": "Sinä et voi estää tätä pelaajaa",
 	"PlayerAccountBanned": "{1} Käyttäjä on nyt estetty",
+	"PlayerAccountUnbanned": "{1} Käyttäjän esto on poistettu",
 	"ClanNameTaken": "Klaani tuolla nimellä on jo otettu",
 	"ClanCantRemoveRanks": "Sinä et voi poistaa tämän klaanin tasoa",
 	"ClanCantAddRanks": "Sinä et voi lisätä klaanin tasoja",
