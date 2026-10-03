@@ -2853,6 +2853,18 @@
 		"SyntaxString": "<location name/id> <title> (use 'none' without quotes to remove)"
 	},
 	{
+		"Command": "LocEventLimit",
+		"TranslatedCommand": "LocEventLimit",
+		"Description": "Sets how many player events (/event) started from an event location can run at once",
+		"SyntaxString": "<location name/id> <amount> (0 for no limit)"
+	},
+	{
+		"Command": "LocEventTask",
+		"TranslatedCommand": "LocEventTask",
+		"Description": "Toggles whether players host a task (/event) from the event location you're at, instead of the one closest to its first step",
+		"SyntaxString": "<task name/id>"
+	},
+	{
 		"Command": "Pos",
 		"TranslatedCommand": "Pos",
 		"Description": "Shows your current coordinates",
@@ -4750,5 +4762,53 @@
 		"TranslatedCommand": "VehTypeLockable",
 		"Description": "Sets whether a vehicle type can be locked (usually disabled for motorcycles)",
 		"SyntaxString": ""
+	},
+	{
+		"Command": "TaskLaps",
+		"TranslatedCommand": "TaskLaps",
+		"Description": "Sets how many laps racers need to complete (crossing the RaceFinish step) for a race task",
+		"SyntaxString": "<amount>"
+	},
+	{
+		"Command": "TaskFlags",
+		"TranslatedCommand": "TaskFlags",
+		"Description": "Sets the flags of a task (StartableByPlayers lets players host it with /event)",
+		"SyntaxString": "[flag name]"
+	},
+	{
+		"Command": "Event",
+		"TranslatedCommand": "Event",
+		"Description": "Hosts, joins, or starts a player event (races, etc) at an event location. The host uses go to start the race countdown, and kick to remove somebody",
+		"SyntaxString": "[list | host <name> | join | leave | start | go | kick <player> | cancel]"
+	},
+	{
+		"Command": "EventKick",
+		"TranslatedCommand": "EventKick",
+		"Description": "Kicks a player out of the event they're in (kicking a lobby's host cancels it)",
+		"SyntaxString": "<player name/id> [reason]"
+	},
+	{
+		"Command": "TaskStepDistance",
+		"TranslatedCommand": "TaskStepDistance",
+		"Description": "Sets how close players need to get to reach a task step (your current step, or the named one)",
+		"SyntaxString": "<distance> [step name/id]"
+	},
+	{
+		"Command": "EventMinPlayers",
+		"TranslatedCommand": "EventMinPlayers",
+		"Description": "Sets the fewest players needed to start a task's event (your current task, or the named one)",
+		"SyntaxString": "<amount> [task name/id]"
+	},
+	{
+		"Command": "EventMaxPlayers",
+		"TranslatedCommand": "EventMaxPlayers",
+		"Description": "Sets the most players that can join a task's event (your current task, or the named one)",
+		"SyntaxString": "<amount, 0 for starting grid size> [task name/id]"
+	},
+	{
+		"Command": "VehTask",
+		"TranslatedCommand": "VehTask",
+		"Description": "Sets a vehicle to be owned by a task (only drivable by its participants once the task/event has started)",
+		"SyntaxString": "<task name/id>"
 	}
 ]

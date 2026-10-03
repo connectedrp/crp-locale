@@ -881,6 +881,7 @@
 	"HeaderScenarioInfo": "Scenario Information ({1})",
 	"PlayerNotSpawned": "That player is not spawned!",
 	"BusinessCannotOrderAnything": "This business can't order anything!",
+	"BusinessHasNoItemsToBuy": "This business doesn't have any items for sale!",
 	"ExitLabel": "EXIT",
 	"MoneyFarmingNotAllowed": "Transferring money or assets to your own characters is not allowed",
 	"ClanMustHaveAtLeastOneRank": "The clan must have at least one rank! You can't delete the last rank.",

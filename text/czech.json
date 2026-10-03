@@ -888,6 +888,7 @@
 	"HeaderScenarioInfo": "Informace o scénáři ({1})",
 	"PlayerNotSpawned": "Tento hráč není spawned!",
 	"BusinessCannotOrderAnything": "Tato firma si nemůže nic objednat!",
+	"BusinessHasNoItemsToBuy": "This business doesn't have any items for sale!",
 	"ExitLabel": "EXIT",
 	"MoneyFarmingNotAllowed": "Převod peněz nebo majetku na vaše vlastní postavy není povolen",
 	"ClanMustHaveAtLeastOneRank": "Klan musí mít alespoň jednu hodnost! Poslední hodnost nelze smazat.",

@@ -886,6 +886,7 @@
 	"HeaderScenarioInfo": "Información del escenario ({1})",
 	"PlayerNotSpawned": "¡Este jugador no sea logueado!",
 	"BusinessCannotOrderAnything": "¡Este negocio no puede ordenar nada!",
+	"BusinessHasNoItemsToBuy": "This business doesn't have any items for sale!",
 	"ExitLabel": "SALIDA",
 	"MoneyFarmingNotAllowed": "No está permitido transferir dinero ni activos a tus propios personajes.",
 	"ClanMustHaveAtLeastOneRank": "¡El clan debe tener al menos un rango! No se puede eliminar el último rango.",

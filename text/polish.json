@@ -878,6 +878,7 @@
 	"HeaderScenarioInfo": "Informacje o scenariuszu ({1})",
 	"PlayerNotSpawned": "That player is not spawned!",
 	"BusinessCannotOrderAnything": "Ten biznes nie może nic zamówić!",
+	"BusinessHasNoItemsToBuy": "This business doesn't have any items for sale!",
 	"ExitLabel": "EXIT",
 	"MoneyFarmingNotAllowed": "Przekazywanie pieniędzy lub aktywów własnym postaciom jest niedozwolone",
 	"ClanMustHaveAtLeastOneRank": "Klan musi mieć co najmniej jedną rangę! Nie możesz usunąć ostatniej rangi.",

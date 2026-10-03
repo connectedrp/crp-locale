@@ -1,6 +1,9 @@
 <meta>
 	<info author="Vortrex" version="1.0" description="Connected Roleplay: Locale Script" />
 
+	<!-- Downloaded first: the gamemode needs locale strings to show the login GUI (higher = earlier, see Galactic-meta-download-ordering.md) -->
+	<download_priority_group>103</download_priority_group>
+
 	<!-- Scripts -->
 	<script src="shared.js" type="client" language="javascript" />
     <script src="shared.js" type="server" language="javascript" />

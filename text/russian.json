@@ -895,6 +895,7 @@
 	"HeaderScenarioInfo": "Сведения о сценарии ({1})",
 	"PlayerNotSpawned": "Этот игрок не спавнится",
 	"BusinessCannotOrderAnything": "Этот бизнес не может ничего заказать!",
+	"BusinessHasNoItemsToBuy": "This business doesn't have any items for sale!",
 	"ExitLabel": "ВЫХОД",
 	"MoneyFarmingNotAllowed": "Передача денег или активов собственным персонажам запрещена",
 	"ClanMustHaveAtLeastOneRank": "В клане должен быть хотя бы один ранг! Вы не можете удалить последний ранг.",

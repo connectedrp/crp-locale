@@ -877,6 +877,7 @@
 	"HeaderScenarioInfo": "Skenaariotiedot ({1})",
 	"PlayerNotSpawned": "Sitä pelaajaa ei ole syntynyt!",
 	"BusinessCannotOrderAnything": "Tämä yritys ei voi tilata mitään!",
+	"BusinessHasNoItemsToBuy": "This business doesn't have any items for sale!",
 	"ExitLabel": "POIS",
 	"MoneyFarmingNotAllowed": "Rahan tai omaisuuden siirtäminen omille hahmoillesi ei ole sallittua",
 	"ClanMustHaveAtLeastOneRank": "Klaanilla tulee olla vähintään yksi sijoitus! Et voi poistaa viimeistä sijoitusta.",
